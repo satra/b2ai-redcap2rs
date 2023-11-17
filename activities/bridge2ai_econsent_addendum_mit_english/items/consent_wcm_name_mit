@@ -1,0 +1,19 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "requiredValue": true
+    },
+    "question": {
+        "en": "Printed Name of Person Taking Part in Study"
+    },
+    "schema:description": {
+        "en": " @READONLY-FORM"
+    }
+}

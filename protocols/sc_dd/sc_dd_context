@@ -1,0 +1,134 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "activity_path": "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/",
+        "subjectparticipant_basic_information": {
+            "@id": "activity_path:subjectparticipant_basic_information/subjectparticipant_basic_information_schema",
+            "@type": "@id"
+        },
+        "subjectparticipant_contact_information": {
+            "@id": "activity_path:subjectparticipant_contact_information/subjectparticipant_contact_information_schema",
+            "@type": "@id"
+        },
+        "subjectparticipant_eligible_studies": {
+            "@id": "activity_path:subjectparticipant_eligible_studies/subjectparticipant_eligible_studies_schema",
+            "@type": "@id"
+        },
+        "enrollment_form": {
+            "@id": "activity_path:enrollment_form/enrollment_form_schema",
+            "@type": "@id"
+        },
+        "bridge2ai_paper_consent_all_sites_english": {
+            "@id": "activity_path:bridge2ai_paper_consent_all_sites_english/bridge2ai_paper_consent_all_sites_english_schema",
+            "@type": "@id"
+        },
+        "bridge2ai_econsent_main_icf_usf_english": {
+            "@id": "activity_path:bridge2ai_econsent_main_icf_usf_english/bridge2ai_econsent_main_icf_usf_english_schema",
+            "@type": "@id"
+        },
+        "bridge2ai_econsent_main_icf_usf_researcher_stateme": {
+            "@id": "activity_path:bridge2ai_econsent_main_icf_usf_researcher_stateme/bridge2ai_econsent_main_icf_usf_researcher_stateme_schema",
+            "@type": "@id"
+        },
+        "bridge2ai_econsent_combined_pdf_main_icf_usf": {
+            "@id": "activity_path:bridge2ai_econsent_combined_pdf_main_icf_usf/bridge2ai_econsent_combined_pdf_main_icf_usf_schema",
+            "@type": "@id"
+        },
+        "bridge2ai_econsent_addendum_wcm_english": {
+            "@id": "activity_path:bridge2ai_econsent_addendum_wcm_english/bridge2ai_econsent_addendum_wcm_english_schema",
+            "@type": "@id"
+        },
+        "bridge2ai_econsent_addendum_wcm_researcher_stateme": {
+            "@id": "activity_path:bridge2ai_econsent_addendum_wcm_researcher_stateme/bridge2ai_econsent_addendum_wcm_researcher_stateme_schema",
+            "@type": "@id"
+        },
+        "bridge2ai_econsent_combined_pdf_addendum_wcm": {
+            "@id": "activity_path:bridge2ai_econsent_combined_pdf_addendum_wcm/bridge2ai_econsent_combined_pdf_addendum_wcm_schema",
+            "@type": "@id"
+        },
+        "bridge2ai_econsent_addendum_mit_english": {
+            "@id": "activity_path:bridge2ai_econsent_addendum_mit_english/bridge2ai_econsent_addendum_mit_english_schema",
+            "@type": "@id"
+        },
+        "bridge2ai_econsent_addendum_mit_researcher_stateme": {
+            "@id": "activity_path:bridge2ai_econsent_addendum_mit_researcher_stateme/bridge2ai_econsent_addendum_mit_researcher_stateme_schema",
+            "@type": "@id"
+        },
+        "bridge2ai_econsent_combined_pdf_addendum_mit": {
+            "@id": "activity_path:bridge2ai_econsent_combined_pdf_addendum_mit/bridge2ai_econsent_combined_pdf_addendum_mit_schema",
+            "@type": "@id"
+        },
+        "diagnosis_voice_disorders_vocal_fold_paralysis": {
+            "@id": "activity_path:diagnosis_voice_disorders_vocal_fold_paralysis/diagnosis_voice_disorders_vocal_fold_paralysis_schema",
+            "@type": "@id"
+        },
+        "diagnosis_mood_disorders_bipolar_disorder": {
+            "@id": "activity_path:diagnosis_mood_disorders_bipolar_disorder/diagnosis_mood_disorders_bipolar_disorder_schema",
+            "@type": "@id"
+        },
+        "diagnosis_mood_disorders_depression_or_major_depre": {
+            "@id": "activity_path:diagnosis_mood_disorders_depression_or_major_depre/diagnosis_mood_disorders_depression_or_major_depre_schema",
+            "@type": "@id"
+        },
+        "session": {
+            "@id": "activity_path:session/session_schema",
+            "@type": "@id"
+        },
+        "acoustic_task": {
+            "@id": "activity_path:acoustic_task/acoustic_task_schema",
+            "@type": "@id"
+        },
+        "recording": {
+            "@id": "activity_path:recording/recording_schema",
+            "@type": "@id"
+        },
+        "questionnaire_across_all_cohorts_demographics": {
+            "@id": "activity_path:questionnaire_across_all_cohorts_demographics/questionnaire_across_all_cohorts_demographics_schema",
+            "@type": "@id"
+        },
+        "questionnaire_across_all_cohorts_confounders": {
+            "@id": "activity_path:questionnaire_across_all_cohorts_confounders/questionnaire_across_all_cohorts_confounders_schema",
+            "@type": "@id"
+        },
+        "questionnaire_across_all_cohorts_voice_perception": {
+            "@id": "activity_path:questionnaire_across_all_cohorts_voice_perception/questionnaire_across_all_cohorts_voice_perception_schema",
+            "@type": "@id"
+        },
+        "questionnaire_across_all_cohorts_voice_handicap_in": {
+            "@id": "activity_path:questionnaire_across_all_cohorts_voice_handicap_in/questionnaire_across_all_cohorts_voice_handicap_in_schema",
+            "@type": "@id"
+        },
+        "questionnaire_across_all_cohorts_patient_health_qu": {
+            "@id": "activity_path:questionnaire_across_all_cohorts_patient_health_qu/questionnaire_across_all_cohorts_patient_health_qu_schema",
+            "@type": "@id"
+        },
+        "questionnaire_across_all_cohorts_gad7_anxiety": {
+            "@id": "activity_path:questionnaire_across_all_cohorts_gad7_anxiety/questionnaire_across_all_cohorts_gad7_anxiety_schema",
+            "@type": "@id"
+        },
+        "questionnaire_voice_disorders_voice_problem_severi": {
+            "@id": "activity_path:questionnaire_voice_disorders_voice_problem_severi/questionnaire_voice_disorders_voice_problem_severi_schema",
+            "@type": "@id"
+        },
+        "questionnaire_mood_disorders_panas": {
+            "@id": "activity_path:questionnaire_mood_disorders_panas/questionnaire_mood_disorders_panas_schema",
+            "@type": "@id"
+        },
+        "questionnaire_mood_disorders_custom_affect_scale": {
+            "@id": "activity_path:questionnaire_mood_disorders_custom_affect_scale/questionnaire_mood_disorders_custom_affect_scale_schema",
+            "@type": "@id"
+        },
+        "questionnaire_mood_disorders_dsm5_adult": {
+            "@id": "activity_path:questionnaire_mood_disorders_dsm5_adult/questionnaire_mood_disorders_dsm5_adult_schema",
+            "@type": "@id"
+        },
+        "questionnaire_mood_disorders_ptsd_adult": {
+            "@id": "activity_path:questionnaire_mood_disorders_ptsd_adult/questionnaire_mood_disorders_ptsd_adult_schema",
+            "@type": "@id"
+        },
+        "questionnaire_mood_disorders_adhd_adult": {
+            "@id": "activity_path:questionnaire_mood_disorders_adhd_adult/questionnaire_mood_disorders_adhd_adult_schema",
+            "@type": "@id"
+        }
+    }
+}

@@ -1,0 +1,128 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/bridge2ai_econsent_addendum_wcm_english/bridge2ai_econsent_addendum_wcm_english_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "bridge2ai_econsent_addendum_wcm_english_schema",
+    "skos:altLabel": "bridge2ai_econsent_addendum_wcm_english_schema",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "variableMap": [
+        {
+            "variableName": "consent_wcm_p1",
+            "isAbout": "consent_wcm_p1"
+        },
+        {
+            "variableName": "consent_wcm_p2",
+            "isAbout": "consent_wcm_p2"
+        },
+        {
+            "variableName": "consent_wcm_p3",
+            "isAbout": "consent_wcm_p3"
+        },
+        {
+            "variableName": "consent_wcm_p4",
+            "isAbout": "consent_wcm_p4"
+        },
+        {
+            "variableName": "consent_wcm_statement",
+            "isAbout": "consent_wcm_statement"
+        },
+        {
+            "variableName": "consent_wcm_permission_1",
+            "isAbout": "consent_wcm_permission_1"
+        },
+        {
+            "variableName": "consent_wcm_permission_2",
+            "isAbout": "consent_wcm_permission_2"
+        },
+        {
+            "variableName": "consent_wcm_statement_2",
+            "isAbout": "consent_wcm_statement_2"
+        },
+        {
+            "variableName": "consent_wcm_p5",
+            "isAbout": "consent_wcm_p5"
+        },
+        {
+            "variableName": "consent_wcm_signature",
+            "isAbout": "consent_wcm_signature"
+        },
+        {
+            "variableName": "consent_wcm_name",
+            "isAbout": "consent_wcm_name"
+        },
+        {
+            "variableName": "consent_wcm_date",
+            "isAbout": "consent_wcm_date"
+        }
+    ],
+    "ui": {
+        "order": [
+            "consent_wcm_p1",
+            "consent_wcm_p2",
+            "consent_wcm_p3",
+            "consent_wcm_p4",
+            "consent_wcm_statement",
+            "consent_wcm_permission_1",
+            "consent_wcm_permission_2",
+            "consent_wcm_statement_2",
+            "consent_wcm_p5",
+            "consent_wcm_signature",
+            "consent_wcm_name",
+            "consent_wcm_date"
+        ],
+        "shuffle": false,
+        "visibility": [
+            {
+                "variableName": "consent_wcm_p1",
+                "isVis": true
+            },
+            {
+                "variableName": "consent_wcm_p2",
+                "isVis": true
+            },
+            {
+                "variableName": "consent_wcm_p3",
+                "isVis": true
+            },
+            {
+                "variableName": "consent_wcm_p4",
+                "isVis": true
+            },
+            {
+                "variableName": "consent_wcm_statement",
+                "isVis": true
+            },
+            {
+                "variableName": "consent_wcm_permission_1",
+                "isVis": true
+            },
+            {
+                "variableName": "consent_wcm_permission_2",
+                "isVis": true
+            },
+            {
+                "variableName": "consent_wcm_statement_2",
+                "isVis": true
+            },
+            {
+                "variableName": "consent_wcm_p5",
+                "isVis": true
+            },
+            {
+                "variableName": "consent_wcm_signature",
+                "isVis": true
+            },
+            {
+                "variableName": "consent_wcm_name",
+                "isVis": true
+            },
+            {
+                "variableName": "consent_wcm_date",
+                "isVis": true
+            }
+        ]
+    }
+}

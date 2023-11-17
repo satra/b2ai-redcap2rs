@@ -1,0 +1,15 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "yesno"
+    },
+    "preamble": {
+        "en": "SMOKING"
+    },
+    "question": {
+        "en": "Have you been a regular smoker or not within the last 3 years?"
+    }
+}

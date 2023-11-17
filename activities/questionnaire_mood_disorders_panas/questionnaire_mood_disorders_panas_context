@@ -1,0 +1,62 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "questionnaire_mood_disorders_panas": "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/questionnaire_mood_disorders_panas/items/",
+        "panas_session_id": {
+            "@id": "questionnaire_mood_disorders_panas:panas_session_id",
+            "@type": "@id"
+        },
+        "panas_started_at": {
+            "@id": "questionnaire_mood_disorders_panas:panas_started_at",
+            "@type": "@id"
+        },
+        "panas_completed_at": {
+            "@id": "questionnaire_mood_disorders_panas:panas_completed_at",
+            "@type": "@id"
+        },
+        "panas_duration": {
+            "@id": "questionnaire_mood_disorders_panas:panas_duration",
+            "@type": "@id"
+        },
+        "upset": {
+            "@id": "questionnaire_mood_disorders_panas:upset",
+            "@type": "@id"
+        },
+        "hostile": {
+            "@id": "questionnaire_mood_disorders_panas:hostile",
+            "@type": "@id"
+        },
+        "alert": {
+            "@id": "questionnaire_mood_disorders_panas:alert",
+            "@type": "@id"
+        },
+        "ashamed": {
+            "@id": "questionnaire_mood_disorders_panas:ashamed",
+            "@type": "@id"
+        },
+        "inspired": {
+            "@id": "questionnaire_mood_disorders_panas:inspired",
+            "@type": "@id"
+        },
+        "nervous": {
+            "@id": "questionnaire_mood_disorders_panas:nervous",
+            "@type": "@id"
+        },
+        "determined": {
+            "@id": "questionnaire_mood_disorders_panas:determined",
+            "@type": "@id"
+        },
+        "attentive": {
+            "@id": "questionnaire_mood_disorders_panas:attentive",
+            "@type": "@id"
+        },
+        "afraid": {
+            "@id": "questionnaire_mood_disorders_panas:afraid",
+            "@type": "@id"
+        },
+        "active": {
+            "@id": "questionnaire_mood_disorders_panas:active",
+            "@type": "@id"
+        }
+    }
+}

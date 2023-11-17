@@ -1,0 +1,40 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "radio"
+    },
+    "preamble": {
+        "en": "GYNECOLOGICAL"
+    },
+    "question": {
+        "en": "Do you menstruate?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": null,
+                "schema:name": "Does not apply ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "Yes ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "No ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "Prefer no to answer",
+                "@type": "schema:option"
+            }
+        ],
+        "requiredValue": true
+    }
+}

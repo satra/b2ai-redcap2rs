@@ -1,0 +1,24 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "text",
+        "customAlignment": "RH"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "requiredValue": true
+    },
+    "question": {
+        "en": "In the past 30 days, not counting the days that you were totally unable, for how many days did you cut back or reduce your usual activities or work because of any health condition?"
+    },
+    "additionalNotesObj": [
+        {
+            "source": "redcap",
+            "column": "Field Note",
+            "value": "days"
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "How much of a problem did you have joining in community activities (for example, festivities, religious or other activities) in the same way as anyone else can?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": null,
+                "schema:name": "None ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "Mild ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "Moderate ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "Severe ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "Extreme or cannot do",
+                "@type": "schema:option"
+            }
+        ],
+        "requiredValue": true
+    }
+}

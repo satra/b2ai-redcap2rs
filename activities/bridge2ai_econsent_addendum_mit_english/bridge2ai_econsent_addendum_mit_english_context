@@ -1,0 +1,54 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "bridge2ai_econsent_addendum_mit_english": "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/bridge2ai_econsent_addendum_mit_english/items/",
+        "consent_wcm_p1_mit": {
+            "@id": "bridge2ai_econsent_addendum_mit_english:consent_wcm_p1_mit",
+            "@type": "@id"
+        },
+        "consent_wcm_p2_mit": {
+            "@id": "bridge2ai_econsent_addendum_mit_english:consent_wcm_p2_mit",
+            "@type": "@id"
+        },
+        "consent_wcm_p3_mit": {
+            "@id": "bridge2ai_econsent_addendum_mit_english:consent_wcm_p3_mit",
+            "@type": "@id"
+        },
+        "consent_wcm_p4_mit": {
+            "@id": "bridge2ai_econsent_addendum_mit_english:consent_wcm_p4_mit",
+            "@type": "@id"
+        },
+        "consent_wcm_statement_mit": {
+            "@id": "bridge2ai_econsent_addendum_mit_english:consent_wcm_statement_mit",
+            "@type": "@id"
+        },
+        "consent_wcm_permission_1_mit": {
+            "@id": "bridge2ai_econsent_addendum_mit_english:consent_wcm_permission_1_mit",
+            "@type": "@id"
+        },
+        "consent_wcm_permission_2_mit": {
+            "@id": "bridge2ai_econsent_addendum_mit_english:consent_wcm_permission_2_mit",
+            "@type": "@id"
+        },
+        "consent_wcm_statement_2_mit": {
+            "@id": "bridge2ai_econsent_addendum_mit_english:consent_wcm_statement_2_mit",
+            "@type": "@id"
+        },
+        "consent_wcm_p5_mit": {
+            "@id": "bridge2ai_econsent_addendum_mit_english:consent_wcm_p5_mit",
+            "@type": "@id"
+        },
+        "consent_wcm_signature_mit": {
+            "@id": "bridge2ai_econsent_addendum_mit_english:consent_wcm_signature_mit",
+            "@type": "@id"
+        },
+        "consent_wcm_name_mit": {
+            "@id": "bridge2ai_econsent_addendum_mit_english:consent_wcm_name_mit",
+            "@type": "@id"
+        },
+        "consent_wcm_date_mit": {
+            "@id": "bridge2ai_econsent_addendum_mit_english:consent_wcm_date_mit",
+            "@type": "@id"
+        }
+    }
+}

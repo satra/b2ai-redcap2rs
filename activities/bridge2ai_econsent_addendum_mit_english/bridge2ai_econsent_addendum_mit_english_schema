@@ -1,0 +1,128 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/bridge2ai_econsent_addendum_mit_english/bridge2ai_econsent_addendum_mit_english_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "bridge2ai_econsent_addendum_mit_english_schema",
+    "skos:altLabel": "bridge2ai_econsent_addendum_mit_english_schema",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "variableMap": [
+        {
+            "variableName": "consent_wcm_p1_mit",
+            "isAbout": "consent_wcm_p1_mit"
+        },
+        {
+            "variableName": "consent_wcm_p2_mit",
+            "isAbout": "consent_wcm_p2_mit"
+        },
+        {
+            "variableName": "consent_wcm_p3_mit",
+            "isAbout": "consent_wcm_p3_mit"
+        },
+        {
+            "variableName": "consent_wcm_p4_mit",
+            "isAbout": "consent_wcm_p4_mit"
+        },
+        {
+            "variableName": "consent_wcm_statement_mit",
+            "isAbout": "consent_wcm_statement_mit"
+        },
+        {
+            "variableName": "consent_wcm_permission_1_mit",
+            "isAbout": "consent_wcm_permission_1_mit"
+        },
+        {
+            "variableName": "consent_wcm_permission_2_mit",
+            "isAbout": "consent_wcm_permission_2_mit"
+        },
+        {
+            "variableName": "consent_wcm_statement_2_mit",
+            "isAbout": "consent_wcm_statement_2_mit"
+        },
+        {
+            "variableName": "consent_wcm_p5_mit",
+            "isAbout": "consent_wcm_p5_mit"
+        },
+        {
+            "variableName": "consent_wcm_signature_mit",
+            "isAbout": "consent_wcm_signature_mit"
+        },
+        {
+            "variableName": "consent_wcm_name_mit",
+            "isAbout": "consent_wcm_name_mit"
+        },
+        {
+            "variableName": "consent_wcm_date_mit",
+            "isAbout": "consent_wcm_date_mit"
+        }
+    ],
+    "ui": {
+        "order": [
+            "consent_wcm_p1_mit",
+            "consent_wcm_p2_mit",
+            "consent_wcm_p3_mit",
+            "consent_wcm_p4_mit",
+            "consent_wcm_statement_mit",
+            "consent_wcm_permission_1_mit",
+            "consent_wcm_permission_2_mit",
+            "consent_wcm_statement_2_mit",
+            "consent_wcm_p5_mit",
+            "consent_wcm_signature_mit",
+            "consent_wcm_name_mit",
+            "consent_wcm_date_mit"
+        ],
+        "shuffle": false,
+        "visibility": [
+            {
+                "variableName": "consent_wcm_p1_mit",
+                "isVis": true
+            },
+            {
+                "variableName": "consent_wcm_p2_mit",
+                "isVis": true
+            },
+            {
+                "variableName": "consent_wcm_p3_mit",
+                "isVis": true
+            },
+            {
+                "variableName": "consent_wcm_p4_mit",
+                "isVis": true
+            },
+            {
+                "variableName": "consent_wcm_statement_mit",
+                "isVis": true
+            },
+            {
+                "variableName": "consent_wcm_permission_1_mit",
+                "isVis": true
+            },
+            {
+                "variableName": "consent_wcm_permission_2_mit",
+                "isVis": true
+            },
+            {
+                "variableName": "consent_wcm_statement_2_mit",
+                "isVis": true
+            },
+            {
+                "variableName": "consent_wcm_p5_mit",
+                "isVis": true
+            },
+            {
+                "variableName": "consent_wcm_signature_mit",
+                "isVis": true
+            },
+            {
+                "variableName": "consent_wcm_name_mit",
+                "isVis": true
+            },
+            {
+                "variableName": "consent_wcm_date_mit",
+                "isVis": true
+            }
+        ]
+    }
+}

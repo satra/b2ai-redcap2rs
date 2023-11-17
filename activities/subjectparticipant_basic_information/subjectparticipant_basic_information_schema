@@ -1,0 +1,101 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/subjectparticipant_basic_information/subjectparticipant_basic_information_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "subjectparticipant_basic_information_schema",
+    "skos:altLabel": "subjectparticipant_basic_information_schema",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "variableMap": [
+        {
+            "variableName": "record_id",
+            "isAbout": "record_id"
+        },
+        {
+            "variableName": "selected_language",
+            "isAbout": "selected_language"
+        },
+        {
+            "variableName": "consent_status",
+            "isAbout": "consent_status"
+        },
+        {
+            "variableName": "withdrawn_consent_reason",
+            "isAbout": "withdrawn_consent_reason"
+        },
+        {
+            "variableName": "withdrawn_consent_date",
+            "isAbout": "withdrawn_consent_date"
+        },
+        {
+            "variableName": "enrolled",
+            "isAbout": "enrolled"
+        },
+        {
+            "variableName": "enrollment_reason",
+            "isAbout": "enrollment_reason"
+        },
+        {
+            "variableName": "enrollment_institution",
+            "isAbout": "enrollment_institution"
+        },
+        {
+            "variableName": "researcher_email",
+            "isAbout": "researcher_email"
+        }
+    ],
+    "ui": {
+        "order": [
+            "record_id",
+            "selected_language",
+            "consent_status",
+            "withdrawn_consent_reason",
+            "withdrawn_consent_date",
+            "enrolled",
+            "enrollment_reason",
+            "enrollment_institution",
+            "researcher_email"
+        ],
+        "shuffle": false,
+        "visibility": [
+            {
+                "variableName": "record_id",
+                "isVis": true
+            },
+            {
+                "variableName": "selected_language",
+                "isVis": true
+            },
+            {
+                "variableName": "consent_status",
+                "isVis": true
+            },
+            {
+                "variableName": "withdrawn_consent_reason",
+                "isVis": "consent_status == 3"
+            },
+            {
+                "variableName": "withdrawn_consent_date",
+                "isVis": "consent_status == 3"
+            },
+            {
+                "variableName": "enrolled",
+                "isVis": true
+            },
+            {
+                "variableName": "enrollment_reason",
+                "isVis": "enrolled == 1"
+            },
+            {
+                "variableName": "enrollment_institution",
+                "isVis": true
+            },
+            {
+                "variableName": "researcher_email",
+                "isVis": true
+            }
+        ]
+    }
+}

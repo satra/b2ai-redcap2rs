@@ -1,0 +1,254 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "enrollment_form": "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/enrollment_form/items/",
+        "ef_select_language": {
+            "@id": "enrollment_form:ef_select_language",
+            "@type": "@id"
+        },
+        "ef_any_vision_related_req": {
+            "@id": "enrollment_form:ef_any_vision_related_req",
+            "@type": "@id"
+        },
+        "ef_vision_a11y_options": {
+            "@id": "enrollment_form:ef_vision_a11y_options",
+            "@type": "@id"
+        },
+        "ef_any_hearing_related_req": {
+            "@id": "enrollment_form:ef_any_hearing_related_req",
+            "@type": "@id"
+        },
+        "ef_hearing_a11y_options": {
+            "@id": "enrollment_form:ef_hearing_a11y_options",
+            "@type": "@id"
+        },
+        "ef_any_physical_challenges": {
+            "@id": "enrollment_form:ef_any_physical_challenges",
+            "@type": "@id"
+        },
+        "ef_physical_a11y_options": {
+            "@id": "enrollment_form:ef_physical_a11y_options",
+            "@type": "@id"
+        },
+        "ef_any_cognitive_challeges": {
+            "@id": "enrollment_form:ef_any_cognitive_challeges",
+            "@type": "@id"
+        },
+        "ef_cognitive_a11y_options": {
+            "@id": "enrollment_form:ef_cognitive_a11y_options",
+            "@type": "@id"
+        },
+        "ef_completed_by": {
+            "@id": "enrollment_form:ef_completed_by",
+            "@type": "@id"
+        },
+        "ef_primary_language": {
+            "@id": "enrollment_form:ef_primary_language",
+            "@type": "@id"
+        },
+        "ef_primary_language_other": {
+            "@id": "enrollment_form:ef_primary_language_other",
+            "@type": "@id"
+        },
+        "ef_fluent_languages": {
+            "@id": "enrollment_form:ef_fluent_languages",
+            "@type": "@id"
+        },
+        "ef_fluent_language_other": {
+            "@id": "enrollment_form:ef_fluent_language_other",
+            "@type": "@id"
+        },
+        "ef_dob": {
+            "@id": "enrollment_form:ef_dob",
+            "@type": "@id"
+        },
+        "ef_laryng_cancer": {
+            "@id": "enrollment_form:ef_laryng_cancer",
+            "@type": "@id"
+        },
+        "ef_benign_cord_lesion": {
+            "@id": "enrollment_form:ef_benign_cord_lesion",
+            "@type": "@id"
+        },
+        "ef_rrp": {
+            "@id": "enrollment_form:ef_rrp",
+            "@type": "@id"
+        },
+        "ef_spas_dys": {
+            "@id": "enrollment_form:ef_spas_dys",
+            "@type": "@id"
+        },
+        "ef_voc_fold_paralysis": {
+            "@id": "enrollment_form:ef_voc_fold_paralysis",
+            "@type": "@id"
+        },
+        "ef_alz_dementia_mci": {
+            "@id": "enrollment_form:ef_alz_dementia_mci",
+            "@type": "@id"
+        },
+        "ef_als": {
+            "@id": "enrollment_form:ef_als",
+            "@type": "@id"
+        },
+        "ef_parkinsons": {
+            "@id": "enrollment_form:ef_parkinsons",
+            "@type": "@id"
+        },
+        "ef_alcohol_subst_abuse": {
+            "@id": "enrollment_form:ef_alcohol_subst_abuse",
+            "@type": "@id"
+        },
+        "ef_gad": {
+            "@id": "enrollment_form:ef_gad",
+            "@type": "@id"
+        },
+        "ef_add_adhd": {
+            "@id": "enrollment_form:ef_add_adhd",
+            "@type": "@id"
+        },
+        "ef_asd": {
+            "@id": "enrollment_form:ef_asd",
+            "@type": "@id"
+        },
+        "ef_bipolar": {
+            "@id": "enrollment_form:ef_bipolar",
+            "@type": "@id"
+        },
+        "ef_bpd": {
+            "@id": "enrollment_form:ef_bpd",
+            "@type": "@id"
+        },
+        "ef_depression": {
+            "@id": "enrollment_form:ef_depression",
+            "@type": "@id"
+        },
+        "ef_ed": {
+            "@id": "enrollment_form:ef_ed",
+            "@type": "@id"
+        },
+        "ef_insomnia": {
+            "@id": "enrollment_form:ef_insomnia",
+            "@type": "@id"
+        },
+        "ef_ocd": {
+            "@id": "enrollment_form:ef_ocd",
+            "@type": "@id"
+        },
+        "ef_panic": {
+            "@id": "enrollment_form:ef_panic",
+            "@type": "@id"
+        },
+        "ef_ptsd": {
+            "@id": "enrollment_form:ef_ptsd",
+            "@type": "@id"
+        },
+        "ef_schizophrenia": {
+            "@id": "enrollment_form:ef_schizophrenia",
+            "@type": "@id"
+        },
+        "ef_soc_anx_dis": {
+            "@id": "enrollment_form:ef_soc_anx_dis",
+            "@type": "@id"
+        },
+        "ef_other_psych": {
+            "@id": "enrollment_form:ef_other_psych",
+            "@type": "@id"
+        },
+        "ef_asthma": {
+            "@id": "enrollment_form:ef_asthma",
+            "@type": "@id"
+        },
+        "ef_airway_stenosis": {
+            "@id": "enrollment_form:ef_airway_stenosis",
+            "@type": "@id"
+        },
+        "ef_chronic_cough": {
+            "@id": "enrollment_form:ef_chronic_cough",
+            "@type": "@id"
+        },
+        "ef_copd": {
+            "@id": "enrollment_form:ef_copd",
+            "@type": "@id"
+        },
+        "ef_osa": {
+            "@id": "enrollment_form:ef_osa",
+            "@type": "@id"
+        },
+        "ef_autism": {
+            "@id": "enrollment_form:ef_autism",
+            "@type": "@id"
+        },
+        "ef_speech_delay": {
+            "@id": "enrollment_form:ef_speech_delay",
+            "@type": "@id"
+        },
+        "ef_read": {
+            "@id": "enrollment_form:ef_read",
+            "@type": "@id"
+        },
+        "ef_write": {
+            "@id": "enrollment_form:ef_write",
+            "@type": "@id"
+        },
+        "ef_smart_device": {
+            "@id": "enrollment_form:ef_smart_device",
+            "@type": "@id"
+        },
+        "ef_eligible_studies": {
+            "@id": "enrollment_form:ef_eligible_studies",
+            "@type": "@id"
+        },
+        "ef_first_name": {
+            "@id": "enrollment_form:ef_first_name",
+            "@type": "@id"
+        },
+        "ef_last_name": {
+            "@id": "enrollment_form:ef_last_name",
+            "@type": "@id"
+        },
+        "ef_phone_number": {
+            "@id": "enrollment_form:ef_phone_number",
+            "@type": "@id"
+        },
+        "ef_email": {
+            "@id": "enrollment_form:ef_email",
+            "@type": "@id"
+        },
+        "ef_contact_info_stored": {
+            "@id": "enrollment_form:ef_contact_info_stored",
+            "@type": "@id"
+        },
+        "ef_enrollment": {
+            "@id": "enrollment_form:ef_enrollment",
+            "@type": "@id"
+        },
+        "ef_reason_decline_enroll": {
+            "@id": "enrollment_form:ef_reason_decline_enroll",
+            "@type": "@id"
+        },
+        "ef_other_reason_decline": {
+            "@id": "enrollment_form:ef_other_reason_decline",
+            "@type": "@id"
+        },
+        "ef_enrollment_institution": {
+            "@id": "enrollment_form:ef_enrollment_institution",
+            "@type": "@id"
+        },
+        "ef_researcher_email": {
+            "@id": "enrollment_form:ef_researcher_email",
+            "@type": "@id"
+        },
+        "ef_started_at": {
+            "@id": "enrollment_form:ef_started_at",
+            "@type": "@id"
+        },
+        "ef_completed_at": {
+            "@id": "enrollment_form:ef_completed_at",
+            "@type": "@id"
+        },
+        "ef_duration": {
+            "@id": "enrollment_form:ef_duration",
+            "@type": "@id"
+        }
+    }
+}

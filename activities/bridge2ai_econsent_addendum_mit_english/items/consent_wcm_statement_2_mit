@@ -1,0 +1,15 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "static"
+    },
+    "question": {
+        "en": "By signing this consent form, you agree to give these voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire answers to Weill Cornell Medicine for future research.If you withdraw consent at a future time, we will be unable to destroy your collected voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire answers, as there will be no way to link the data to you."
+    },
+    "schema:description": {
+        "en": " @READONLY-FORM"
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "Where in your cycle are you? (We ask because this may affect your voice.)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": null,
+                "schema:name": "Menstruating ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "Premenstrual ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "Postmenstrual ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "Prefer not to answer",
+                "@type": "schema:option"
+            }
+        ]
+    }
+}

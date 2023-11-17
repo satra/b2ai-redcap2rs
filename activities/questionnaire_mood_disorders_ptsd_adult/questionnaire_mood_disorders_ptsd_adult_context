@@ -1,0 +1,66 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "questionnaire_mood_disorders_ptsd_adult": "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/questionnaire_mood_disorders_ptsd_adult/items/",
+        "ptsd_session_id": {
+            "@id": "questionnaire_mood_disorders_ptsd_adult:ptsd_session_id",
+            "@type": "@id"
+        },
+        "ptsd_started_at": {
+            "@id": "questionnaire_mood_disorders_ptsd_adult:ptsd_started_at",
+            "@type": "@id"
+        },
+        "ptsd_completed_at": {
+            "@id": "questionnaire_mood_disorders_ptsd_adult:ptsd_completed_at",
+            "@type": "@id"
+        },
+        "ptsd_duration": {
+            "@id": "questionnaire_mood_disorders_ptsd_adult:ptsd_duration",
+            "@type": "@id"
+        },
+        "traumatic_event": {
+            "@id": "questionnaire_mood_disorders_ptsd_adult:traumatic_event",
+            "@type": "@id"
+        },
+        "traumatic_event_date": {
+            "@id": "questionnaire_mood_disorders_ptsd_adult:traumatic_event_date",
+            "@type": "@id"
+        },
+        "flashbacks": {
+            "@id": "questionnaire_mood_disorders_ptsd_adult:flashbacks",
+            "@type": "@id"
+        },
+        "emotionally_upset": {
+            "@id": "questionnaire_mood_disorders_ptsd_adult:emotionally_upset",
+            "@type": "@id"
+        },
+        "avoiding_reminders": {
+            "@id": "questionnaire_mood_disorders_ptsd_adult:avoiding_reminders",
+            "@type": "@id"
+        },
+        "thinking_stressful_event": {
+            "@id": "questionnaire_mood_disorders_ptsd_adult:thinking_stressful_event",
+            "@type": "@id"
+        },
+        "neg_emotional_state": {
+            "@id": "questionnaire_mood_disorders_ptsd_adult:neg_emotional_state",
+            "@type": "@id"
+        },
+        "losing_interest": {
+            "@id": "questionnaire_mood_disorders_ptsd_adult:losing_interest",
+            "@type": "@id"
+        },
+        "super_alert": {
+            "@id": "questionnaire_mood_disorders_ptsd_adult:super_alert",
+            "@type": "@id"
+        },
+        "feeling_jumpy": {
+            "@id": "questionnaire_mood_disorders_ptsd_adult:feeling_jumpy",
+            "@type": "@id"
+        },
+        "irritable": {
+            "@id": "questionnaire_mood_disorders_ptsd_adult:irritable",
+            "@type": "@id"
+        }
+    }
+}

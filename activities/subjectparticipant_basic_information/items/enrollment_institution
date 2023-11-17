@@ -1,0 +1,47 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "Enrollment Institution"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": null,
+                "schema:name": "BCH ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "MIT ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "Mt. Sinai ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "USF ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "VUMC ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "WCM",
+                "@type": "schema:option"
+            }
+        ],
+        "requiredValue": true
+    }
+}

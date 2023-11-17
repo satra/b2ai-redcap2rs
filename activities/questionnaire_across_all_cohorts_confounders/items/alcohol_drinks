@@ -1,0 +1,46 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "How often did you have six or more drinks on one occasion in the past year?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": null,
+                "schema:name": "Never in the past year ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "Less than monthly ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "Monthly ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "Weekly ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "Daily or almost daily ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "Prefer not to answer",
+                "@type": "schema:option"
+            }
+        ]
+    }
+}

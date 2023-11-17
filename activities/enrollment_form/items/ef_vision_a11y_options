@@ -1,0 +1,37 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "radio",
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": "I would like to change the font size ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "I would like to change the font color (high contrast mode) ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 3,
+                "schema:name": "I would like to use a screen reader ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 4,
+                "schema:name": "I would like a person to read the text to me",
+                "@type": "schema:option"
+            }
+        ]
+    },
+    "question": {
+        "en": "Yes, I would like to use some of the accessibility features of the app"
+    }
+}

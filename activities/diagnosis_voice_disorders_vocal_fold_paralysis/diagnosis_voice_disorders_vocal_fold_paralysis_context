@@ -1,0 +1,122 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "diagnosis_voice_disorders_vocal_fold_paralysis": "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/diagnosis_voice_disorders_vocal_fold_paralysis/items/",
+        "diagnosis_vfp_gsd": {
+            "@id": "diagnosis_voice_disorders_vocal_fold_paralysis:diagnosis_vfp_gsd",
+            "@type": "@id"
+        },
+        "diagnosis_vfp_ds": {
+            "@id": "diagnosis_voice_disorders_vocal_fold_paralysis:diagnosis_vfp_ds",
+            "@type": "@id"
+        },
+        "diagnosis_vfp_etiology": {
+            "@id": "diagnosis_voice_disorders_vocal_fold_paralysis:diagnosis_vfp_etiology",
+            "@type": "@id"
+        },
+        "diagnosis_vfp_iatrogenic": {
+            "@id": "diagnosis_voice_disorders_vocal_fold_paralysis:diagnosis_vfp_iatrogenic",
+            "@type": "@id"
+        },
+        "diagnosis_vfp_tumor": {
+            "@id": "diagnosis_voice_disorders_vocal_fold_paralysis:diagnosis_vfp_tumor",
+            "@type": "@id"
+        },
+        "diagnosis_vfp_dse": {
+            "@id": "diagnosis_voice_disorders_vocal_fold_paralysis:diagnosis_vfp_dse",
+            "@type": "@id"
+        },
+        "diagnosis_vfp_degree_text": {
+            "@id": "diagnosis_voice_disorders_vocal_fold_paralysis:diagnosis_vfp_degree_text",
+            "@type": "@id"
+        },
+        "diagnosis_vfp_degree_legend": {
+            "@id": "diagnosis_voice_disorders_vocal_fold_paralysis:diagnosis_vfp_degree_legend",
+            "@type": "@id"
+        },
+        "diagnosis_degree_os": {
+            "@id": "diagnosis_voice_disorders_vocal_fold_paralysis:diagnosis_degree_os",
+            "@type": "@id"
+        },
+        "diagnosis_degree_os_2": {
+            "@id": "diagnosis_voice_disorders_vocal_fold_paralysis:diagnosis_degree_os_2",
+            "@type": "@id"
+        },
+        "diagnosis_degree_r": {
+            "@id": "diagnosis_voice_disorders_vocal_fold_paralysis:diagnosis_degree_r",
+            "@type": "@id"
+        },
+        "diagnosis_degree_r_2": {
+            "@id": "diagnosis_voice_disorders_vocal_fold_paralysis:diagnosis_degree_r_2",
+            "@type": "@id"
+        },
+        "diagnosis_degree_b": {
+            "@id": "diagnosis_voice_disorders_vocal_fold_paralysis:diagnosis_degree_b",
+            "@type": "@id"
+        },
+        "diagnosis_degree_b_2": {
+            "@id": "diagnosis_voice_disorders_vocal_fold_paralysis:diagnosis_degree_b_2",
+            "@type": "@id"
+        },
+        "diagnosis_degree_s": {
+            "@id": "diagnosis_voice_disorders_vocal_fold_paralysis:diagnosis_degree_s",
+            "@type": "@id"
+        },
+        "diagnosis_degree_s_2": {
+            "@id": "diagnosis_voice_disorders_vocal_fold_paralysis:diagnosis_degree_s_2",
+            "@type": "@id"
+        },
+        "diagnosis_degree_p_nature": {
+            "@id": "diagnosis_voice_disorders_vocal_fold_paralysis:diagnosis_degree_p_nature",
+            "@type": "@id"
+        },
+        "diagnosis_degree_p": {
+            "@id": "diagnosis_voice_disorders_vocal_fold_paralysis:diagnosis_degree_p",
+            "@type": "@id"
+        },
+        "diagnosis_degree_p_2": {
+            "@id": "diagnosis_voice_disorders_vocal_fold_paralysis:diagnosis_degree_p_2",
+            "@type": "@id"
+        },
+        "diagnosis_degree_l_nature": {
+            "@id": "diagnosis_voice_disorders_vocal_fold_paralysis:diagnosis_degree_l_nature",
+            "@type": "@id"
+        },
+        "diagnosis_degree_l": {
+            "@id": "diagnosis_voice_disorders_vocal_fold_paralysis:diagnosis_degree_l",
+            "@type": "@id"
+        },
+        "diagnosis_degree_l_2": {
+            "@id": "diagnosis_voice_disorders_vocal_fold_paralysis:diagnosis_degree_l_2",
+            "@type": "@id"
+        },
+        "diagnosis_degree_comments": {
+            "@id": "diagnosis_voice_disorders_vocal_fold_paralysis:diagnosis_degree_comments",
+            "@type": "@id"
+        },
+        "diagnosis_degree_comments_other": {
+            "@id": "diagnosis_voice_disorders_vocal_fold_paralysis:diagnosis_degree_comments_other",
+            "@type": "@id"
+        },
+        "diagnosis_degree_comments_other_2": {
+            "@id": "diagnosis_voice_disorders_vocal_fold_paralysis:diagnosis_degree_comments_other_2",
+            "@type": "@id"
+        },
+        "diagnosis_vfp_treatment": {
+            "@id": "diagnosis_voice_disorders_vocal_fold_paralysis:diagnosis_vfp_treatment",
+            "@type": "@id"
+        },
+        "diagnosis_vfp_treatment_surgery": {
+            "@id": "diagnosis_voice_disorders_vocal_fold_paralysis:diagnosis_vfp_treatment_surgery",
+            "@type": "@id"
+        },
+        "diagnosis_vfp_treatment_surgery_thyroplasty": {
+            "@id": "diagnosis_voice_disorders_vocal_fold_paralysis:diagnosis_vfp_treatment_surgery_thyroplasty",
+            "@type": "@id"
+        },
+        "diagnosis_vfp_treatment_surgery_vfia": {
+            "@id": "diagnosis_voice_disorders_vocal_fold_paralysis:diagnosis_vfp_treatment_surgery_vfia",
+            "@type": "@id"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "preamble": {
+        "en": "Enrollment Form - Metadata"
+    },
+    "question": {
+        "en": "Enrollment Form Started At"
+    },
+    "schema:description": {
+        "en": " @READONLY"
+    }
+}

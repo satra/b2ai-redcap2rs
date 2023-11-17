@@ -1,0 +1,15 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "yesno"
+    },
+    "question": {
+        "en": "YES, I give permission for my voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire answers to be shared with other qualified researchers for future research."
+    },
+    "responseOptions": {
+        "requiredValue": true
+    }
+}

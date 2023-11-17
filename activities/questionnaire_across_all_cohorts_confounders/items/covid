@@ -1,0 +1,27 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "radio",
+        "choices": [
+            {
+                "schema:value": null,
+                "schema:name": "COVID in the past year ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "Long COVID (symptoms persisted at least four weeks after initial infection)",
+                "@type": "schema:option"
+            }
+        ]
+    },
+    "question": {
+        "en": "Have you had COVID recently, or are you currently experiencing the effects of long COVID? (check all that apply)"
+    }
+}

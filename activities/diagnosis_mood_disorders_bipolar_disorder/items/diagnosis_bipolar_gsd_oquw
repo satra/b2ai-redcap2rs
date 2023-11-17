@@ -1,0 +1,37 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "Which objective questionnaire was used?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": null,
+                "schema:name": "Patient Health Questionnaire (PHQ-9) ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "HAM-D ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "Beck Depression Inventory (BDI) ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "Other",
+                "@type": "schema:option"
+            }
+        ],
+        "requiredValue": true
+    }
+}

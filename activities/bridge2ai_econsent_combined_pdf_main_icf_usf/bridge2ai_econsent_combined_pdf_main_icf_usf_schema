@@ -1,0 +1,29 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/bridge2ai_econsent_combined_pdf_main_icf_usf/bridge2ai_econsent_combined_pdf_main_icf_usf_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "bridge2ai_econsent_combined_pdf_main_icf_usf_schema",
+    "skos:altLabel": "bridge2ai_econsent_combined_pdf_main_icf_usf_schema",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "variableMap": [
+        {
+            "variableName": "combined_pdf_main_icf_usf",
+            "isAbout": "combined_pdf_main_icf_usf"
+        }
+    ],
+    "ui": {
+        "order": [
+            "combined_pdf_main_icf_usf"
+        ],
+        "shuffle": false,
+        "visibility": [
+            {
+                "variableName": "combined_pdf_main_icf_usf",
+                "isVis": true
+            }
+        ]
+    }
+}

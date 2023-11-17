@@ -1,0 +1,29 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/bridge2ai_econsent_combined_pdf_addendum_mit/bridge2ai_econsent_combined_pdf_addendum_mit_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "bridge2ai_econsent_combined_pdf_addendum_mit_schema",
+    "skos:altLabel": "bridge2ai_econsent_combined_pdf_addendum_mit_schema",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "variableMap": [
+        {
+            "variableName": "upload_addendums_mit",
+            "isAbout": "upload_addendums_mit"
+        }
+    ],
+    "ui": {
+        "order": [
+            "upload_addendums_mit"
+        ],
+        "shuffle": false,
+        "visibility": [
+            {
+                "variableName": "upload_addendums_mit",
+                "isVis": true
+            }
+        ]
+    }
+}

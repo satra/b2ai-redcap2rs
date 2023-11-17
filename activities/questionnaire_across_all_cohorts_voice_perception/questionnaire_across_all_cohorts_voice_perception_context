@@ -1,0 +1,26 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "questionnaire_across_all_cohorts_voice_perception": "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/questionnaire_across_all_cohorts_voice_perception/items/",
+        "voice_perception_session_id": {
+            "@id": "questionnaire_across_all_cohorts_voice_perception:voice_perception_session_id",
+            "@type": "@id"
+        },
+        "voice_perception_started_at": {
+            "@id": "questionnaire_across_all_cohorts_voice_perception:voice_perception_started_at",
+            "@type": "@id"
+        },
+        "voice_perception_completed_at": {
+            "@id": "questionnaire_across_all_cohorts_voice_perception:voice_perception_completed_at",
+            "@type": "@id"
+        },
+        "voice_perception_duration": {
+            "@id": "questionnaire_across_all_cohorts_voice_perception:voice_perception_duration",
+            "@type": "@id"
+        },
+        "voice_quality_perception": {
+            "@id": "questionnaire_across_all_cohorts_voice_perception:voice_quality_perception",
+            "@type": "@id"
+        }
+    }
+}

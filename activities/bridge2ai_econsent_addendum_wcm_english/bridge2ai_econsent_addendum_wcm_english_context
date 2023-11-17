@@ -1,0 +1,54 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "bridge2ai_econsent_addendum_wcm_english": "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/bridge2ai_econsent_addendum_wcm_english/items/",
+        "consent_wcm_p1": {
+            "@id": "bridge2ai_econsent_addendum_wcm_english:consent_wcm_p1",
+            "@type": "@id"
+        },
+        "consent_wcm_p2": {
+            "@id": "bridge2ai_econsent_addendum_wcm_english:consent_wcm_p2",
+            "@type": "@id"
+        },
+        "consent_wcm_p3": {
+            "@id": "bridge2ai_econsent_addendum_wcm_english:consent_wcm_p3",
+            "@type": "@id"
+        },
+        "consent_wcm_p4": {
+            "@id": "bridge2ai_econsent_addendum_wcm_english:consent_wcm_p4",
+            "@type": "@id"
+        },
+        "consent_wcm_statement": {
+            "@id": "bridge2ai_econsent_addendum_wcm_english:consent_wcm_statement",
+            "@type": "@id"
+        },
+        "consent_wcm_permission_1": {
+            "@id": "bridge2ai_econsent_addendum_wcm_english:consent_wcm_permission_1",
+            "@type": "@id"
+        },
+        "consent_wcm_permission_2": {
+            "@id": "bridge2ai_econsent_addendum_wcm_english:consent_wcm_permission_2",
+            "@type": "@id"
+        },
+        "consent_wcm_statement_2": {
+            "@id": "bridge2ai_econsent_addendum_wcm_english:consent_wcm_statement_2",
+            "@type": "@id"
+        },
+        "consent_wcm_p5": {
+            "@id": "bridge2ai_econsent_addendum_wcm_english:consent_wcm_p5",
+            "@type": "@id"
+        },
+        "consent_wcm_signature": {
+            "@id": "bridge2ai_econsent_addendum_wcm_english:consent_wcm_signature",
+            "@type": "@id"
+        },
+        "consent_wcm_name": {
+            "@id": "bridge2ai_econsent_addendum_wcm_english:consent_wcm_name",
+            "@type": "@id"
+        },
+        "consent_wcm_date": {
+            "@id": "bridge2ai_econsent_addendum_wcm_english:consent_wcm_date",
+            "@type": "@id"
+        }
+    }
+}

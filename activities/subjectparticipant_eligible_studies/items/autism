@@ -1,0 +1,30 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "radio"
+    },
+    "preamble": {
+        "en": "Pediatric disorders\n"
+    },
+    "question": {
+        "en": "Autism Spectrum Disorder (ASD)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 0,
+                "schema:name": "Unchecked ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 1,
+                "schema:name": "Checked",
+                "@type": "schema:option"
+            }
+        ],
+        "requiredValue": true
+    }
+}

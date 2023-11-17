@@ -1,0 +1,310 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/questionnaire_mood_disorders_adhd_adult/questionnaire_mood_disorders_adhd_adult_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "questionnaire_mood_disorders_adhd_adult_schema",
+    "skos:altLabel": "questionnaire_mood_disorders_adhd_adult_schema",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "variableMap": [
+        {
+            "variableName": "adhd_session_id",
+            "isAbout": "adhd_session_id"
+        },
+        {
+            "variableName": "adhd_started_at",
+            "isAbout": "adhd_started_at"
+        },
+        {
+            "variableName": "adhd_completed_at",
+            "isAbout": "adhd_completed_at"
+        },
+        {
+            "variableName": "adhd_duration",
+            "isAbout": "adhd_duration"
+        },
+        {
+            "variableName": "wrapping_up",
+            "isAbout": "wrapping_up"
+        },
+        {
+            "variableName": "things_in_order",
+            "isAbout": "things_in_order"
+        },
+        {
+            "variableName": "remembering_appt",
+            "isAbout": "remembering_appt"
+        },
+        {
+            "variableName": "avoidance",
+            "isAbout": "avoidance"
+        },
+        {
+            "variableName": "fidget",
+            "isAbout": "fidget"
+        },
+        {
+            "variableName": "overly_active",
+            "isAbout": "overly_active"
+        },
+        {
+            "variableName": "careless",
+            "isAbout": "careless"
+        },
+        {
+            "variableName": "difficulty_attention",
+            "isAbout": "difficulty_attention"
+        },
+        {
+            "variableName": "difficulty_concentrating",
+            "isAbout": "difficulty_concentrating"
+        },
+        {
+            "variableName": "misplace",
+            "isAbout": "misplace"
+        },
+        {
+            "variableName": "distracted",
+            "isAbout": "distracted"
+        },
+        {
+            "variableName": "remain_seated",
+            "isAbout": "remain_seated"
+        },
+        {
+            "variableName": "restless",
+            "isAbout": "restless"
+        },
+        {
+            "variableName": "difficulty_unwinding",
+            "isAbout": "difficulty_unwinding"
+        },
+        {
+            "variableName": "talking_too_much",
+            "isAbout": "talking_too_much"
+        },
+        {
+            "variableName": "finish_other_sent",
+            "isAbout": "finish_other_sent"
+        },
+        {
+            "variableName": "difficulty_waiting",
+            "isAbout": "difficulty_waiting"
+        },
+        {
+            "variableName": "interrupt_others",
+            "isAbout": "interrupt_others"
+        }
+    ],
+    "ui": {
+        "order": [
+            "adhd_session_id",
+            "adhd_started_at",
+            "adhd_completed_at",
+            "adhd_duration",
+            "wrapping_up",
+            "things_in_order",
+            "remembering_appt",
+            "avoidance",
+            "fidget",
+            "overly_active",
+            "careless",
+            "difficulty_attention",
+            "difficulty_concentrating",
+            "misplace",
+            "distracted",
+            "remain_seated",
+            "restless",
+            "difficulty_unwinding",
+            "talking_too_much",
+            "finish_other_sent",
+            "difficulty_waiting",
+            "interrupt_others"
+        ],
+        "shuffle": false,
+        "visibility": [
+            {
+                "variableName": "adhd_session_id",
+                "isVis": true
+            },
+            {
+                "variableName": "adhd_started_at",
+                "isVis": true
+            },
+            {
+                "variableName": "adhd_completed_at",
+                "isVis": true
+            },
+            {
+                "variableName": "adhd_duration",
+                "isVis": true
+            },
+            {
+                "variableName": "wrapping_up",
+                "isVis": true
+            },
+            {
+                "variableName": "things_in_order",
+                "isVis": true
+            },
+            {
+                "variableName": "remembering_appt",
+                "isVis": true
+            },
+            {
+                "variableName": "avoidance",
+                "isVis": true
+            },
+            {
+                "variableName": "fidget",
+                "isVis": true
+            },
+            {
+                "variableName": "overly_active",
+                "isVis": true
+            },
+            {
+                "variableName": "careless",
+                "isVis": true
+            },
+            {
+                "variableName": "difficulty_attention",
+                "isVis": true
+            },
+            {
+                "variableName": "difficulty_concentrating",
+                "isVis": true
+            },
+            {
+                "variableName": "misplace",
+                "isVis": true
+            },
+            {
+                "variableName": "distracted",
+                "isVis": true
+            },
+            {
+                "variableName": "remain_seated",
+                "isVis": true
+            },
+            {
+                "variableName": "restless",
+                "isVis": true
+            },
+            {
+                "variableName": "difficulty_unwinding",
+                "isVis": true
+            },
+            {
+                "variableName": "talking_too_much",
+                "isVis": true
+            },
+            {
+                "variableName": "finish_other_sent",
+                "isVis": true
+            },
+            {
+                "variableName": "difficulty_waiting",
+                "isVis": true
+            },
+            {
+                "variableName": "interrupt_others",
+                "isVis": true
+            }
+        ]
+    },
+    "matrixInfo": [
+        {
+            "variableName": "wrapping_up",
+            "matrixGroupName": "adhd_adult",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "things_in_order",
+            "matrixGroupName": "adhd_adult",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "remembering_appt",
+            "matrixGroupName": "adhd_adult",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "avoidance",
+            "matrixGroupName": "adhd_adult",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "fidget",
+            "matrixGroupName": "adhd_adult",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "overly_active",
+            "matrixGroupName": "adhd_adult",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "careless",
+            "matrixGroupName": "adhd_adult",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "difficulty_attention",
+            "matrixGroupName": "adhd_adult",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "difficulty_concentrating",
+            "matrixGroupName": "adhd_adult",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "misplace",
+            "matrixGroupName": "adhd_adult",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "distracted",
+            "matrixGroupName": "adhd_adult",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "remain_seated",
+            "matrixGroupName": "adhd_adult",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "restless",
+            "matrixGroupName": "adhd_adult",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "difficulty_unwinding",
+            "matrixGroupName": "adhd_adult",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "talking_too_much",
+            "matrixGroupName": "adhd_adult",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "finish_other_sent",
+            "matrixGroupName": "adhd_adult",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "difficulty_waiting",
+            "matrixGroupName": "adhd_adult",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "interrupt_others",
+            "matrixGroupName": "adhd_adult",
+            "matrixRanking": ""
+        }
+    ]
+}

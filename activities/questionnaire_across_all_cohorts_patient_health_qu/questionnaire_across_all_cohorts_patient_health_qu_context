@@ -1,0 +1,62 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "questionnaire_across_all_cohorts_patient_health_qu": "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/questionnaire_across_all_cohorts_patient_health_qu/items/",
+        "phq_9_session_id": {
+            "@id": "questionnaire_across_all_cohorts_patient_health_qu:phq_9_session_id",
+            "@type": "@id"
+        },
+        "phq_9_started_at": {
+            "@id": "questionnaire_across_all_cohorts_patient_health_qu:phq_9_started_at",
+            "@type": "@id"
+        },
+        "phq_9_completed_at": {
+            "@id": "questionnaire_across_all_cohorts_patient_health_qu:phq_9_completed_at",
+            "@type": "@id"
+        },
+        "phq_9_duration": {
+            "@id": "questionnaire_across_all_cohorts_patient_health_qu:phq_9_duration",
+            "@type": "@id"
+        },
+        "no_interest": {
+            "@id": "questionnaire_across_all_cohorts_patient_health_qu:no_interest",
+            "@type": "@id"
+        },
+        "feeling_depressed": {
+            "@id": "questionnaire_across_all_cohorts_patient_health_qu:feeling_depressed",
+            "@type": "@id"
+        },
+        "trouble_sleeping": {
+            "@id": "questionnaire_across_all_cohorts_patient_health_qu:trouble_sleeping",
+            "@type": "@id"
+        },
+        "no_energy": {
+            "@id": "questionnaire_across_all_cohorts_patient_health_qu:no_energy",
+            "@type": "@id"
+        },
+        "no_appetite": {
+            "@id": "questionnaire_across_all_cohorts_patient_health_qu:no_appetite",
+            "@type": "@id"
+        },
+        "feeling_bad_self": {
+            "@id": "questionnaire_across_all_cohorts_patient_health_qu:feeling_bad_self",
+            "@type": "@id"
+        },
+        "trouble_concentrate": {
+            "@id": "questionnaire_across_all_cohorts_patient_health_qu:trouble_concentrate",
+            "@type": "@id"
+        },
+        "move_speak_slow": {
+            "@id": "questionnaire_across_all_cohorts_patient_health_qu:move_speak_slow",
+            "@type": "@id"
+        },
+        "thoughts_death": {
+            "@id": "questionnaire_across_all_cohorts_patient_health_qu:thoughts_death",
+            "@type": "@id"
+        },
+        "hard_to_work": {
+            "@id": "questionnaire_across_all_cohorts_patient_health_qu:hard_to_work",
+            "@type": "@id"
+        }
+    }
+}

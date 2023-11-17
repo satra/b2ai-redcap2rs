@@ -1,0 +1,15 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "yesno"
+    },
+    "preamble": {
+        "en": "ALLERGIES OR COLD SYMPTOMS"
+    },
+    "question": {
+        "en": "Do you currently have seasonal allergies, cold-like symptoms or other conditions that may affect your voice today?"
+    }
+}

@@ -1,0 +1,193 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/questionnaire_across_all_cohorts_patient_health_qu/questionnaire_across_all_cohorts_patient_health_qu_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "questionnaire_across_all_cohorts_patient_health_qu_schema",
+    "skos:altLabel": "questionnaire_across_all_cohorts_patient_health_qu_schema",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "variableMap": [
+        {
+            "variableName": "phq_9_session_id",
+            "isAbout": "phq_9_session_id"
+        },
+        {
+            "variableName": "phq_9_started_at",
+            "isAbout": "phq_9_started_at"
+        },
+        {
+            "variableName": "phq_9_completed_at",
+            "isAbout": "phq_9_completed_at"
+        },
+        {
+            "variableName": "phq_9_duration",
+            "isAbout": "phq_9_duration"
+        },
+        {
+            "variableName": "no_interest",
+            "isAbout": "no_interest"
+        },
+        {
+            "variableName": "feeling_depressed",
+            "isAbout": "feeling_depressed"
+        },
+        {
+            "variableName": "trouble_sleeping",
+            "isAbout": "trouble_sleeping"
+        },
+        {
+            "variableName": "no_energy",
+            "isAbout": "no_energy"
+        },
+        {
+            "variableName": "no_appetite",
+            "isAbout": "no_appetite"
+        },
+        {
+            "variableName": "feeling_bad_self",
+            "isAbout": "feeling_bad_self"
+        },
+        {
+            "variableName": "trouble_concentrate",
+            "isAbout": "trouble_concentrate"
+        },
+        {
+            "variableName": "move_speak_slow",
+            "isAbout": "move_speak_slow"
+        },
+        {
+            "variableName": "thoughts_death",
+            "isAbout": "thoughts_death"
+        },
+        {
+            "variableName": "hard_to_work",
+            "isAbout": "hard_to_work"
+        }
+    ],
+    "ui": {
+        "order": [
+            "phq_9_session_id",
+            "phq_9_started_at",
+            "phq_9_completed_at",
+            "phq_9_duration",
+            "no_interest",
+            "feeling_depressed",
+            "trouble_sleeping",
+            "no_energy",
+            "no_appetite",
+            "feeling_bad_self",
+            "trouble_concentrate",
+            "move_speak_slow",
+            "thoughts_death",
+            "hard_to_work"
+        ],
+        "shuffle": false,
+        "visibility": [
+            {
+                "variableName": "phq_9_session_id",
+                "isVis": true
+            },
+            {
+                "variableName": "phq_9_started_at",
+                "isVis": true
+            },
+            {
+                "variableName": "phq_9_completed_at",
+                "isVis": true
+            },
+            {
+                "variableName": "phq_9_duration",
+                "isVis": true
+            },
+            {
+                "variableName": "no_interest",
+                "isVis": true
+            },
+            {
+                "variableName": "feeling_depressed",
+                "isVis": true
+            },
+            {
+                "variableName": "trouble_sleeping",
+                "isVis": true
+            },
+            {
+                "variableName": "no_energy",
+                "isVis": true
+            },
+            {
+                "variableName": "no_appetite",
+                "isVis": true
+            },
+            {
+                "variableName": "feeling_bad_self",
+                "isVis": true
+            },
+            {
+                "variableName": "trouble_concentrate",
+                "isVis": true
+            },
+            {
+                "variableName": "move_speak_slow",
+                "isVis": true
+            },
+            {
+                "variableName": "thoughts_death",
+                "isVis": true
+            },
+            {
+                "variableName": "hard_to_work",
+                "isVis": "no_interest > 1 or\nfeeling_depressed > 1 or\ntrouble_sleeping > 1 or\nno_energy > 1 or\nno_appetite > 1 or\nfeeling_bad_self > 1 or\ntrouble_concentrate > 1 or\nmove_speak_slow > 1 or\nthoughts_death > 1"
+            }
+        ]
+    },
+    "matrixInfo": [
+        {
+            "variableName": "no_interest",
+            "matrixGroupName": "phq_9",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "feeling_depressed",
+            "matrixGroupName": "phq_9",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "trouble_sleeping",
+            "matrixGroupName": "phq_9",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "no_energy",
+            "matrixGroupName": "phq_9",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "no_appetite",
+            "matrixGroupName": "phq_9",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "feeling_bad_self",
+            "matrixGroupName": "phq_9",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "trouble_concentrate",
+            "matrixGroupName": "phq_9",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "move_speak_slow",
+            "matrixGroupName": "phq_9",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "thoughts_death",
+            "matrixGroupName": "phq_9",
+            "matrixRanking": ""
+        }
+    ]
+}

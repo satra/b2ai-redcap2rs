@@ -1,0 +1,146 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/diagnosis_mood_disorders_depression_or_major_depre/diagnosis_mood_disorders_depression_or_major_depre_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "diagnosis_mood_disorders_depression_or_major_depre_schema",
+    "skos:altLabel": "diagnosis_mood_disorders_depression_or_major_depre_schema",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "variableMap": [
+        {
+            "variableName": "diagnosis_depression_gsd",
+            "isAbout": "diagnosis_depression_gsd"
+        },
+        {
+            "variableName": "diagnosis_depression_clinical_subcategory",
+            "isAbout": "diagnosis_depression_clinical_subcategory"
+        },
+        {
+            "variableName": "diagnosis_depression_gsd_interview",
+            "isAbout": "diagnosis_depression_gsd_interview"
+        },
+        {
+            "variableName": "diagnosis_depression_gsd_oqu",
+            "isAbout": "diagnosis_depression_gsd_oqu"
+        },
+        {
+            "variableName": "diagnosis_depression_gsd_oquw",
+            "isAbout": "diagnosis_depression_gsd_oquw"
+        },
+        {
+            "variableName": "diagnosis_depression_gsd_oqu_other",
+            "isAbout": "diagnosis_depression_gsd_oqu_other"
+        },
+        {
+            "variableName": "diagnosis_bipolar_active_problems_depression",
+            "isAbout": "diagnosis_bipolar_active_problems_depression"
+        },
+        {
+            "variableName": "diagnosis_bipolar_history_problems_depression",
+            "isAbout": "diagnosis_bipolar_history_problems_depression"
+        },
+        {
+            "variableName": "diagnosis_bipolar_subtype_active_depression",
+            "isAbout": "diagnosis_bipolar_subtype_active_depression"
+        },
+        {
+            "variableName": "diagnosis_bipolar_psychotic_depression",
+            "isAbout": "diagnosis_bipolar_psychotic_depression"
+        },
+        {
+            "variableName": "diagnosis_bipolar_etiology_depression",
+            "isAbout": "diagnosis_bipolar_etiology_depression"
+        },
+        {
+            "variableName": "diagnosis_bipolar_severity_depression",
+            "isAbout": "diagnosis_bipolar_severity_depression"
+        },
+        {
+            "variableName": "diagnosis_bipolar_current_med_therapies_depression",
+            "isAbout": "diagnosis_bipolar_current_med_therapies_depression"
+        },
+        {
+            "variableName": "diagnosis_bipolar_former_med_therapies_depression",
+            "isAbout": "diagnosis_bipolar_former_med_therapies_depression"
+        }
+    ],
+    "ui": {
+        "order": [
+            "diagnosis_depression_gsd",
+            "diagnosis_depression_clinical_subcategory",
+            "diagnosis_depression_gsd_interview",
+            "diagnosis_depression_gsd_oqu",
+            "diagnosis_depression_gsd_oquw",
+            "diagnosis_depression_gsd_oqu_other",
+            "diagnosis_bipolar_active_problems_depression",
+            "diagnosis_bipolar_history_problems_depression",
+            "diagnosis_bipolar_subtype_active_depression",
+            "diagnosis_bipolar_psychotic_depression",
+            "diagnosis_bipolar_etiology_depression",
+            "diagnosis_bipolar_severity_depression",
+            "diagnosis_bipolar_current_med_therapies_depression",
+            "diagnosis_bipolar_former_med_therapies_depression"
+        ],
+        "shuffle": false,
+        "visibility": [
+            {
+                "variableName": "diagnosis_depression_gsd",
+                "isVis": true
+            },
+            {
+                "variableName": "diagnosis_depression_clinical_subcategory",
+                "isVis": "diagnosis_depression_gsd == \"clinical_depression\""
+            },
+            {
+                "variableName": "diagnosis_depression_gsd_interview",
+                "isVis": true
+            },
+            {
+                "variableName": "diagnosis_depression_gsd_oqu",
+                "isVis": true
+            },
+            {
+                "variableName": "diagnosis_depression_gsd_oquw",
+                "isVis": "diagnosis_depression_gsd_oqu==\"1\""
+            },
+            {
+                "variableName": "diagnosis_depression_gsd_oqu_other",
+                "isVis": "diagnosis_depression_gsd_oquw==\"other\""
+            },
+            {
+                "variableName": "diagnosis_bipolar_active_problems_depression",
+                "isVis": true
+            },
+            {
+                "variableName": "diagnosis_bipolar_history_problems_depression",
+                "isVis": true
+            },
+            {
+                "variableName": "diagnosis_bipolar_subtype_active_depression",
+                "isVis": true
+            },
+            {
+                "variableName": "diagnosis_bipolar_psychotic_depression",
+                "isVis": true
+            },
+            {
+                "variableName": "diagnosis_bipolar_etiology_depression",
+                "isVis": true
+            },
+            {
+                "variableName": "diagnosis_bipolar_severity_depression",
+                "isVis": true
+            },
+            {
+                "variableName": "diagnosis_bipolar_current_med_therapies_depression",
+                "isVis": true
+            },
+            {
+                "variableName": "diagnosis_bipolar_former_med_therapies_depression",
+                "isVis": true
+            }
+        ]
+    }
+}

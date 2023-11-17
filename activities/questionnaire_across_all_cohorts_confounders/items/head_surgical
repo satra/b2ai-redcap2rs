@@ -1,0 +1,27 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "radio",
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": "Head/Neck cancer (e.g. oropharyngeal cancer) ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "Sleep surgery",
+                "@type": "schema:option"
+            }
+        ]
+    },
+    "question": {
+        "en": "Head"
+    }
+}

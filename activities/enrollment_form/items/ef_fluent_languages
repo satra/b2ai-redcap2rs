@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "radio",
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": "None ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "English ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 3,
+                "schema:name": "French ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 4,
+                "schema:name": "Spanish ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 5,
+                "schema:name": "Other (please specify below)",
+                "@type": "schema:option"
+            }
+        ],
+        "requiredValue": true
+    },
+    "question": {
+        "en": "Do you speak any additional language(s) fluently (similar to a native speaker)?\n"
+    }
+}

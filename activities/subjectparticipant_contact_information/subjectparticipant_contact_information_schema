@@ -1,0 +1,74 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/subjectparticipant_contact_information/subjectparticipant_contact_information_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "subjectparticipant_contact_information_schema",
+    "skos:altLabel": "subjectparticipant_contact_information_schema",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "variableMap": [
+        {
+            "variableName": "first_name",
+            "isAbout": "first_name"
+        },
+        {
+            "variableName": "last_name",
+            "isAbout": "last_name"
+        },
+        {
+            "variableName": "dob",
+            "isAbout": "dob"
+        },
+        {
+            "variableName": "phone_number",
+            "isAbout": "phone_number"
+        },
+        {
+            "variableName": "email",
+            "isAbout": "email"
+        },
+        {
+            "variableName": "contact_info_stored",
+            "isAbout": "contact_info_stored"
+        }
+    ],
+    "ui": {
+        "order": [
+            "first_name",
+            "last_name",
+            "dob",
+            "phone_number",
+            "email",
+            "contact_info_stored"
+        ],
+        "shuffle": false,
+        "visibility": [
+            {
+                "variableName": "first_name",
+                "isVis": true
+            },
+            {
+                "variableName": "last_name",
+                "isVis": true
+            },
+            {
+                "variableName": "dob",
+                "isVis": true
+            },
+            {
+                "variableName": "phone_number",
+                "isVis": true
+            },
+            {
+                "variableName": "email",
+                "isVis": true
+            },
+            {
+                "variableName": "contact_info_stored",
+                "isVis": true
+            }
+        ]
+    }
+}

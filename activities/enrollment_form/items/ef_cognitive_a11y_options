@@ -1,0 +1,32 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "radio",
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": "I would like the questions to be read to me using text-to-speech ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "I would like a person to read the text to me ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 3,
+                "schema:name": "I would like to speak my answers instead of typing them",
+                "@type": "schema:option"
+            }
+        ]
+    },
+    "question": {
+        "en": "Yes, I would like to use some of the accessibility features of the app"
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "acoustic_task": "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/acoustic_task/items/",
+        "acoustic_task_id": {
+            "@id": "acoustic_task:acoustic_task_id",
+            "@type": "@id"
+        },
+        "acoustic_task_session_id": {
+            "@id": "acoustic_task:acoustic_task_session_id",
+            "@type": "@id"
+        },
+        "acoustic_task_name": {
+            "@id": "acoustic_task:acoustic_task_name",
+            "@type": "@id"
+        },
+        "acoustic_task_cohort": {
+            "@id": "acoustic_task:acoustic_task_cohort",
+            "@type": "@id"
+        },
+        "acoustic_task_status": {
+            "@id": "acoustic_task:acoustic_task_status",
+            "@type": "@id"
+        },
+        "acoustic_task_started_at": {
+            "@id": "acoustic_task:acoustic_task_started_at",
+            "@type": "@id"
+        },
+        "acoustic_task_completed_at": {
+            "@id": "acoustic_task:acoustic_task_completed_at",
+            "@type": "@id"
+        },
+        "acoustic_task_duration": {
+            "@id": "acoustic_task:acoustic_task_duration",
+            "@type": "@id"
+        }
+    }
+}

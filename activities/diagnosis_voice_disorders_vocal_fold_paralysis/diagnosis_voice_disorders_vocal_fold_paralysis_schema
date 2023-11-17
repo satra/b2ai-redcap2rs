@@ -1,0 +1,281 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/diagnosis_voice_disorders_vocal_fold_paralysis/diagnosis_voice_disorders_vocal_fold_paralysis_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "diagnosis_voice_disorders_vocal_fold_paralysis_schema",
+    "skos:altLabel": "diagnosis_voice_disorders_vocal_fold_paralysis_schema",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "variableMap": [
+        {
+            "variableName": "diagnosis_vfp_gsd",
+            "isAbout": "diagnosis_vfp_gsd"
+        },
+        {
+            "variableName": "diagnosis_vfp_ds",
+            "isAbout": "diagnosis_vfp_ds"
+        },
+        {
+            "variableName": "diagnosis_vfp_etiology",
+            "isAbout": "diagnosis_vfp_etiology"
+        },
+        {
+            "variableName": "diagnosis_vfp_iatrogenic",
+            "isAbout": "diagnosis_vfp_iatrogenic"
+        },
+        {
+            "variableName": "diagnosis_vfp_tumor",
+            "isAbout": "diagnosis_vfp_tumor"
+        },
+        {
+            "variableName": "diagnosis_vfp_dse",
+            "isAbout": "diagnosis_vfp_dse"
+        },
+        {
+            "variableName": "diagnosis_vfp_degree_text",
+            "isAbout": "diagnosis_vfp_degree_text"
+        },
+        {
+            "variableName": "diagnosis_vfp_degree_legend",
+            "isAbout": "diagnosis_vfp_degree_legend"
+        },
+        {
+            "variableName": "diagnosis_degree_os",
+            "isAbout": "diagnosis_degree_os"
+        },
+        {
+            "variableName": "diagnosis_degree_os_2",
+            "isAbout": "diagnosis_degree_os_2"
+        },
+        {
+            "variableName": "diagnosis_degree_r",
+            "isAbout": "diagnosis_degree_r"
+        },
+        {
+            "variableName": "diagnosis_degree_r_2",
+            "isAbout": "diagnosis_degree_r_2"
+        },
+        {
+            "variableName": "diagnosis_degree_b",
+            "isAbout": "diagnosis_degree_b"
+        },
+        {
+            "variableName": "diagnosis_degree_b_2",
+            "isAbout": "diagnosis_degree_b_2"
+        },
+        {
+            "variableName": "diagnosis_degree_s",
+            "isAbout": "diagnosis_degree_s"
+        },
+        {
+            "variableName": "diagnosis_degree_s_2",
+            "isAbout": "diagnosis_degree_s_2"
+        },
+        {
+            "variableName": "diagnosis_degree_p_nature",
+            "isAbout": "diagnosis_degree_p_nature"
+        },
+        {
+            "variableName": "diagnosis_degree_p",
+            "isAbout": "diagnosis_degree_p"
+        },
+        {
+            "variableName": "diagnosis_degree_p_2",
+            "isAbout": "diagnosis_degree_p_2"
+        },
+        {
+            "variableName": "diagnosis_degree_l_nature",
+            "isAbout": "diagnosis_degree_l_nature"
+        },
+        {
+            "variableName": "diagnosis_degree_l",
+            "isAbout": "diagnosis_degree_l"
+        },
+        {
+            "variableName": "diagnosis_degree_l_2",
+            "isAbout": "diagnosis_degree_l_2"
+        },
+        {
+            "variableName": "diagnosis_degree_comments",
+            "isAbout": "diagnosis_degree_comments"
+        },
+        {
+            "variableName": "diagnosis_degree_comments_other",
+            "isAbout": "diagnosis_degree_comments_other"
+        },
+        {
+            "variableName": "diagnosis_degree_comments_other_2",
+            "isAbout": "diagnosis_degree_comments_other_2"
+        },
+        {
+            "variableName": "diagnosis_vfp_treatment",
+            "isAbout": "diagnosis_vfp_treatment"
+        },
+        {
+            "variableName": "diagnosis_vfp_treatment_surgery",
+            "isAbout": "diagnosis_vfp_treatment_surgery"
+        },
+        {
+            "variableName": "diagnosis_vfp_treatment_surgery_thyroplasty",
+            "isAbout": "diagnosis_vfp_treatment_surgery_thyroplasty"
+        },
+        {
+            "variableName": "diagnosis_vfp_treatment_surgery_vfia",
+            "isAbout": "diagnosis_vfp_treatment_surgery_vfia"
+        }
+    ],
+    "ui": {
+        "order": [
+            "diagnosis_vfp_gsd",
+            "diagnosis_vfp_ds",
+            "diagnosis_vfp_etiology",
+            "diagnosis_vfp_iatrogenic",
+            "diagnosis_vfp_tumor",
+            "diagnosis_vfp_dse",
+            "diagnosis_vfp_degree_text",
+            "diagnosis_vfp_degree_legend",
+            "diagnosis_degree_os",
+            "diagnosis_degree_os_2",
+            "diagnosis_degree_r",
+            "diagnosis_degree_r_2",
+            "diagnosis_degree_b",
+            "diagnosis_degree_b_2",
+            "diagnosis_degree_s",
+            "diagnosis_degree_s_2",
+            "diagnosis_degree_p_nature",
+            "diagnosis_degree_p",
+            "diagnosis_degree_p_2",
+            "diagnosis_degree_l_nature",
+            "diagnosis_degree_l",
+            "diagnosis_degree_l_2",
+            "diagnosis_degree_comments",
+            "diagnosis_degree_comments_other",
+            "diagnosis_degree_comments_other_2",
+            "diagnosis_vfp_treatment",
+            "diagnosis_vfp_treatment_surgery",
+            "diagnosis_vfp_treatment_surgery_thyroplasty",
+            "diagnosis_vfp_treatment_surgery_vfia"
+        ],
+        "shuffle": false,
+        "visibility": [
+            {
+                "variableName": "diagnosis_vfp_gsd",
+                "isVis": true
+            },
+            {
+                "variableName": "diagnosis_vfp_ds",
+                "isVis": true
+            },
+            {
+                "variableName": "diagnosis_vfp_etiology",
+                "isVis": true
+            },
+            {
+                "variableName": "diagnosis_vfp_iatrogenic",
+                "isVis": "diagnosis_vfp_etiology == 2"
+            },
+            {
+                "variableName": "diagnosis_vfp_tumor",
+                "isVis": "diagnosis_vfp_etiology == 3"
+            },
+            {
+                "variableName": "diagnosis_vfp_dse",
+                "isVis": true
+            },
+            {
+                "variableName": "diagnosis_vfp_degree_text",
+                "isVis": true
+            },
+            {
+                "variableName": "diagnosis_vfp_degree_legend",
+                "isVis": true
+            },
+            {
+                "variableName": "diagnosis_degree_os",
+                "isVis": true
+            },
+            {
+                "variableName": "diagnosis_degree_os_2",
+                "isVis": true
+            },
+            {
+                "variableName": "diagnosis_degree_r",
+                "isVis": true
+            },
+            {
+                "variableName": "diagnosis_degree_r_2",
+                "isVis": true
+            },
+            {
+                "variableName": "diagnosis_degree_b",
+                "isVis": true
+            },
+            {
+                "variableName": "diagnosis_degree_b_2",
+                "isVis": true
+            },
+            {
+                "variableName": "diagnosis_degree_s",
+                "isVis": true
+            },
+            {
+                "variableName": "diagnosis_degree_s_2",
+                "isVis": true
+            },
+            {
+                "variableName": "diagnosis_degree_p_nature",
+                "isVis": true
+            },
+            {
+                "variableName": "diagnosis_degree_p",
+                "isVis": true
+            },
+            {
+                "variableName": "diagnosis_degree_p_2",
+                "isVis": true
+            },
+            {
+                "variableName": "diagnosis_degree_l_nature",
+                "isVis": true
+            },
+            {
+                "variableName": "diagnosis_degree_l",
+                "isVis": true
+            },
+            {
+                "variableName": "diagnosis_degree_l_2",
+                "isVis": true
+            },
+            {
+                "variableName": "diagnosis_degree_comments",
+                "isVis": true
+            },
+            {
+                "variableName": "diagnosis_degree_comments_other",
+                "isVis": "diagnosis_degree_comments == 2"
+            },
+            {
+                "variableName": "diagnosis_degree_comments_other_2",
+                "isVis": true
+            },
+            {
+                "variableName": "diagnosis_vfp_treatment",
+                "isVis": true
+            },
+            {
+                "variableName": "diagnosis_vfp_treatment_surgery",
+                "isVis": "diagnosis_vfp_treatment == 1"
+            },
+            {
+                "variableName": "diagnosis_vfp_treatment_surgery_thyroplasty",
+                "isVis": "diagnosis_vfp_treatment_surgery == 1"
+            },
+            {
+                "variableName": "diagnosis_vfp_treatment_surgery_vfia",
+                "isVis": "diagnosis_vfp_treatment_surgery == 2"
+            }
+        ]
+    }
+}

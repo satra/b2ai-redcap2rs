@@ -1,0 +1,31 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "slider",
+        "customAlignment": "RH"
+    },
+    "responseOptions": {
+        "valueType": "slider",
+        "choices": [
+            {
+                "schema:value": null,
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "@type": "schema:option"
+            }
+        ],
+        "requiredValue": true
+    },
+    "question": {
+        "en": "Roughness"
+    }
+}

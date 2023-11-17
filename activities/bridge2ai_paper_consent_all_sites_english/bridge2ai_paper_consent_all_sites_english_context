@@ -1,0 +1,22 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "bridge2ai_paper_consent_all_sites_english": "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/bridge2ai_paper_consent_all_sites_english/items/",
+        "paper_consent_notes": {
+            "@id": "bridge2ai_paper_consent_all_sites_english:paper_consent_notes",
+            "@type": "@id"
+        },
+        "paper_consent_pdf_all_sites": {
+            "@id": "bridge2ai_paper_consent_all_sites_english:paper_consent_pdf_all_sites",
+            "@type": "@id"
+        },
+        "paper_consent_enrollment_institution": {
+            "@id": "bridge2ai_paper_consent_all_sites_english:paper_consent_enrollment_institution",
+            "@type": "@id"
+        },
+        "paper_consent_uploaded_by": {
+            "@id": "bridge2ai_paper_consent_all_sites_english:paper_consent_uploaded_by",
+            "@type": "@id"
+        }
+    }
+}

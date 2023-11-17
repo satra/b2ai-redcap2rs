@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "subjectparticipant_basic_information": "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/subjectparticipant_basic_information/items/",
+        "record_id": {
+            "@id": "subjectparticipant_basic_information:record_id",
+            "@type": "@id"
+        },
+        "selected_language": {
+            "@id": "subjectparticipant_basic_information:selected_language",
+            "@type": "@id"
+        },
+        "consent_status": {
+            "@id": "subjectparticipant_basic_information:consent_status",
+            "@type": "@id"
+        },
+        "withdrawn_consent_reason": {
+            "@id": "subjectparticipant_basic_information:withdrawn_consent_reason",
+            "@type": "@id"
+        },
+        "withdrawn_consent_date": {
+            "@id": "subjectparticipant_basic_information:withdrawn_consent_date",
+            "@type": "@id"
+        },
+        "enrolled": {
+            "@id": "subjectparticipant_basic_information:enrolled",
+            "@type": "@id"
+        },
+        "enrollment_reason": {
+            "@id": "subjectparticipant_basic_information:enrollment_reason",
+            "@type": "@id"
+        },
+        "enrollment_institution": {
+            "@id": "subjectparticipant_basic_information:enrollment_institution",
+            "@type": "@id"
+        },
+        "researcher_email": {
+            "@id": "subjectparticipant_basic_information:researcher_email",
+            "@type": "@id"
+        }
+    }
+}

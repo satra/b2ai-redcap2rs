@@ -1,0 +1,15 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "yesno"
+    },
+    "question": {
+        "en": "This application may present some sound files for you to listen to. Do you have any hearing-related requirements we can assist with?"
+    },
+    "responseOptions": {
+        "requiredValue": true
+    }
+}

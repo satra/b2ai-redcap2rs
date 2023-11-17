@@ -1,0 +1,41 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "Question 4"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 0,
+                "schema:name": "I do not talk more than usual. ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 1,
+                "schema:name": "I occasionally talk more than usual. ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "I often talk more than usual. ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 3,
+                "schema:name": "I frequently talk more than usual. ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 4,
+                "schema:name": "I talk constantly and cannot be interrupted.",
+                "@type": "schema:option"
+            }
+        ]
+    }
+}

@@ -1,0 +1,146 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/recording/recording_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "recording_schema",
+    "skos:altLabel": "recording_schema",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "variableMap": [
+        {
+            "variableName": "recording_id",
+            "isAbout": "recording_id"
+        },
+        {
+            "variableName": "recording_acoustic_task_id",
+            "isAbout": "recording_acoustic_task_id"
+        },
+        {
+            "variableName": "recording_session_id",
+            "isAbout": "recording_session_id"
+        },
+        {
+            "variableName": "recording_name",
+            "isAbout": "recording_name"
+        },
+        {
+            "variableName": "recording_filepath",
+            "isAbout": "recording_filepath"
+        },
+        {
+            "variableName": "recording_storage_account",
+            "isAbout": "recording_storage_account"
+        },
+        {
+            "variableName": "recording_file_share",
+            "isAbout": "recording_file_share"
+        },
+        {
+            "variableName": "recording_duration",
+            "isAbout": "recording_duration"
+        },
+        {
+            "variableName": "recording_size",
+            "isAbout": "recording_size"
+        },
+        {
+            "variableName": "recording_created_at",
+            "isAbout": "recording_created_at"
+        },
+        {
+            "variableName": "recording_profile_name",
+            "isAbout": "recording_profile_name"
+        },
+        {
+            "variableName": "recording_profile_version",
+            "isAbout": "recording_profile_version"
+        },
+        {
+            "variableName": "recording_input_gain",
+            "isAbout": "recording_input_gain"
+        },
+        {
+            "variableName": "recording_microphone",
+            "isAbout": "recording_microphone"
+        }
+    ],
+    "ui": {
+        "order": [
+            "recording_id",
+            "recording_acoustic_task_id",
+            "recording_session_id",
+            "recording_name",
+            "recording_filepath",
+            "recording_storage_account",
+            "recording_file_share",
+            "recording_duration",
+            "recording_size",
+            "recording_created_at",
+            "recording_profile_name",
+            "recording_profile_version",
+            "recording_input_gain",
+            "recording_microphone"
+        ],
+        "shuffle": false,
+        "visibility": [
+            {
+                "variableName": "recording_id",
+                "isVis": true
+            },
+            {
+                "variableName": "recording_acoustic_task_id",
+                "isVis": true
+            },
+            {
+                "variableName": "recording_session_id",
+                "isVis": true
+            },
+            {
+                "variableName": "recording_name",
+                "isVis": true
+            },
+            {
+                "variableName": "recording_filepath",
+                "isVis": true
+            },
+            {
+                "variableName": "recording_storage_account",
+                "isVis": true
+            },
+            {
+                "variableName": "recording_file_share",
+                "isVis": true
+            },
+            {
+                "variableName": "recording_duration",
+                "isVis": true
+            },
+            {
+                "variableName": "recording_size",
+                "isVis": true
+            },
+            {
+                "variableName": "recording_created_at",
+                "isVis": true
+            },
+            {
+                "variableName": "recording_profile_name",
+                "isVis": true
+            },
+            {
+                "variableName": "recording_profile_version",
+                "isVis": true
+            },
+            {
+                "variableName": "recording_input_gain",
+                "isVis": true
+            },
+            {
+                "variableName": "recording_microphone",
+                "isVis": true
+            }
+        ]
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "Methamphetamine (like speed)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": null,
+                "schema:name": "Not at all ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "One or two days ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "Several days ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "More than half the days ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "Nearly every day",
+                "@type": "schema:option"
+            }
+        ]
+    }
+}

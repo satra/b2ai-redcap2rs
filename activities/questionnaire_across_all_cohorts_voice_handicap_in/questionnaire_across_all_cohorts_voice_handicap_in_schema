@@ -1,0 +1,198 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/questionnaire_across_all_cohorts_voice_handicap_in/questionnaire_across_all_cohorts_voice_handicap_in_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "questionnaire_across_all_cohorts_voice_handicap_in_schema",
+    "skos:altLabel": "questionnaire_across_all_cohorts_voice_handicap_in_schema",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "variableMap": [
+        {
+            "variableName": "vhi_session_id",
+            "isAbout": "vhi_session_id"
+        },
+        {
+            "variableName": "vhi_started_at",
+            "isAbout": "vhi_started_at"
+        },
+        {
+            "variableName": "vhi_completed_at",
+            "isAbout": "vhi_completed_at"
+        },
+        {
+            "variableName": "vhi_duration",
+            "isAbout": "vhi_duration"
+        },
+        {
+            "variableName": "voice_difficult_hear",
+            "isAbout": "voice_difficult_hear"
+        },
+        {
+            "variableName": "tough_to_understand",
+            "isAbout": "tough_to_understand"
+        },
+        {
+            "variableName": "voice_restrict_social",
+            "isAbout": "voice_restrict_social"
+        },
+        {
+            "variableName": "left_out_convo",
+            "isAbout": "left_out_convo"
+        },
+        {
+            "variableName": "voice_lose_income",
+            "isAbout": "voice_lose_income"
+        },
+        {
+            "variableName": "strain_voice",
+            "isAbout": "strain_voice"
+        },
+        {
+            "variableName": "voice_clarity",
+            "isAbout": "voice_clarity"
+        },
+        {
+            "variableName": "voice_upsetting",
+            "isAbout": "voice_upsetting"
+        },
+        {
+            "variableName": "voice_handicapped",
+            "isAbout": "voice_handicapped"
+        },
+        {
+            "variableName": "ask_whats_wrong_voice",
+            "isAbout": "ask_whats_wrong_voice"
+        }
+    ],
+    "ui": {
+        "order": [
+            "vhi_session_id",
+            "vhi_started_at",
+            "vhi_completed_at",
+            "vhi_duration",
+            "voice_difficult_hear",
+            "tough_to_understand",
+            "voice_restrict_social",
+            "left_out_convo",
+            "voice_lose_income",
+            "strain_voice",
+            "voice_clarity",
+            "voice_upsetting",
+            "voice_handicapped",
+            "ask_whats_wrong_voice"
+        ],
+        "shuffle": false,
+        "visibility": [
+            {
+                "variableName": "vhi_session_id",
+                "isVis": true
+            },
+            {
+                "variableName": "vhi_started_at",
+                "isVis": true
+            },
+            {
+                "variableName": "vhi_completed_at",
+                "isVis": true
+            },
+            {
+                "variableName": "vhi_duration",
+                "isVis": true
+            },
+            {
+                "variableName": "voice_difficult_hear",
+                "isVis": true
+            },
+            {
+                "variableName": "tough_to_understand",
+                "isVis": true
+            },
+            {
+                "variableName": "voice_restrict_social",
+                "isVis": true
+            },
+            {
+                "variableName": "left_out_convo",
+                "isVis": true
+            },
+            {
+                "variableName": "voice_lose_income",
+                "isVis": true
+            },
+            {
+                "variableName": "strain_voice",
+                "isVis": true
+            },
+            {
+                "variableName": "voice_clarity",
+                "isVis": true
+            },
+            {
+                "variableName": "voice_upsetting",
+                "isVis": true
+            },
+            {
+                "variableName": "voice_handicapped",
+                "isVis": true
+            },
+            {
+                "variableName": "ask_whats_wrong_voice",
+                "isVis": true
+            }
+        ]
+    },
+    "matrixInfo": [
+        {
+            "variableName": "voice_difficult_hear",
+            "matrixGroupName": "vhi_10",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "tough_to_understand",
+            "matrixGroupName": "vhi_10",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "voice_restrict_social",
+            "matrixGroupName": "vhi_10",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "left_out_convo",
+            "matrixGroupName": "vhi_10",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "voice_lose_income",
+            "matrixGroupName": "vhi_10",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "strain_voice",
+            "matrixGroupName": "vhi_10",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "voice_clarity",
+            "matrixGroupName": "vhi_10",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "voice_upsetting",
+            "matrixGroupName": "vhi_10",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "voice_handicapped",
+            "matrixGroupName": "vhi_10",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ask_whats_wrong_voice",
+            "matrixGroupName": "vhi_10",
+            "matrixRanking": ""
+        }
+    ]
+}

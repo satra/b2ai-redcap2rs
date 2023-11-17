@@ -1,0 +1,32 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "Consent Status"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": "Pending ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "Consented ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 3,
+                "schema:name": "Withdrawn Consent",
+                "@type": "schema:option"
+            }
+        ],
+        "requiredValue": true
+    }
+}

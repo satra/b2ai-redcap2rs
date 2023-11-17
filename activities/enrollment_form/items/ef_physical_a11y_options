@@ -1,0 +1,32 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "radio",
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": "I would like to increase the size of the buttons ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "I have an alternative keyboard I'd like to connect instead ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 3,
+                "schema:name": "I would like to navigate the survey using voice commands instead of the touch screen",
+                "@type": "schema:option"
+            }
+        ]
+    },
+    "question": {
+        "en": "Yes, I would like to use some of the accessibility features of the app"
+    }
+}

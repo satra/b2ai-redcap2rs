@@ -1,0 +1,57 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "radio",
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": "Tobacco cigarettes ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "Cannabis joints",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 3,
+                "schema:name": "Vapes ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 4,
+                "schema:name": "e-cigarettes ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 5,
+                "schema:name": "Hookah ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 6,
+                "schema:name": "Pipes ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 7,
+                "schema:name": "Other (Please specify) ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 8,
+                "schema:name": "Prefer not to answer",
+                "@type": "schema:option"
+            }
+        ]
+    },
+    "question": {
+        "en": "Please select smoking types used (Check all that apply)"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "radio",
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": "Chronic ear surgery (e.g. mastoid) ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "Ear tubes",
+                "@type": "schema:option"
+            }
+        ]
+    },
+    "preamble": {
+        "en": "Have you had any of the interventions mentioned below? (check all that apply)"
+    },
+    "question": {
+        "en": "Ear"
+    }
+}

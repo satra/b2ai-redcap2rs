@@ -1,0 +1,32 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "Can you use a smart device?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": "Yes ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 0,
+                "schema:name": "No ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "Some",
+                "@type": "schema:option"
+            }
+        ],
+        "requiredValue": true
+    }
+}

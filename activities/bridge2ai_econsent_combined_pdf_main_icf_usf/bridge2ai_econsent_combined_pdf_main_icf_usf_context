@@ -1,0 +1,10 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "bridge2ai_econsent_combined_pdf_main_icf_usf": "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/bridge2ai_econsent_combined_pdf_main_icf_usf/items/",
+        "combined_pdf_main_icf_usf": {
+            "@id": "bridge2ai_econsent_combined_pdf_main_icf_usf:combined_pdf_main_icf_usf",
+            "@type": "@id"
+        }
+    }
+}

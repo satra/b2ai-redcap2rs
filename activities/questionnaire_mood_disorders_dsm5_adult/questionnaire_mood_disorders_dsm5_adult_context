@@ -1,0 +1,174 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "questionnaire_mood_disorders_dsm5_adult": "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/questionnaire_mood_disorders_dsm5_adult/items/",
+        "dsm_5_session_id": {
+            "@id": "questionnaire_mood_disorders_dsm5_adult:dsm_5_session_id",
+            "@type": "@id"
+        },
+        "dsm_5_started_at": {
+            "@id": "questionnaire_mood_disorders_dsm5_adult:dsm_5_started_at",
+            "@type": "@id"
+        },
+        "dsm_5_completed_at": {
+            "@id": "questionnaire_mood_disorders_dsm5_adult:dsm_5_completed_at",
+            "@type": "@id"
+        },
+        "dsm_5_duration": {
+            "@id": "questionnaire_mood_disorders_dsm5_adult:dsm_5_duration",
+            "@type": "@id"
+        },
+        "little_interest": {
+            "@id": "questionnaire_mood_disorders_dsm5_adult:little_interest",
+            "@type": "@id"
+        },
+        "feeling_down": {
+            "@id": "questionnaire_mood_disorders_dsm5_adult:feeling_down",
+            "@type": "@id"
+        },
+        "feeling_more_irritated": {
+            "@id": "questionnaire_mood_disorders_dsm5_adult:feeling_more_irritated",
+            "@type": "@id"
+        },
+        "sleeping_less": {
+            "@id": "questionnaire_mood_disorders_dsm5_adult:sleeping_less",
+            "@type": "@id"
+        },
+        "starting_more_projects": {
+            "@id": "questionnaire_mood_disorders_dsm5_adult:starting_more_projects",
+            "@type": "@id"
+        },
+        "feeling_nervous": {
+            "@id": "questionnaire_mood_disorders_dsm5_adult:feeling_nervous",
+            "@type": "@id"
+        },
+        "feeling_panic": {
+            "@id": "questionnaire_mood_disorders_dsm5_adult:feeling_panic",
+            "@type": "@id"
+        },
+        "avoiding_situations": {
+            "@id": "questionnaire_mood_disorders_dsm5_adult:avoiding_situations",
+            "@type": "@id"
+        },
+        "unexplained_aches": {
+            "@id": "questionnaire_mood_disorders_dsm5_adult:unexplained_aches",
+            "@type": "@id"
+        },
+        "illness_not_taken_serious": {
+            "@id": "questionnaire_mood_disorders_dsm5_adult:illness_not_taken_serious",
+            "@type": "@id"
+        },
+        "self_harm": {
+            "@id": "questionnaire_mood_disorders_dsm5_adult:self_harm",
+            "@type": "@id"
+        },
+        "hearing_things": {
+            "@id": "questionnaire_mood_disorders_dsm5_adult:hearing_things",
+            "@type": "@id"
+        },
+        "someone_hear_thoughts": {
+            "@id": "questionnaire_mood_disorders_dsm5_adult:someone_hear_thoughts",
+            "@type": "@id"
+        },
+        "sleep_quality": {
+            "@id": "questionnaire_mood_disorders_dsm5_adult:sleep_quality",
+            "@type": "@id"
+        },
+        "memory_issues": {
+            "@id": "questionnaire_mood_disorders_dsm5_adult:memory_issues",
+            "@type": "@id"
+        },
+        "unpleasant_thoughts": {
+            "@id": "questionnaire_mood_disorders_dsm5_adult:unpleasant_thoughts",
+            "@type": "@id"
+        },
+        "repeat_acts": {
+            "@id": "questionnaire_mood_disorders_dsm5_adult:repeat_acts",
+            "@type": "@id"
+        },
+        "feeling_detached": {
+            "@id": "questionnaire_mood_disorders_dsm5_adult:feeling_detached",
+            "@type": "@id"
+        },
+        "no_purpose": {
+            "@id": "questionnaire_mood_disorders_dsm5_adult:no_purpose",
+            "@type": "@id"
+        },
+        "isolated": {
+            "@id": "questionnaire_mood_disorders_dsm5_adult:isolated",
+            "@type": "@id"
+        },
+        "drinking_more": {
+            "@id": "questionnaire_mood_disorders_dsm5_adult:drinking_more",
+            "@type": "@id"
+        },
+        "smoking_more": {
+            "@id": "questionnaire_mood_disorders_dsm5_adult:smoking_more",
+            "@type": "@id"
+        },
+        "medication_use": {
+            "@id": "questionnaire_mood_disorders_dsm5_adult:medication_use",
+            "@type": "@id"
+        },
+        "q1_happy": {
+            "@id": "questionnaire_mood_disorders_dsm5_adult:q1_happy",
+            "@type": "@id"
+        },
+        "q2_self_confident": {
+            "@id": "questionnaire_mood_disorders_dsm5_adult:q2_self_confident",
+            "@type": "@id"
+        },
+        "q3_sleep": {
+            "@id": "questionnaire_mood_disorders_dsm5_adult:q3_sleep",
+            "@type": "@id"
+        },
+        "q4_talk": {
+            "@id": "questionnaire_mood_disorders_dsm5_adult:q4_talk",
+            "@type": "@id"
+        },
+        "q5_active": {
+            "@id": "questionnaire_mood_disorders_dsm5_adult:q5_active",
+            "@type": "@id"
+        },
+        "social_phobia_1": {
+            "@id": "questionnaire_mood_disorders_dsm5_adult:social_phobia_1",
+            "@type": "@id"
+        },
+        "social_phobia_2": {
+            "@id": "questionnaire_mood_disorders_dsm5_adult:social_phobia_2",
+            "@type": "@id"
+        },
+        "social_phobia_3": {
+            "@id": "questionnaire_mood_disorders_dsm5_adult:social_phobia_3",
+            "@type": "@id"
+        },
+        "social_phobia_4": {
+            "@id": "questionnaire_mood_disorders_dsm5_adult:social_phobia_4",
+            "@type": "@id"
+        },
+        "social_phobia_5": {
+            "@id": "questionnaire_mood_disorders_dsm5_adult:social_phobia_5",
+            "@type": "@id"
+        },
+        "social_phobia_6": {
+            "@id": "questionnaire_mood_disorders_dsm5_adult:social_phobia_6",
+            "@type": "@id"
+        },
+        "social_phobia_7": {
+            "@id": "questionnaire_mood_disorders_dsm5_adult:social_phobia_7",
+            "@type": "@id"
+        },
+        "social_phobia_8": {
+            "@id": "questionnaire_mood_disorders_dsm5_adult:social_phobia_8",
+            "@type": "@id"
+        },
+        "social_phobia_9": {
+            "@id": "questionnaire_mood_disorders_dsm5_adult:social_phobia_9",
+            "@type": "@id"
+        },
+        "social_phobia_10": {
+            "@id": "questionnaire_mood_disorders_dsm5_adult:social_phobia_10",
+            "@type": "@id"
+        }
+    }
+}

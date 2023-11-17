@@ -1,0 +1,35 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "radio"
+    },
+    "preamble": {
+        "en": "4. Disease Severity"
+    },
+    "question": {
+        "en": "Degree of Glottic Gap"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": "Small ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "Moderate ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 3,
+                "schema:name": "Large",
+                "@type": "schema:option"
+            }
+        ],
+        "requiredValue": true
+    }
+}

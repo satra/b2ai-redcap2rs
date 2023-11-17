@@ -1,0 +1,40 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "radio"
+    },
+    "preamble": {
+        "en": "3. Etiology"
+    },
+    "question": {
+        "en": "What is the etiology?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": "Idiopathic ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "Iatrogenic (surgery/intubation) ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 3,
+                "schema:name": "Tumor invading RLN ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 4,
+                "schema:name": "Radiation",
+                "@type": "schema:option"
+            }
+        ],
+        "requiredValue": true
+    }
+}

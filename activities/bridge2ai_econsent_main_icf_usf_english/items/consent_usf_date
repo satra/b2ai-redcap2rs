@@ -1,0 +1,19 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:date",
+        "requiredValue": true
+    },
+    "question": {
+        "en": "Date"
+    },
+    "schema:description": {
+        "en": " @READONLY-FORM"
+    }
+}

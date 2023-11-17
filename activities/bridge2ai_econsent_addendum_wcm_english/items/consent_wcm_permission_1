@@ -1,0 +1,15 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "yesno"
+    },
+    "question": {
+        "en": "YES, I give permission for my voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaire answers to be stored for future unspecified research by the researchers of this study. I understand that the data and/or samples will be stored for at least 50 years and will be destroyed after the research is completed."
+    },
+    "responseOptions": {
+        "requiredValue": true
+    }
+}

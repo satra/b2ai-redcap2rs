@@ -1,0 +1,35 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "radio"
+    },
+    "preamble": {
+        "en": "Eligible Studies"
+    },
+    "question": {
+        "en": "Can you read?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": "Yes ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 0,
+                "schema:name": "No ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "Some",
+                "@type": "schema:option"
+            }
+        ],
+        "requiredValue": true
+    }
+}

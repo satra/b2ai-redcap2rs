@@ -1,0 +1,50 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "radio",
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": "Atrial fibrillation ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "Cardiac condition ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 3,
+                "schema:name": "Chronic pericarditis ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 4,
+                "schema:name": "Congestive heart failure ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 5,
+                "schema:name": "Coronary heart disease ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 6,
+                "schema:name": "Hypertension",
+                "@type": "schema:option"
+            }
+        ]
+    },
+    "preamble": {
+        "en": "CIRCULATORY AND OTHER CONDITIONS"
+    },
+    "question": {
+        "en": "Have you been diagnosed with any of these circulatory or heart conditions by a clinician? (check all that apply)"
+    }
+}

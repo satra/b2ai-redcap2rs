@@ -1,0 +1,42 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "Feeling jumpy or easily startled when you hear an unexpected noise?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 0,
+                "schema:name": "0=Not at all ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 1,
+                "schema:name": "1=A little bit ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "2=Moderately ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 3,
+                "schema:name": "3=Quite a bit ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 4,
+                "schema:name": "4=Extremely",
+                "@type": "schema:option"
+            }
+        ],
+        "requiredValue": true
+    }
+}

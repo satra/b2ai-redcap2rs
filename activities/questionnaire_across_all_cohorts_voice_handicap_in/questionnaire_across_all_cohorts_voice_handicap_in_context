@@ -1,0 +1,62 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "questionnaire_across_all_cohorts_voice_handicap_in": "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/questionnaire_across_all_cohorts_voice_handicap_in/items/",
+        "vhi_session_id": {
+            "@id": "questionnaire_across_all_cohorts_voice_handicap_in:vhi_session_id",
+            "@type": "@id"
+        },
+        "vhi_started_at": {
+            "@id": "questionnaire_across_all_cohorts_voice_handicap_in:vhi_started_at",
+            "@type": "@id"
+        },
+        "vhi_completed_at": {
+            "@id": "questionnaire_across_all_cohorts_voice_handicap_in:vhi_completed_at",
+            "@type": "@id"
+        },
+        "vhi_duration": {
+            "@id": "questionnaire_across_all_cohorts_voice_handicap_in:vhi_duration",
+            "@type": "@id"
+        },
+        "voice_difficult_hear": {
+            "@id": "questionnaire_across_all_cohorts_voice_handicap_in:voice_difficult_hear",
+            "@type": "@id"
+        },
+        "tough_to_understand": {
+            "@id": "questionnaire_across_all_cohorts_voice_handicap_in:tough_to_understand",
+            "@type": "@id"
+        },
+        "voice_restrict_social": {
+            "@id": "questionnaire_across_all_cohorts_voice_handicap_in:voice_restrict_social",
+            "@type": "@id"
+        },
+        "left_out_convo": {
+            "@id": "questionnaire_across_all_cohorts_voice_handicap_in:left_out_convo",
+            "@type": "@id"
+        },
+        "voice_lose_income": {
+            "@id": "questionnaire_across_all_cohorts_voice_handicap_in:voice_lose_income",
+            "@type": "@id"
+        },
+        "strain_voice": {
+            "@id": "questionnaire_across_all_cohorts_voice_handicap_in:strain_voice",
+            "@type": "@id"
+        },
+        "voice_clarity": {
+            "@id": "questionnaire_across_all_cohorts_voice_handicap_in:voice_clarity",
+            "@type": "@id"
+        },
+        "voice_upsetting": {
+            "@id": "questionnaire_across_all_cohorts_voice_handicap_in:voice_upsetting",
+            "@type": "@id"
+        },
+        "voice_handicapped": {
+            "@id": "questionnaire_across_all_cohorts_voice_handicap_in:voice_handicapped",
+            "@type": "@id"
+        },
+        "ask_whats_wrong_voice": {
+            "@id": "questionnaire_across_all_cohorts_voice_handicap_in:ask_whats_wrong_voice",
+            "@type": "@id"
+        }
+    }
+}

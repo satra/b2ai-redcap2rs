@@ -1,0 +1,65 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/questionnaire_voice_disorders_voice_problem_severi/questionnaire_voice_disorders_voice_problem_severi_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "questionnaire_voice_disorders_voice_problem_severi_schema",
+    "skos:altLabel": "questionnaire_voice_disorders_voice_problem_severi_schema",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "variableMap": [
+        {
+            "variableName": "voice_severity_session_id",
+            "isAbout": "voice_severity_session_id"
+        },
+        {
+            "variableName": "voice_severity_started_at",
+            "isAbout": "voice_severity_started_at"
+        },
+        {
+            "variableName": "voice_severity_completed_at",
+            "isAbout": "voice_severity_completed_at"
+        },
+        {
+            "variableName": "voice_severity_duration",
+            "isAbout": "voice_severity_duration"
+        },
+        {
+            "variableName": "describe_the_severity_of_a",
+            "isAbout": "describe_the_severity_of_a"
+        }
+    ],
+    "ui": {
+        "order": [
+            "voice_severity_session_id",
+            "voice_severity_started_at",
+            "voice_severity_completed_at",
+            "voice_severity_duration",
+            "describe_the_severity_of_a"
+        ],
+        "shuffle": false,
+        "visibility": [
+            {
+                "variableName": "voice_severity_session_id",
+                "isVis": true
+            },
+            {
+                "variableName": "voice_severity_started_at",
+                "isVis": true
+            },
+            {
+                "variableName": "voice_severity_completed_at",
+                "isVis": true
+            },
+            {
+                "variableName": "voice_severity_duration",
+                "isVis": true
+            },
+            {
+                "variableName": "describe_the_severity_of_a",
+                "isVis": true
+            }
+        ]
+    }
+}

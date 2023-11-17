@@ -1,0 +1,36 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "Please explain"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": null,
+                "schema:name": "I am pregnant ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "I have an IUD ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "I have gone through menopause ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "Other",
+                "@type": "schema:option"
+            }
+        ]
+    }
+}

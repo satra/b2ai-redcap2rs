@@ -1,0 +1,19 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "requiredValue": true
+    },
+    "preamble": {
+        "en": "4.\tEtiology"
+    },
+    "question": {
+        "en": "Describe life events that may relate to the diagnosis"
+    }
+}

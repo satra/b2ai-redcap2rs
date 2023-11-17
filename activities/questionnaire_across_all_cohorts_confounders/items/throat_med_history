@@ -1,0 +1,77 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "radio",
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": "Pre-cancerous throat lesion (e.g. laryngeal leukoplakia or keratosis ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "Reflux (heartburn) ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 3,
+                "schema:name": "Reinke's edema",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 4,
+                "schema:name": "Sjögren's syndrome ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 5,
+                "schema:name": "Swallowing disorders (dysphagia) ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 6,
+                "schema:name": "Throat cancer ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 7,
+                "schema:name": "Thyroid disease ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 8,
+                "schema:name": "Velopharyngeal insufficiency ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 9,
+                "schema:name": "Vocal fold dysfunction",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 10,
+                "schema:name": "Vocal fold polyp",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 11,
+                "schema:name": "Vocal hemorrhage or bleed ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 12,
+                "schema:name": "Voice/throat disorder",
+                "@type": "schema:option"
+            }
+        ]
+    },
+    "question": {
+        "en": "Throat"
+    }
+}

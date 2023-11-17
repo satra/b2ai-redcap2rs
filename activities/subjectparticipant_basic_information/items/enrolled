@@ -1,0 +1,18 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "yesno"
+    },
+    "preamble": {
+        "en": "Enrollment Details"
+    },
+    "question": {
+        "en": "Enrolled"
+    },
+    "responseOptions": {
+        "requiredValue": true
+    }
+}

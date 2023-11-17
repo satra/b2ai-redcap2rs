@@ -1,0 +1,41 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "Question 2"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 0,
+                "schema:name": "I do not feel more self-confident than usual. ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 1,
+                "schema:name": "I occasionally feel more self-confident than usual. ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "I often feel more self-confident than usual. ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 3,
+                "schema:name": "I frequently feel more self-confident than usual. ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 4,
+                "schema:name": "I feel extremely self-confident all of the time.",
+                "@type": "schema:option"
+            }
+        ]
+    }
+}

@@ -1,0 +1,374 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "questionnaire_across_all_cohorts_confounders": "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/questionnaire_across_all_cohorts_confounders/items/",
+        "confounders_session_id": {
+            "@id": "questionnaire_across_all_cohorts_confounders:confounders_session_id",
+            "@type": "@id"
+        },
+        "confounders_started_at": {
+            "@id": "questionnaire_across_all_cohorts_confounders:confounders_started_at",
+            "@type": "@id"
+        },
+        "confounders_completed_at": {
+            "@id": "questionnaire_across_all_cohorts_confounders:confounders_completed_at",
+            "@type": "@id"
+        },
+        "confounders_duration": {
+            "@id": "questionnaire_across_all_cohorts_confounders:confounders_duration",
+            "@type": "@id"
+        },
+        "is_regular_smoker": {
+            "@id": "questionnaire_across_all_cohorts_confounders:is_regular_smoker",
+            "@type": "@id"
+        },
+        "smoking_hx": {
+            "@id": "questionnaire_across_all_cohorts_confounders:smoking_hx",
+            "@type": "@id"
+        },
+        "age_start_smoking": {
+            "@id": "questionnaire_across_all_cohorts_confounders:age_start_smoking",
+            "@type": "@id"
+        },
+        "age_stop_smoking": {
+            "@id": "questionnaire_across_all_cohorts_confounders:age_stop_smoking",
+            "@type": "@id"
+        },
+        "smoking_types": {
+            "@id": "questionnaire_across_all_cohorts_confounders:smoking_types",
+            "@type": "@id"
+        },
+        "other_smoking_specify": {
+            "@id": "questionnaire_across_all_cohorts_confounders:other_smoking_specify",
+            "@type": "@id"
+        },
+        "smoking_freq": {
+            "@id": "questionnaire_across_all_cohorts_confounders:smoking_freq",
+            "@type": "@id"
+        },
+        "alcohol_yn": {
+            "@id": "questionnaire_across_all_cohorts_confounders:alcohol_yn",
+            "@type": "@id"
+        },
+        "alcohol_freq": {
+            "@id": "questionnaire_across_all_cohorts_confounders:alcohol_freq",
+            "@type": "@id"
+        },
+        "alcohol_amt": {
+            "@id": "questionnaire_across_all_cohorts_confounders:alcohol_amt",
+            "@type": "@id"
+        },
+        "alcohol_drinks": {
+            "@id": "questionnaire_across_all_cohorts_confounders:alcohol_drinks",
+            "@type": "@id"
+        },
+        "alcohol_today": {
+            "@id": "questionnaire_across_all_cohorts_confounders:alcohol_today",
+            "@type": "@id"
+        },
+        "drinks_today_number": {
+            "@id": "questionnaire_across_all_cohorts_confounders:drinks_today_number",
+            "@type": "@id"
+        },
+        "alcohol_rehab": {
+            "@id": "questionnaire_across_all_cohorts_confounders:alcohol_rehab",
+            "@type": "@id"
+        },
+        "current_recovery_alcohol": {
+            "@id": "questionnaire_across_all_cohorts_confounders:current_recovery_alcohol",
+            "@type": "@id"
+        },
+        "recreational_drug_use": {
+            "@id": "questionnaire_across_all_cohorts_confounders:recreational_drug_use",
+            "@type": "@id"
+        },
+        "substance_use_recovery": {
+            "@id": "questionnaire_across_all_cohorts_confounders:substance_use_recovery",
+            "@type": "@id"
+        },
+        "painkillers": {
+            "@id": "questionnaire_across_all_cohorts_confounders:painkillers",
+            "@type": "@id"
+        },
+        "stimulants": {
+            "@id": "questionnaire_across_all_cohorts_confounders:stimulants",
+            "@type": "@id"
+        },
+        "sedatives": {
+            "@id": "questionnaire_across_all_cohorts_confounders:sedatives",
+            "@type": "@id"
+        },
+        "marijuana": {
+            "@id": "questionnaire_across_all_cohorts_confounders:marijuana",
+            "@type": "@id"
+        },
+        "cocaine": {
+            "@id": "questionnaire_across_all_cohorts_confounders:cocaine",
+            "@type": "@id"
+        },
+        "club_drugs": {
+            "@id": "questionnaire_across_all_cohorts_confounders:club_drugs",
+            "@type": "@id"
+        },
+        "hallucinogens": {
+            "@id": "questionnaire_across_all_cohorts_confounders:hallucinogens",
+            "@type": "@id"
+        },
+        "heroin": {
+            "@id": "questionnaire_across_all_cohorts_confounders:heroin",
+            "@type": "@id"
+        },
+        "inhalants": {
+            "@id": "questionnaire_across_all_cohorts_confounders:inhalants",
+            "@type": "@id"
+        },
+        "methamphetamine": {
+            "@id": "questionnaire_across_all_cohorts_confounders:methamphetamine",
+            "@type": "@id"
+        },
+        "caffeine_intake": {
+            "@id": "questionnaire_across_all_cohorts_confounders:caffeine_intake",
+            "@type": "@id"
+        },
+        "caffeine_intake_today": {
+            "@id": "questionnaire_across_all_cohorts_confounders:caffeine_intake_today",
+            "@type": "@id"
+        },
+        "hydration": {
+            "@id": "questionnaire_across_all_cohorts_confounders:hydration",
+            "@type": "@id"
+        },
+        "hydration_today": {
+            "@id": "questionnaire_across_all_cohorts_confounders:hydration_today",
+            "@type": "@id"
+        },
+        "dental_problems": {
+            "@id": "questionnaire_across_all_cohorts_confounders:dental_problems",
+            "@type": "@id"
+        },
+        "dental_tx": {
+            "@id": "questionnaire_across_all_cohorts_confounders:dental_tx",
+            "@type": "@id"
+        },
+        "seasonal_allergies": {
+            "@id": "questionnaire_across_all_cohorts_confounders:seasonal_allergies",
+            "@type": "@id"
+        },
+        "seasonal_allergies_options": {
+            "@id": "questionnaire_across_all_cohorts_confounders:seasonal_allergies_options",
+            "@type": "@id"
+        },
+        "tired_measure": {
+            "@id": "questionnaire_across_all_cohorts_confounders:tired_measure",
+            "@type": "@id"
+        },
+        "height": {
+            "@id": "questionnaire_across_all_cohorts_confounders:height",
+            "@type": "@id"
+        },
+        "weight": {
+            "@id": "questionnaire_across_all_cohorts_confounders:weight",
+            "@type": "@id"
+        },
+        "unit": {
+            "@id": "questionnaire_across_all_cohorts_confounders:unit",
+            "@type": "@id"
+        },
+        "symptoms": {
+            "@id": "questionnaire_across_all_cohorts_confounders:symptoms",
+            "@type": "@id"
+        },
+        "ear_med_history": {
+            "@id": "questionnaire_across_all_cohorts_confounders:ear_med_history",
+            "@type": "@id"
+        },
+        "nose_med_history": {
+            "@id": "questionnaire_across_all_cohorts_confounders:nose_med_history",
+            "@type": "@id"
+        },
+        "throat_med_history": {
+            "@id": "questionnaire_across_all_cohorts_confounders:throat_med_history",
+            "@type": "@id"
+        },
+        "head_med_history": {
+            "@id": "questionnaire_across_all_cohorts_confounders:head_med_history",
+            "@type": "@id"
+        },
+        "ear_surgical": {
+            "@id": "questionnaire_across_all_cohorts_confounders:ear_surgical",
+            "@type": "@id"
+        },
+        "nose_surgical": {
+            "@id": "questionnaire_across_all_cohorts_confounders:nose_surgical",
+            "@type": "@id"
+        },
+        "throat_surgical": {
+            "@id": "questionnaire_across_all_cohorts_confounders:throat_surgical",
+            "@type": "@id"
+        },
+        "head_surgical": {
+            "@id": "questionnaire_across_all_cohorts_confounders:head_surgical",
+            "@type": "@id"
+        },
+        "neurological_history": {
+            "@id": "questionnaire_across_all_cohorts_confounders:neurological_history",
+            "@type": "@id"
+        },
+        "current_neuro_dx": {
+            "@id": "questionnaire_across_all_cohorts_confounders:current_neuro_dx",
+            "@type": "@id"
+        },
+        "specify_current_neuro": {
+            "@id": "questionnaire_across_all_cohorts_confounders:specify_current_neuro",
+            "@type": "@id"
+        },
+        "respiratory_conditions": {
+            "@id": "questionnaire_across_all_cohorts_confounders:respiratory_conditions",
+            "@type": "@id"
+        },
+        "lung_or_metastatic": {
+            "@id": "questionnaire_across_all_cohorts_confounders:lung_or_metastatic",
+            "@type": "@id"
+        },
+        "covid": {
+            "@id": "questionnaire_across_all_cohorts_confounders:covid",
+            "@type": "@id"
+        },
+        "covid_past": {
+            "@id": "questionnaire_across_all_cohorts_confounders:covid_past",
+            "@type": "@id"
+        },
+        "cpap_conditions": {
+            "@id": "questionnaire_across_all_cohorts_confounders:cpap_conditions",
+            "@type": "@id"
+        },
+        "resp_medical_history": {
+            "@id": "questionnaire_across_all_cohorts_confounders:resp_medical_history",
+            "@type": "@id"
+        },
+        "exposed_environmental_pollution": {
+            "@id": "questionnaire_across_all_cohorts_confounders:exposed_environmental_pollution",
+            "@type": "@id"
+        },
+        "circulatory_conditions": {
+            "@id": "questionnaire_across_all_cohorts_confounders:circulatory_conditions",
+            "@type": "@id"
+        },
+        "cardiac_condition": {
+            "@id": "questionnaire_across_all_cohorts_confounders:cardiac_condition",
+            "@type": "@id"
+        },
+        "circulatory_med_history": {
+            "@id": "questionnaire_across_all_cohorts_confounders:circulatory_med_history",
+            "@type": "@id"
+        },
+        "infection_disease": {
+            "@id": "questionnaire_across_all_cohorts_confounders:infection_disease",
+            "@type": "@id"
+        },
+        "ph_standing": {
+            "@id": "questionnaire_across_all_cohorts_confounders:ph_standing",
+            "@type": "@id"
+        },
+        "ph_take_care": {
+            "@id": "questionnaire_across_all_cohorts_confounders:ph_take_care",
+            "@type": "@id"
+        },
+        "ph_learn_task": {
+            "@id": "questionnaire_across_all_cohorts_confounders:ph_learn_task",
+            "@type": "@id"
+        },
+        "ph_problem_join": {
+            "@id": "questionnaire_across_all_cohorts_confounders:ph_problem_join",
+            "@type": "@id"
+        },
+        "ph_health_problem": {
+            "@id": "questionnaire_across_all_cohorts_confounders:ph_health_problem",
+            "@type": "@id"
+        },
+        "ph_concentrating": {
+            "@id": "questionnaire_across_all_cohorts_confounders:ph_concentrating",
+            "@type": "@id"
+        },
+        "ph_walking": {
+            "@id": "questionnaire_across_all_cohorts_confounders:ph_walking",
+            "@type": "@id"
+        },
+        "ph_washing": {
+            "@id": "questionnaire_across_all_cohorts_confounders:ph_washing",
+            "@type": "@id"
+        },
+        "ph_get_dressed": {
+            "@id": "questionnaire_across_all_cohorts_confounders:ph_get_dressed",
+            "@type": "@id"
+        },
+        "ph_dealing_people": {
+            "@id": "questionnaire_across_all_cohorts_confounders:ph_dealing_people",
+            "@type": "@id"
+        },
+        "ph_friendship": {
+            "@id": "questionnaire_across_all_cohorts_confounders:ph_friendship",
+            "@type": "@id"
+        },
+        "ph_day_to_day_work": {
+            "@id": "questionnaire_across_all_cohorts_confounders:ph_day_to_day_work",
+            "@type": "@id"
+        },
+        "physical_health_freq": {
+            "@id": "questionnaire_across_all_cohorts_confounders:physical_health_freq",
+            "@type": "@id"
+        },
+        "phys_health_impact": {
+            "@id": "questionnaire_across_all_cohorts_confounders:phys_health_impact",
+            "@type": "@id"
+        },
+        "phys_health_limited": {
+            "@id": "questionnaire_across_all_cohorts_confounders:phys_health_limited",
+            "@type": "@id"
+        },
+        "medications": {
+            "@id": "questionnaire_across_all_cohorts_confounders:medications",
+            "@type": "@id"
+        },
+        "hormone_use": {
+            "@id": "questionnaire_across_all_cohorts_confounders:hormone_use",
+            "@type": "@id"
+        },
+        "pain_medication": {
+            "@id": "questionnaire_across_all_cohorts_confounders:pain_medication",
+            "@type": "@id"
+        },
+        "menstruate": {
+            "@id": "questionnaire_across_all_cohorts_confounders:menstruate",
+            "@type": "@id"
+        },
+        "menstruate_no": {
+            "@id": "questionnaire_across_all_cohorts_confounders:menstruate_no",
+            "@type": "@id"
+        },
+        "other_menstruate_specify": {
+            "@id": "questionnaire_across_all_cohorts_confounders:other_menstruate_specify",
+            "@type": "@id"
+        },
+        "menstrual_cycle_status": {
+            "@id": "questionnaire_across_all_cohorts_confounders:menstrual_cycle_status",
+            "@type": "@id"
+        },
+        "voice_activity": {
+            "@id": "questionnaire_across_all_cohorts_confounders:voice_activity",
+            "@type": "@id"
+        },
+        "other_voice_activity": {
+            "@id": "questionnaire_across_all_cohorts_confounders:other_voice_activity",
+            "@type": "@id"
+        },
+        "hours_voice_activity": {
+            "@id": "questionnaire_across_all_cohorts_confounders:hours_voice_activity",
+            "@type": "@id"
+        },
+        "reading_aloud": {
+            "@id": "questionnaire_across_all_cohorts_confounders:reading_aloud",
+            "@type": "@id"
+        }
+    }
+}

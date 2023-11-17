@@ -1,0 +1,40 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "radio"
+    },
+    "preamble": {
+        "en": "1. Gold Standard Diagnosis"
+    },
+    "question": {
+        "en": "Diagnosis"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": null,
+                "schema:name": "Bipolar I disorder ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "Bipolar II disorder ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "Cyclothymic disorder (cyclothymia) ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "Other specified and unspecified bipolar and related disorders",
+                "@type": "schema:option"
+            }
+        ],
+        "requiredValue": true
+    }
+}

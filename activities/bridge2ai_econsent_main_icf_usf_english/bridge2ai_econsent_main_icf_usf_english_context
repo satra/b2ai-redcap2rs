@@ -1,0 +1,58 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "bridge2ai_econsent_main_icf_usf_english": "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/bridge2ai_econsent_main_icf_usf_english/items/",
+        "page_1": {
+            "@id": "bridge2ai_econsent_main_icf_usf_english:page_1",
+            "@type": "@id"
+        },
+        "page2": {
+            "@id": "bridge2ai_econsent_main_icf_usf_english:page2",
+            "@type": "@id"
+        },
+        "page3": {
+            "@id": "bridge2ai_econsent_main_icf_usf_english:page3",
+            "@type": "@id"
+        },
+        "page_4": {
+            "@id": "bridge2ai_econsent_main_icf_usf_english:page_4",
+            "@type": "@id"
+        },
+        "page_5": {
+            "@id": "bridge2ai_econsent_main_icf_usf_english:page_5",
+            "@type": "@id"
+        },
+        "page6": {
+            "@id": "bridge2ai_econsent_main_icf_usf_english:page6",
+            "@type": "@id"
+        },
+        "page7": {
+            "@id": "bridge2ai_econsent_main_icf_usf_english:page7",
+            "@type": "@id"
+        },
+        "page8": {
+            "@id": "bridge2ai_econsent_main_icf_usf_english:page8",
+            "@type": "@id"
+        },
+        "page_9": {
+            "@id": "bridge2ai_econsent_main_icf_usf_english:page_9",
+            "@type": "@id"
+        },
+        "consent_usf_question": {
+            "@id": "bridge2ai_econsent_main_icf_usf_english:consent_usf_question",
+            "@type": "@id"
+        },
+        "consent_usf_signature": {
+            "@id": "bridge2ai_econsent_main_icf_usf_english:consent_usf_signature",
+            "@type": "@id"
+        },
+        "consent_usf_name": {
+            "@id": "bridge2ai_econsent_main_icf_usf_english:consent_usf_name",
+            "@type": "@id"
+        },
+        "consent_usf_date": {
+            "@id": "bridge2ai_econsent_main_icf_usf_english:consent_usf_date",
+            "@type": "@id"
+        }
+    }
+}

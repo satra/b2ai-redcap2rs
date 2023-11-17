@@ -1,0 +1,74 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/session/session_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "session_schema",
+    "skos:altLabel": "session_schema",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "variableMap": [
+        {
+            "variableName": "session_id",
+            "isAbout": "session_id"
+        },
+        {
+            "variableName": "session_status",
+            "isAbout": "session_status"
+        },
+        {
+            "variableName": "session_started_at",
+            "isAbout": "session_started_at"
+        },
+        {
+            "variableName": "session_completed_at",
+            "isAbout": "session_completed_at"
+        },
+        {
+            "variableName": "session_duration",
+            "isAbout": "session_duration"
+        },
+        {
+            "variableName": "session_site",
+            "isAbout": "session_site"
+        }
+    ],
+    "ui": {
+        "order": [
+            "session_id",
+            "session_status",
+            "session_started_at",
+            "session_completed_at",
+            "session_duration",
+            "session_site"
+        ],
+        "shuffle": false,
+        "visibility": [
+            {
+                "variableName": "session_id",
+                "isVis": true
+            },
+            {
+                "variableName": "session_status",
+                "isVis": true
+            },
+            {
+                "variableName": "session_started_at",
+                "isVis": true
+            },
+            {
+                "variableName": "session_completed_at",
+                "isVis": true
+            },
+            {
+                "variableName": "session_duration",
+                "isVis": true
+            },
+            {
+                "variableName": "session_site",
+                "isVis": true
+            }
+        ]
+    }
+}

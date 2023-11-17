@@ -1,0 +1,19 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:int",
+        "requiredValue": true
+    },
+    "preamble": {
+        "en": "HYDRATION"
+    },
+    "question": {
+        "en": "How many small (8oz or 230ml) cups of water do you drink on a typical day?"
+    }
+}

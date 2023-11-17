@@ -1,0 +1,94 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "questionnaire_mood_disorders_adhd_adult": "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/questionnaire_mood_disorders_adhd_adult/items/",
+        "adhd_session_id": {
+            "@id": "questionnaire_mood_disorders_adhd_adult:adhd_session_id",
+            "@type": "@id"
+        },
+        "adhd_started_at": {
+            "@id": "questionnaire_mood_disorders_adhd_adult:adhd_started_at",
+            "@type": "@id"
+        },
+        "adhd_completed_at": {
+            "@id": "questionnaire_mood_disorders_adhd_adult:adhd_completed_at",
+            "@type": "@id"
+        },
+        "adhd_duration": {
+            "@id": "questionnaire_mood_disorders_adhd_adult:adhd_duration",
+            "@type": "@id"
+        },
+        "wrapping_up": {
+            "@id": "questionnaire_mood_disorders_adhd_adult:wrapping_up",
+            "@type": "@id"
+        },
+        "things_in_order": {
+            "@id": "questionnaire_mood_disorders_adhd_adult:things_in_order",
+            "@type": "@id"
+        },
+        "remembering_appt": {
+            "@id": "questionnaire_mood_disorders_adhd_adult:remembering_appt",
+            "@type": "@id"
+        },
+        "avoidance": {
+            "@id": "questionnaire_mood_disorders_adhd_adult:avoidance",
+            "@type": "@id"
+        },
+        "fidget": {
+            "@id": "questionnaire_mood_disorders_adhd_adult:fidget",
+            "@type": "@id"
+        },
+        "overly_active": {
+            "@id": "questionnaire_mood_disorders_adhd_adult:overly_active",
+            "@type": "@id"
+        },
+        "careless": {
+            "@id": "questionnaire_mood_disorders_adhd_adult:careless",
+            "@type": "@id"
+        },
+        "difficulty_attention": {
+            "@id": "questionnaire_mood_disorders_adhd_adult:difficulty_attention",
+            "@type": "@id"
+        },
+        "difficulty_concentrating": {
+            "@id": "questionnaire_mood_disorders_adhd_adult:difficulty_concentrating",
+            "@type": "@id"
+        },
+        "misplace": {
+            "@id": "questionnaire_mood_disorders_adhd_adult:misplace",
+            "@type": "@id"
+        },
+        "distracted": {
+            "@id": "questionnaire_mood_disorders_adhd_adult:distracted",
+            "@type": "@id"
+        },
+        "remain_seated": {
+            "@id": "questionnaire_mood_disorders_adhd_adult:remain_seated",
+            "@type": "@id"
+        },
+        "restless": {
+            "@id": "questionnaire_mood_disorders_adhd_adult:restless",
+            "@type": "@id"
+        },
+        "difficulty_unwinding": {
+            "@id": "questionnaire_mood_disorders_adhd_adult:difficulty_unwinding",
+            "@type": "@id"
+        },
+        "talking_too_much": {
+            "@id": "questionnaire_mood_disorders_adhd_adult:talking_too_much",
+            "@type": "@id"
+        },
+        "finish_other_sent": {
+            "@id": "questionnaire_mood_disorders_adhd_adult:finish_other_sent",
+            "@type": "@id"
+        },
+        "difficulty_waiting": {
+            "@id": "questionnaire_mood_disorders_adhd_adult:difficulty_waiting",
+            "@type": "@id"
+        },
+        "interrupt_others": {
+            "@id": "questionnaire_mood_disorders_adhd_adult:interrupt_others",
+            "@type": "@id"
+        }
+    }
+}

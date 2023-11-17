@@ -1,0 +1,50 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "radio",
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": "Brain tumor ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "Dysarthria ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 3,
+                "schema:name": "Epilepsy ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 4,
+                "schema:name": "Multiple sclerosis ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 5,
+                "schema:name": "Traumatic brain injury ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 6,
+                "schema:name": "Other",
+                "@type": "schema:option"
+            }
+        ]
+    },
+    "preamble": {
+        "en": "NEUROLOGICAL MEDICAL HISTORY\n\nHave you been diagnosed with any of these neurological health conditions by a clinician? (check all that apply)"
+    },
+    "question": {
+        "en": "Neurological Medical History"
+    }
+}

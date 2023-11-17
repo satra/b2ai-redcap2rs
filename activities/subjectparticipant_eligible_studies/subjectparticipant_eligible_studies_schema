@@ -1,0 +1,451 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/subjectparticipant_eligible_studies/subjectparticipant_eligible_studies_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "subjectparticipant_eligible_studies_schema",
+    "skos:altLabel": "subjectparticipant_eligible_studies_schema",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "variableMap": [
+        {
+            "variableName": "eligible_studies",
+            "isAbout": "eligible_studies"
+        },
+        {
+            "variableName": "laryng_cancer",
+            "isAbout": "laryng_cancer"
+        },
+        {
+            "variableName": "benign_cord_lesion",
+            "isAbout": "benign_cord_lesion"
+        },
+        {
+            "variableName": "rrp",
+            "isAbout": "rrp"
+        },
+        {
+            "variableName": "spas_dys",
+            "isAbout": "spas_dys"
+        },
+        {
+            "variableName": "voc_fold_paralysis",
+            "isAbout": "voc_fold_paralysis"
+        },
+        {
+            "variableName": "alz_dementia_mci",
+            "isAbout": "alz_dementia_mci"
+        },
+        {
+            "variableName": "als",
+            "isAbout": "als"
+        },
+        {
+            "variableName": "parkinsons",
+            "isAbout": "parkinsons"
+        },
+        {
+            "variableName": "alcohol_subst_abuse",
+            "isAbout": "alcohol_subst_abuse"
+        },
+        {
+            "variableName": "gad",
+            "isAbout": "gad"
+        },
+        {
+            "variableName": "add_adhd",
+            "isAbout": "add_adhd"
+        },
+        {
+            "variableName": "asd",
+            "isAbout": "asd"
+        },
+        {
+            "variableName": "bipolar",
+            "isAbout": "bipolar"
+        },
+        {
+            "variableName": "bpd",
+            "isAbout": "bpd"
+        },
+        {
+            "variableName": "depression",
+            "isAbout": "depression"
+        },
+        {
+            "variableName": "ed",
+            "isAbout": "ed"
+        },
+        {
+            "variableName": "insomnia",
+            "isAbout": "insomnia"
+        },
+        {
+            "variableName": "ocd",
+            "isAbout": "ocd"
+        },
+        {
+            "variableName": "panic",
+            "isAbout": "panic"
+        },
+        {
+            "variableName": "ptsd",
+            "isAbout": "ptsd"
+        },
+        {
+            "variableName": "schizophrenia",
+            "isAbout": "schizophrenia"
+        },
+        {
+            "variableName": "soc_anx_dis",
+            "isAbout": "soc_anx_dis"
+        },
+        {
+            "variableName": "other_psych",
+            "isAbout": "other_psych"
+        },
+        {
+            "variableName": "asthma",
+            "isAbout": "asthma"
+        },
+        {
+            "variableName": "airway_stenosis",
+            "isAbout": "airway_stenosis"
+        },
+        {
+            "variableName": "chronic_cough",
+            "isAbout": "chronic_cough"
+        },
+        {
+            "variableName": "copd",
+            "isAbout": "copd"
+        },
+        {
+            "variableName": "osa",
+            "isAbout": "osa"
+        },
+        {
+            "variableName": "autism",
+            "isAbout": "autism"
+        },
+        {
+            "variableName": "speech_delay",
+            "isAbout": "speech_delay"
+        }
+    ],
+    "ui": {
+        "order": [
+            "eligible_studies",
+            "laryng_cancer",
+            "benign_cord_lesion",
+            "rrp",
+            "spas_dys",
+            "voc_fold_paralysis",
+            "alz_dementia_mci",
+            "als",
+            "parkinsons",
+            "alcohol_subst_abuse",
+            "gad",
+            "add_adhd",
+            "asd",
+            "bipolar",
+            "bpd",
+            "depression",
+            "ed",
+            "insomnia",
+            "ocd",
+            "panic",
+            "ptsd",
+            "schizophrenia",
+            "soc_anx_dis",
+            "other_psych",
+            "asthma",
+            "airway_stenosis",
+            "chronic_cough",
+            "copd",
+            "osa",
+            "autism",
+            "speech_delay"
+        ],
+        "shuffle": false,
+        "visibility": [
+            {
+                "variableName": "eligible_studies",
+                "isVis": true
+            },
+            {
+                "variableName": "laryng_cancer",
+                "isVis": true
+            },
+            {
+                "variableName": "benign_cord_lesion",
+                "isVis": true
+            },
+            {
+                "variableName": "rrp",
+                "isVis": true
+            },
+            {
+                "variableName": "spas_dys",
+                "isVis": true
+            },
+            {
+                "variableName": "voc_fold_paralysis",
+                "isVis": true
+            },
+            {
+                "variableName": "alz_dementia_mci",
+                "isVis": true
+            },
+            {
+                "variableName": "als",
+                "isVis": true
+            },
+            {
+                "variableName": "parkinsons",
+                "isVis": true
+            },
+            {
+                "variableName": "alcohol_subst_abuse",
+                "isVis": true
+            },
+            {
+                "variableName": "gad",
+                "isVis": true
+            },
+            {
+                "variableName": "add_adhd",
+                "isVis": true
+            },
+            {
+                "variableName": "asd",
+                "isVis": true
+            },
+            {
+                "variableName": "bipolar",
+                "isVis": true
+            },
+            {
+                "variableName": "bpd",
+                "isVis": true
+            },
+            {
+                "variableName": "depression",
+                "isVis": true
+            },
+            {
+                "variableName": "ed",
+                "isVis": true
+            },
+            {
+                "variableName": "insomnia",
+                "isVis": true
+            },
+            {
+                "variableName": "ocd",
+                "isVis": true
+            },
+            {
+                "variableName": "panic",
+                "isVis": true
+            },
+            {
+                "variableName": "ptsd",
+                "isVis": true
+            },
+            {
+                "variableName": "schizophrenia",
+                "isVis": true
+            },
+            {
+                "variableName": "soc_anx_dis",
+                "isVis": true
+            },
+            {
+                "variableName": "other_psych",
+                "isVis": true
+            },
+            {
+                "variableName": "asthma",
+                "isVis": true
+            },
+            {
+                "variableName": "airway_stenosis",
+                "isVis": true
+            },
+            {
+                "variableName": "chronic_cough",
+                "isVis": true
+            },
+            {
+                "variableName": "copd",
+                "isVis": true
+            },
+            {
+                "variableName": "osa",
+                "isVis": true
+            },
+            {
+                "variableName": "autism",
+                "isVis": true
+            },
+            {
+                "variableName": "speech_delay",
+                "isVis": true
+            }
+        ]
+    },
+    "matrixInfo": [
+        {
+            "variableName": "laryng_cancer",
+            "matrixGroupName": "voice_disorders",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "benign_cord_lesion",
+            "matrixGroupName": "voice_disorders",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "rrp",
+            "matrixGroupName": "voice_disorders",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "spas_dys",
+            "matrixGroupName": "voice_disorders",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "voc_fold_paralysis",
+            "matrixGroupName": "voice_disorders",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "alz_dementia_mci",
+            "matrixGroupName": "neuro_neurodeg_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "als",
+            "matrixGroupName": "neuro_neurodeg_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "parkinsons",
+            "matrixGroupName": "neuro_neurodeg_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "alcohol_subst_abuse",
+            "matrixGroupName": "mood_psych_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "gad",
+            "matrixGroupName": "mood_psych_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "add_adhd",
+            "matrixGroupName": "mood_psych_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "asd",
+            "matrixGroupName": "mood_psych_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "bipolar",
+            "matrixGroupName": "mood_psych_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "bpd",
+            "matrixGroupName": "mood_psych_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "depression",
+            "matrixGroupName": "mood_psych_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ed",
+            "matrixGroupName": "mood_psych_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "insomnia",
+            "matrixGroupName": "mood_psych_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ocd",
+            "matrixGroupName": "mood_psych_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "panic",
+            "matrixGroupName": "mood_psych_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ptsd",
+            "matrixGroupName": "mood_psych_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "schizophrenia",
+            "matrixGroupName": "mood_psych_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "soc_anx_dis",
+            "matrixGroupName": "mood_psych_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "other_psych",
+            "matrixGroupName": "mood_psych_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "asthma",
+            "matrixGroupName": "resp_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "airway_stenosis",
+            "matrixGroupName": "resp_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "chronic_cough",
+            "matrixGroupName": "resp_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "copd",
+            "matrixGroupName": "resp_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "osa",
+            "matrixGroupName": "resp_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "autism",
+            "matrixGroupName": "peds_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "speech_delay",
+            "matrixGroupName": "peds_dis",
+            "matrixRanking": ""
+        }
+    ]
+}

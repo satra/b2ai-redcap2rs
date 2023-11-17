@@ -1,0 +1,56 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "radio",
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": "Bartender ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "Waiter",
+                "@type": "schema:option",
+                "schema:image": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/618x618/receptionist .png"
+            },
+            {
+                "schema:value": 3,
+                "schema:name": "Speaking  (secretary",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 4,
+                "schema:name": "Teacher ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 5,
+                "schema:name": "Singer ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 6,
+                "schema:name": "Cheerleading ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 7,
+                "schema:name": "Other",
+                "@type": "schema:option"
+            }
+        ]
+    },
+    "preamble": {
+        "en": "VOICE ACTIVITY"
+    },
+    "question": {
+        "en": "Do you do one of these jobs or hobbies that requires using your voice for many hours a day? (check all that apply)"
+    }
+}

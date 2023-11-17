@@ -1,0 +1,23 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "text",
+        "customAlignment": "RH"
+    },
+    "responseOptions": {
+        "valueType": "xsd:int"
+    },
+    "question": {
+        "en": "How many hours per day do you do this activity with a loud voice or in a loud environment that requires elevating your voice (for instance, a noisy bar or a noisy classroom)?"
+    },
+    "additionalNotesObj": [
+        {
+            "source": "redcap",
+            "column": "Field Note",
+            "value": "hours"
+        }
+    ]
+}

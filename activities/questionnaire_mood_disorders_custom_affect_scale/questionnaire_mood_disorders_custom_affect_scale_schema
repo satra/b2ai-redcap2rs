@@ -1,0 +1,240 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/questionnaire_mood_disorders_custom_affect_scale/questionnaire_mood_disorders_custom_affect_scale_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "questionnaire_mood_disorders_custom_affect_scale_schema",
+    "skos:altLabel": "questionnaire_mood_disorders_custom_affect_scale_schema",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "variableMap": [
+        {
+            "variableName": "custom_affect_scale_session_id",
+            "isAbout": "custom_affect_scale_session_id"
+        },
+        {
+            "variableName": "custom_affect_scale_started_at",
+            "isAbout": "custom_affect_scale_started_at"
+        },
+        {
+            "variableName": "custom_affect_scale_completed_at",
+            "isAbout": "custom_affect_scale_completed_at"
+        },
+        {
+            "variableName": "custom_affect_scale_duration",
+            "isAbout": "custom_affect_scale_duration"
+        },
+        {
+            "variableName": "sad_or_down",
+            "isAbout": "sad_or_down"
+        },
+        {
+            "variableName": "joyful",
+            "isAbout": "joyful"
+        },
+        {
+            "variableName": "motivated",
+            "isAbout": "motivated"
+        },
+        {
+            "variableName": "lack_of_pleasure",
+            "isAbout": "lack_of_pleasure"
+        },
+        {
+            "variableName": "tired",
+            "isAbout": "tired"
+        },
+        {
+            "variableName": "energetic",
+            "isAbout": "energetic"
+        },
+        {
+            "variableName": "agitated",
+            "isAbout": "agitated"
+        },
+        {
+            "variableName": "irritated",
+            "isAbout": "irritated"
+        },
+        {
+            "variableName": "lonely",
+            "isAbout": "lonely"
+        },
+        {
+            "variableName": "concentrated",
+            "isAbout": "concentrated"
+        },
+        {
+            "variableName": "relaxed",
+            "isAbout": "relaxed"
+        },
+        {
+            "variableName": "worried",
+            "isAbout": "worried"
+        },
+        {
+            "variableName": "desire_to_escape",
+            "isAbout": "desire_to_escape"
+        }
+    ],
+    "ui": {
+        "order": [
+            "custom_affect_scale_session_id",
+            "custom_affect_scale_started_at",
+            "custom_affect_scale_completed_at",
+            "custom_affect_scale_duration",
+            "sad_or_down",
+            "joyful",
+            "motivated",
+            "lack_of_pleasure",
+            "tired",
+            "energetic",
+            "agitated",
+            "irritated",
+            "lonely",
+            "concentrated",
+            "relaxed",
+            "worried",
+            "desire_to_escape"
+        ],
+        "shuffle": false,
+        "visibility": [
+            {
+                "variableName": "custom_affect_scale_session_id",
+                "isVis": true
+            },
+            {
+                "variableName": "custom_affect_scale_started_at",
+                "isVis": true
+            },
+            {
+                "variableName": "custom_affect_scale_completed_at",
+                "isVis": true
+            },
+            {
+                "variableName": "custom_affect_scale_duration",
+                "isVis": true
+            },
+            {
+                "variableName": "sad_or_down",
+                "isVis": true
+            },
+            {
+                "variableName": "joyful",
+                "isVis": true
+            },
+            {
+                "variableName": "motivated",
+                "isVis": true
+            },
+            {
+                "variableName": "lack_of_pleasure",
+                "isVis": true
+            },
+            {
+                "variableName": "tired",
+                "isVis": true
+            },
+            {
+                "variableName": "energetic",
+                "isVis": true
+            },
+            {
+                "variableName": "agitated",
+                "isVis": true
+            },
+            {
+                "variableName": "irritated",
+                "isVis": true
+            },
+            {
+                "variableName": "lonely",
+                "isVis": true
+            },
+            {
+                "variableName": "concentrated",
+                "isVis": true
+            },
+            {
+                "variableName": "relaxed",
+                "isVis": true
+            },
+            {
+                "variableName": "worried",
+                "isVis": true
+            },
+            {
+                "variableName": "desire_to_escape",
+                "isVis": true
+            }
+        ]
+    },
+    "matrixInfo": [
+        {
+            "variableName": "sad_or_down",
+            "matrixGroupName": "custom_affect_scale",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "joyful",
+            "matrixGroupName": "custom_affect_scale",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "motivated",
+            "matrixGroupName": "custom_affect_scale",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "lack_of_pleasure",
+            "matrixGroupName": "custom_affect_scale",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "tired",
+            "matrixGroupName": "custom_affect_scale",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "energetic",
+            "matrixGroupName": "custom_affect_scale",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "agitated",
+            "matrixGroupName": "custom_affect_scale",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "irritated",
+            "matrixGroupName": "custom_affect_scale",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "lonely",
+            "matrixGroupName": "custom_affect_scale",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "concentrated",
+            "matrixGroupName": "custom_affect_scale",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "relaxed",
+            "matrixGroupName": "custom_affect_scale",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "worried",
+            "matrixGroupName": "custom_affect_scale",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "desire_to_escape",
+            "matrixGroupName": "custom_affect_scale",
+            "matrixRanking": ""
+        }
+    ]
+}

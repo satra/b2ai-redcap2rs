@@ -1,0 +1,65 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/questionnaire_across_all_cohorts_voice_perception/questionnaire_across_all_cohorts_voice_perception_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "questionnaire_across_all_cohorts_voice_perception_schema",
+    "skos:altLabel": "questionnaire_across_all_cohorts_voice_perception_schema",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "variableMap": [
+        {
+            "variableName": "voice_perception_session_id",
+            "isAbout": "voice_perception_session_id"
+        },
+        {
+            "variableName": "voice_perception_started_at",
+            "isAbout": "voice_perception_started_at"
+        },
+        {
+            "variableName": "voice_perception_completed_at",
+            "isAbout": "voice_perception_completed_at"
+        },
+        {
+            "variableName": "voice_perception_duration",
+            "isAbout": "voice_perception_duration"
+        },
+        {
+            "variableName": "voice_quality_perception",
+            "isAbout": "voice_quality_perception"
+        }
+    ],
+    "ui": {
+        "order": [
+            "voice_perception_session_id",
+            "voice_perception_started_at",
+            "voice_perception_completed_at",
+            "voice_perception_duration",
+            "voice_quality_perception"
+        ],
+        "shuffle": false,
+        "visibility": [
+            {
+                "variableName": "voice_perception_session_id",
+                "isVis": true
+            },
+            {
+                "variableName": "voice_perception_started_at",
+                "isVis": true
+            },
+            {
+                "variableName": "voice_perception_completed_at",
+                "isVis": true
+            },
+            {
+                "variableName": "voice_perception_duration",
+                "isVis": true
+            },
+            {
+                "variableName": "voice_quality_perception",
+                "isVis": true
+            }
+        ]
+    }
+}

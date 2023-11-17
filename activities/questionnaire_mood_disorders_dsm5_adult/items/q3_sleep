@@ -1,0 +1,41 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "Question 3"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 0,
+                "schema:name": "I do not need less sleep than usual. ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 1,
+                "schema:name": "I occasionally need less sleep than usual. ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "I often need less sleep than usual. ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 3,
+                "schema:name": "I frequently need less sleep than usual. ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 4,
+                "schema:name": "I can go all day and all night without any sleep and still not feel tired.",
+                "@type": "schema:option"
+            }
+        ]
+    }
+}

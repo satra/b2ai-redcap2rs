@@ -1,0 +1,27 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "radio",
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": "Active CPAP use ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "On supplemental oxygen",
+                "@type": "schema:option"
+            }
+        ]
+    },
+    "question": {
+        "en": "Are you currently using CPAP or supplemental oxygen? (check all that apply)"
+    }
+}

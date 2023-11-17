@@ -1,0 +1,22 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "bridge2ai_econsent_main_icf_usf_researcher_stateme": "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/bridge2ai_econsent_main_icf_usf_researcher_stateme/items/",
+        "researcher_statement2": {
+            "@id": "bridge2ai_econsent_main_icf_usf_researcher_stateme:researcher_statement2",
+            "@type": "@id"
+        },
+        "researcher_signature": {
+            "@id": "bridge2ai_econsent_main_icf_usf_researcher_stateme:researcher_signature",
+            "@type": "@id"
+        },
+        "researcher_name": {
+            "@id": "bridge2ai_econsent_main_icf_usf_researcher_stateme:researcher_name",
+            "@type": "@id"
+        },
+        "researcher_date": {
+            "@id": "bridge2ai_econsent_main_icf_usf_researcher_stateme:researcher_date",
+            "@type": "@id"
+        }
+    }
+}

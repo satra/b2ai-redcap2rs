@@ -1,0 +1,58 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "diagnosis_mood_disorders_bipolar_disorder": "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/diagnosis_mood_disorders_bipolar_disorder/items/",
+        "diagnosis_bipolar_gsd": {
+            "@id": "diagnosis_mood_disorders_bipolar_disorder:diagnosis_bipolar_gsd",
+            "@type": "@id"
+        },
+        "diagnosis_bipolar_gsd_interview": {
+            "@id": "diagnosis_mood_disorders_bipolar_disorder:diagnosis_bipolar_gsd_interview",
+            "@type": "@id"
+        },
+        "diagnosis_bipolar_gsd_oqu": {
+            "@id": "diagnosis_mood_disorders_bipolar_disorder:diagnosis_bipolar_gsd_oqu",
+            "@type": "@id"
+        },
+        "diagnosis_bipolar_gsd_oquw": {
+            "@id": "diagnosis_mood_disorders_bipolar_disorder:diagnosis_bipolar_gsd_oquw",
+            "@type": "@id"
+        },
+        "diagnosis_bipolar_gsd_oqu_other": {
+            "@id": "diagnosis_mood_disorders_bipolar_disorder:diagnosis_bipolar_gsd_oqu_other",
+            "@type": "@id"
+        },
+        "diagnosis_bipolar_active_problems": {
+            "@id": "diagnosis_mood_disorders_bipolar_disorder:diagnosis_bipolar_active_problems",
+            "@type": "@id"
+        },
+        "diagnosis_bipolar_history_problems": {
+            "@id": "diagnosis_mood_disorders_bipolar_disorder:diagnosis_bipolar_history_problems",
+            "@type": "@id"
+        },
+        "diagnosis_bipolar_subtype_active": {
+            "@id": "diagnosis_mood_disorders_bipolar_disorder:diagnosis_bipolar_subtype_active",
+            "@type": "@id"
+        },
+        "diagnosis_bipolar_psychotic": {
+            "@id": "diagnosis_mood_disorders_bipolar_disorder:diagnosis_bipolar_psychotic",
+            "@type": "@id"
+        },
+        "diagnosis_bipolar_etiology": {
+            "@id": "diagnosis_mood_disorders_bipolar_disorder:diagnosis_bipolar_etiology",
+            "@type": "@id"
+        },
+        "diagnosis_bipolar_severity": {
+            "@id": "diagnosis_mood_disorders_bipolar_disorder:diagnosis_bipolar_severity",
+            "@type": "@id"
+        },
+        "diagnosis_bipolar_current_med_therapies": {
+            "@id": "diagnosis_mood_disorders_bipolar_disorder:diagnosis_bipolar_current_med_therapies",
+            "@type": "@id"
+        },
+        "diagnosis_bipolar_former_med_therapies": {
+            "@id": "diagnosis_mood_disorders_bipolar_disorder:diagnosis_bipolar_former_med_therapies",
+            "@type": "@id"
+        }
+    }
+}

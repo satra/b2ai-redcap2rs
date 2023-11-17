@@ -1,0 +1,130 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "subjectparticipant_eligible_studies": "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/subjectparticipant_eligible_studies/items/",
+        "eligible_studies": {
+            "@id": "subjectparticipant_eligible_studies:eligible_studies",
+            "@type": "@id"
+        },
+        "laryng_cancer": {
+            "@id": "subjectparticipant_eligible_studies:laryng_cancer",
+            "@type": "@id"
+        },
+        "benign_cord_lesion": {
+            "@id": "subjectparticipant_eligible_studies:benign_cord_lesion",
+            "@type": "@id"
+        },
+        "rrp": {
+            "@id": "subjectparticipant_eligible_studies:rrp",
+            "@type": "@id"
+        },
+        "spas_dys": {
+            "@id": "subjectparticipant_eligible_studies:spas_dys",
+            "@type": "@id"
+        },
+        "voc_fold_paralysis": {
+            "@id": "subjectparticipant_eligible_studies:voc_fold_paralysis",
+            "@type": "@id"
+        },
+        "alz_dementia_mci": {
+            "@id": "subjectparticipant_eligible_studies:alz_dementia_mci",
+            "@type": "@id"
+        },
+        "als": {
+            "@id": "subjectparticipant_eligible_studies:als",
+            "@type": "@id"
+        },
+        "parkinsons": {
+            "@id": "subjectparticipant_eligible_studies:parkinsons",
+            "@type": "@id"
+        },
+        "alcohol_subst_abuse": {
+            "@id": "subjectparticipant_eligible_studies:alcohol_subst_abuse",
+            "@type": "@id"
+        },
+        "gad": {
+            "@id": "subjectparticipant_eligible_studies:gad",
+            "@type": "@id"
+        },
+        "add_adhd": {
+            "@id": "subjectparticipant_eligible_studies:add_adhd",
+            "@type": "@id"
+        },
+        "asd": {
+            "@id": "subjectparticipant_eligible_studies:asd",
+            "@type": "@id"
+        },
+        "bipolar": {
+            "@id": "subjectparticipant_eligible_studies:bipolar",
+            "@type": "@id"
+        },
+        "bpd": {
+            "@id": "subjectparticipant_eligible_studies:bpd",
+            "@type": "@id"
+        },
+        "depression": {
+            "@id": "subjectparticipant_eligible_studies:depression",
+            "@type": "@id"
+        },
+        "ed": {
+            "@id": "subjectparticipant_eligible_studies:ed",
+            "@type": "@id"
+        },
+        "insomnia": {
+            "@id": "subjectparticipant_eligible_studies:insomnia",
+            "@type": "@id"
+        },
+        "ocd": {
+            "@id": "subjectparticipant_eligible_studies:ocd",
+            "@type": "@id"
+        },
+        "panic": {
+            "@id": "subjectparticipant_eligible_studies:panic",
+            "@type": "@id"
+        },
+        "ptsd": {
+            "@id": "subjectparticipant_eligible_studies:ptsd",
+            "@type": "@id"
+        },
+        "schizophrenia": {
+            "@id": "subjectparticipant_eligible_studies:schizophrenia",
+            "@type": "@id"
+        },
+        "soc_anx_dis": {
+            "@id": "subjectparticipant_eligible_studies:soc_anx_dis",
+            "@type": "@id"
+        },
+        "other_psych": {
+            "@id": "subjectparticipant_eligible_studies:other_psych",
+            "@type": "@id"
+        },
+        "asthma": {
+            "@id": "subjectparticipant_eligible_studies:asthma",
+            "@type": "@id"
+        },
+        "airway_stenosis": {
+            "@id": "subjectparticipant_eligible_studies:airway_stenosis",
+            "@type": "@id"
+        },
+        "chronic_cough": {
+            "@id": "subjectparticipant_eligible_studies:chronic_cough",
+            "@type": "@id"
+        },
+        "copd": {
+            "@id": "subjectparticipant_eligible_studies:copd",
+            "@type": "@id"
+        },
+        "osa": {
+            "@id": "subjectparticipant_eligible_studies:osa",
+            "@type": "@id"
+        },
+        "autism": {
+            "@id": "subjectparticipant_eligible_studies:autism",
+            "@type": "@id"
+        },
+        "speech_delay": {
+            "@id": "subjectparticipant_eligible_studies:speech_delay",
+            "@type": "@id"
+        }
+    }
+}

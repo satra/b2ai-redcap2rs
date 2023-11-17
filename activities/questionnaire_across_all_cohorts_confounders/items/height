@@ -1,0 +1,25 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:int"
+    },
+    "preamble": {
+        "en": "HEIGHT AND WEIGHT"
+    },
+    "question": {
+        "en": "Height (inches)"
+    },
+    "additionalNotesObj": [
+        {
+            "source": "redcap",
+            "column": "Field Note",
+            "value": "inches"
+        }
+    ]
+}

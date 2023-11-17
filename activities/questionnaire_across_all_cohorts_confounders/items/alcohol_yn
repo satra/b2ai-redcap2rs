@@ -1,0 +1,35 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "radio"
+    },
+    "preamble": {
+        "en": "ALCOHOL CONSUMPTION"
+    },
+    "question": {
+        "en": "Do you drink alcohol?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": null,
+                "schema:name": "Yes ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "No ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "Prefer not to answer",
+                "@type": "schema:option"
+            }
+        ],
+        "requiredValue": true
+    }
+}

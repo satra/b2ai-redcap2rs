@@ -1,0 +1,35 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "radio"
+    },
+    "preamble": {
+        "en": "1. Gold Standard Diagnosis"
+    },
+    "question": {
+        "en": "Does the patient have VFP confirmed by laryngoscopy/stroboscopy?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 0,
+                "schema:name": "No ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 1,
+                "schema:name": "Yes ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "Not certain",
+                "@type": "schema:option"
+            }
+        ],
+        "requiredValue": true
+    }
+}

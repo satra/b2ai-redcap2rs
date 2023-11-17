@@ -1,0 +1,92 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/acoustic_task/acoustic_task_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "acoustic_task_schema",
+    "skos:altLabel": "acoustic_task_schema",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "variableMap": [
+        {
+            "variableName": "acoustic_task_id",
+            "isAbout": "acoustic_task_id"
+        },
+        {
+            "variableName": "acoustic_task_session_id",
+            "isAbout": "acoustic_task_session_id"
+        },
+        {
+            "variableName": "acoustic_task_name",
+            "isAbout": "acoustic_task_name"
+        },
+        {
+            "variableName": "acoustic_task_cohort",
+            "isAbout": "acoustic_task_cohort"
+        },
+        {
+            "variableName": "acoustic_task_status",
+            "isAbout": "acoustic_task_status"
+        },
+        {
+            "variableName": "acoustic_task_started_at",
+            "isAbout": "acoustic_task_started_at"
+        },
+        {
+            "variableName": "acoustic_task_completed_at",
+            "isAbout": "acoustic_task_completed_at"
+        },
+        {
+            "variableName": "acoustic_task_duration",
+            "isAbout": "acoustic_task_duration"
+        }
+    ],
+    "ui": {
+        "order": [
+            "acoustic_task_id",
+            "acoustic_task_session_id",
+            "acoustic_task_name",
+            "acoustic_task_cohort",
+            "acoustic_task_status",
+            "acoustic_task_started_at",
+            "acoustic_task_completed_at",
+            "acoustic_task_duration"
+        ],
+        "shuffle": false,
+        "visibility": [
+            {
+                "variableName": "acoustic_task_id",
+                "isVis": true
+            },
+            {
+                "variableName": "acoustic_task_session_id",
+                "isVis": true
+            },
+            {
+                "variableName": "acoustic_task_name",
+                "isVis": true
+            },
+            {
+                "variableName": "acoustic_task_cohort",
+                "isVis": true
+            },
+            {
+                "variableName": "acoustic_task_status",
+                "isVis": true
+            },
+            {
+                "variableName": "acoustic_task_started_at",
+                "isVis": true
+            },
+            {
+                "variableName": "acoustic_task_completed_at",
+                "isVis": true
+            },
+            {
+                "variableName": "acoustic_task_duration",
+                "isVis": true
+            }
+        ]
+    }
+}

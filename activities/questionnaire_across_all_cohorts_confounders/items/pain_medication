@@ -1,0 +1,33 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "radio",
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": "NSAIDs (ex: Ibuprofen/Advil/Cerebrex) ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "Morphine/Oxycodone ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 3,
+                "schema:name": "Neuro-modulators (ex: Gabapentin",
+                "@type": "schema:option",
+                "schema:image": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/618x618/Lyrica).png"
+            }
+        ]
+    },
+    "question": {
+        "en": "Chronic Pain medication"
+    }
+}

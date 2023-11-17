@@ -1,0 +1,30 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "radio"
+    },
+    "preamble": {
+        "en": "2. Disease Subtype"
+    },
+    "question": {
+        "en": "Which side is the paralysis?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": "Left ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "Right",
+                "@type": "schema:option"
+            }
+        ],
+        "requiredValue": true
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "bridge2ai_econsent_combined_pdf_addendum_mit": "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/bridge2ai_econsent_combined_pdf_addendum_mit/items/",
+        "upload_addendums_mit": {
+            "@id": "bridge2ai_econsent_combined_pdf_addendum_mit:upload_addendums_mit",
+            "@type": "@id"
+        }
+    }
+}

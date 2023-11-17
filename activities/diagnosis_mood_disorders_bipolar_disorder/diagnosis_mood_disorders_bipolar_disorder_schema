@@ -1,0 +1,137 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/diagnosis_mood_disorders_bipolar_disorder/diagnosis_mood_disorders_bipolar_disorder_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "diagnosis_mood_disorders_bipolar_disorder_schema",
+    "skos:altLabel": "diagnosis_mood_disorders_bipolar_disorder_schema",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "variableMap": [
+        {
+            "variableName": "diagnosis_bipolar_gsd",
+            "isAbout": "diagnosis_bipolar_gsd"
+        },
+        {
+            "variableName": "diagnosis_bipolar_gsd_interview",
+            "isAbout": "diagnosis_bipolar_gsd_interview"
+        },
+        {
+            "variableName": "diagnosis_bipolar_gsd_oqu",
+            "isAbout": "diagnosis_bipolar_gsd_oqu"
+        },
+        {
+            "variableName": "diagnosis_bipolar_gsd_oquw",
+            "isAbout": "diagnosis_bipolar_gsd_oquw"
+        },
+        {
+            "variableName": "diagnosis_bipolar_gsd_oqu_other",
+            "isAbout": "diagnosis_bipolar_gsd_oqu_other"
+        },
+        {
+            "variableName": "diagnosis_bipolar_active_problems",
+            "isAbout": "diagnosis_bipolar_active_problems"
+        },
+        {
+            "variableName": "diagnosis_bipolar_history_problems",
+            "isAbout": "diagnosis_bipolar_history_problems"
+        },
+        {
+            "variableName": "diagnosis_bipolar_subtype_active",
+            "isAbout": "diagnosis_bipolar_subtype_active"
+        },
+        {
+            "variableName": "diagnosis_bipolar_psychotic",
+            "isAbout": "diagnosis_bipolar_psychotic"
+        },
+        {
+            "variableName": "diagnosis_bipolar_etiology",
+            "isAbout": "diagnosis_bipolar_etiology"
+        },
+        {
+            "variableName": "diagnosis_bipolar_severity",
+            "isAbout": "diagnosis_bipolar_severity"
+        },
+        {
+            "variableName": "diagnosis_bipolar_current_med_therapies",
+            "isAbout": "diagnosis_bipolar_current_med_therapies"
+        },
+        {
+            "variableName": "diagnosis_bipolar_former_med_therapies",
+            "isAbout": "diagnosis_bipolar_former_med_therapies"
+        }
+    ],
+    "ui": {
+        "order": [
+            "diagnosis_bipolar_gsd",
+            "diagnosis_bipolar_gsd_interview",
+            "diagnosis_bipolar_gsd_oqu",
+            "diagnosis_bipolar_gsd_oquw",
+            "diagnosis_bipolar_gsd_oqu_other",
+            "diagnosis_bipolar_active_problems",
+            "diagnosis_bipolar_history_problems",
+            "diagnosis_bipolar_subtype_active",
+            "diagnosis_bipolar_psychotic",
+            "diagnosis_bipolar_etiology",
+            "diagnosis_bipolar_severity",
+            "diagnosis_bipolar_current_med_therapies",
+            "diagnosis_bipolar_former_med_therapies"
+        ],
+        "shuffle": false,
+        "visibility": [
+            {
+                "variableName": "diagnosis_bipolar_gsd",
+                "isVis": true
+            },
+            {
+                "variableName": "diagnosis_bipolar_gsd_interview",
+                "isVis": true
+            },
+            {
+                "variableName": "diagnosis_bipolar_gsd_oqu",
+                "isVis": true
+            },
+            {
+                "variableName": "diagnosis_bipolar_gsd_oquw",
+                "isVis": "diagnosis_bipolar_gsd_oqu==\"1\""
+            },
+            {
+                "variableName": "diagnosis_bipolar_gsd_oqu_other",
+                "isVis": "diagnosis_bipolar_gsd_oquw==\"other\""
+            },
+            {
+                "variableName": "diagnosis_bipolar_active_problems",
+                "isVis": true
+            },
+            {
+                "variableName": "diagnosis_bipolar_history_problems",
+                "isVis": true
+            },
+            {
+                "variableName": "diagnosis_bipolar_subtype_active",
+                "isVis": true
+            },
+            {
+                "variableName": "diagnosis_bipolar_psychotic",
+                "isVis": true
+            },
+            {
+                "variableName": "diagnosis_bipolar_etiology",
+                "isVis": true
+            },
+            {
+                "variableName": "diagnosis_bipolar_severity",
+                "isVis": true
+            },
+            {
+                "variableName": "diagnosis_bipolar_current_med_therapies",
+                "isVis": true
+            },
+            {
+                "variableName": "diagnosis_bipolar_former_med_therapies",
+                "isVis": true
+            }
+        ]
+    }
+}

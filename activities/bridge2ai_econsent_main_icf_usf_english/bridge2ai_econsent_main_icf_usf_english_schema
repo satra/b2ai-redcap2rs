@@ -1,0 +1,137 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/bridge2ai_econsent_main_icf_usf_english/bridge2ai_econsent_main_icf_usf_english_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "bridge2ai_econsent_main_icf_usf_english_schema",
+    "skos:altLabel": "bridge2ai_econsent_main_icf_usf_english_schema",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "variableMap": [
+        {
+            "variableName": "page_1",
+            "isAbout": "page_1"
+        },
+        {
+            "variableName": "page2",
+            "isAbout": "page2"
+        },
+        {
+            "variableName": "page3",
+            "isAbout": "page3"
+        },
+        {
+            "variableName": "page_4",
+            "isAbout": "page_4"
+        },
+        {
+            "variableName": "page_5",
+            "isAbout": "page_5"
+        },
+        {
+            "variableName": "page6",
+            "isAbout": "page6"
+        },
+        {
+            "variableName": "page7",
+            "isAbout": "page7"
+        },
+        {
+            "variableName": "page8",
+            "isAbout": "page8"
+        },
+        {
+            "variableName": "page_9",
+            "isAbout": "page_9"
+        },
+        {
+            "variableName": "consent_usf_question",
+            "isAbout": "consent_usf_question"
+        },
+        {
+            "variableName": "consent_usf_signature",
+            "isAbout": "consent_usf_signature"
+        },
+        {
+            "variableName": "consent_usf_name",
+            "isAbout": "consent_usf_name"
+        },
+        {
+            "variableName": "consent_usf_date",
+            "isAbout": "consent_usf_date"
+        }
+    ],
+    "ui": {
+        "order": [
+            "page_1",
+            "page2",
+            "page3",
+            "page_4",
+            "page_5",
+            "page6",
+            "page7",
+            "page8",
+            "page_9",
+            "consent_usf_question",
+            "consent_usf_signature",
+            "consent_usf_name",
+            "consent_usf_date"
+        ],
+        "shuffle": false,
+        "visibility": [
+            {
+                "variableName": "page_1",
+                "isVis": true
+            },
+            {
+                "variableName": "page2",
+                "isVis": true
+            },
+            {
+                "variableName": "page3",
+                "isVis": true
+            },
+            {
+                "variableName": "page_4",
+                "isVis": true
+            },
+            {
+                "variableName": "page_5",
+                "isVis": true
+            },
+            {
+                "variableName": "page6",
+                "isVis": true
+            },
+            {
+                "variableName": "page7",
+                "isVis": true
+            },
+            {
+                "variableName": "page8",
+                "isVis": true
+            },
+            {
+                "variableName": "page_9",
+                "isVis": true
+            },
+            {
+                "variableName": "consent_usf_question",
+                "isVis": true
+            },
+            {
+                "variableName": "consent_usf_signature",
+                "isVis": true
+            },
+            {
+                "variableName": "consent_usf_name",
+                "isVis": true
+            },
+            {
+                "variableName": "consent_usf_date",
+                "isVis": true
+            }
+        ]
+    }
+}

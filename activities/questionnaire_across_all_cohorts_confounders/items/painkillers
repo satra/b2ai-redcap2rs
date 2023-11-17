@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "radio"
+    },
+    "preamble": {
+        "en": "During the past TWO (2) WEEKS, about how often did you use any of the following medicines ON YOUR OWN, that is, without a doctor's prescription, in greater amounts or longer than prescribed?"
+    },
+    "question": {
+        "en": "Painkillers (like Vicodin)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": null,
+                "schema:name": "Not at all ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "One or two days ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "Several days ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "More than half the days ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "Nearly every day",
+                "@type": "schema:option"
+            }
+        ]
+    }
+}

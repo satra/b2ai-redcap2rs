@@ -1,0 +1,745 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/enrollment_form/enrollment_form_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "enrollment_form_schema",
+    "skos:altLabel": "enrollment_form_schema",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "variableMap": [
+        {
+            "variableName": "ef_select_language",
+            "isAbout": "ef_select_language"
+        },
+        {
+            "variableName": "ef_any_vision_related_req",
+            "isAbout": "ef_any_vision_related_req"
+        },
+        {
+            "variableName": "ef_vision_a11y_options",
+            "isAbout": "ef_vision_a11y_options"
+        },
+        {
+            "variableName": "ef_any_hearing_related_req",
+            "isAbout": "ef_any_hearing_related_req"
+        },
+        {
+            "variableName": "ef_hearing_a11y_options",
+            "isAbout": "ef_hearing_a11y_options"
+        },
+        {
+            "variableName": "ef_any_physical_challenges",
+            "isAbout": "ef_any_physical_challenges"
+        },
+        {
+            "variableName": "ef_physical_a11y_options",
+            "isAbout": "ef_physical_a11y_options"
+        },
+        {
+            "variableName": "ef_any_cognitive_challeges",
+            "isAbout": "ef_any_cognitive_challeges"
+        },
+        {
+            "variableName": "ef_cognitive_a11y_options",
+            "isAbout": "ef_cognitive_a11y_options"
+        },
+        {
+            "variableName": "ef_completed_by",
+            "isAbout": "ef_completed_by"
+        },
+        {
+            "variableName": "ef_primary_language",
+            "isAbout": "ef_primary_language"
+        },
+        {
+            "variableName": "ef_primary_language_other",
+            "isAbout": "ef_primary_language_other"
+        },
+        {
+            "variableName": "ef_fluent_languages",
+            "isAbout": "ef_fluent_languages"
+        },
+        {
+            "variableName": "ef_fluent_language_other",
+            "isAbout": "ef_fluent_language_other"
+        },
+        {
+            "variableName": "ef_dob",
+            "isAbout": "ef_dob"
+        },
+        {
+            "variableName": "ef_laryng_cancer",
+            "isAbout": "ef_laryng_cancer"
+        },
+        {
+            "variableName": "ef_benign_cord_lesion",
+            "isAbout": "ef_benign_cord_lesion"
+        },
+        {
+            "variableName": "ef_rrp",
+            "isAbout": "ef_rrp"
+        },
+        {
+            "variableName": "ef_spas_dys",
+            "isAbout": "ef_spas_dys"
+        },
+        {
+            "variableName": "ef_voc_fold_paralysis",
+            "isAbout": "ef_voc_fold_paralysis"
+        },
+        {
+            "variableName": "ef_alz_dementia_mci",
+            "isAbout": "ef_alz_dementia_mci"
+        },
+        {
+            "variableName": "ef_als",
+            "isAbout": "ef_als"
+        },
+        {
+            "variableName": "ef_parkinsons",
+            "isAbout": "ef_parkinsons"
+        },
+        {
+            "variableName": "ef_alcohol_subst_abuse",
+            "isAbout": "ef_alcohol_subst_abuse"
+        },
+        {
+            "variableName": "ef_gad",
+            "isAbout": "ef_gad"
+        },
+        {
+            "variableName": "ef_add_adhd",
+            "isAbout": "ef_add_adhd"
+        },
+        {
+            "variableName": "ef_asd",
+            "isAbout": "ef_asd"
+        },
+        {
+            "variableName": "ef_bipolar",
+            "isAbout": "ef_bipolar"
+        },
+        {
+            "variableName": "ef_bpd",
+            "isAbout": "ef_bpd"
+        },
+        {
+            "variableName": "ef_depression",
+            "isAbout": "ef_depression"
+        },
+        {
+            "variableName": "ef_ed",
+            "isAbout": "ef_ed"
+        },
+        {
+            "variableName": "ef_insomnia",
+            "isAbout": "ef_insomnia"
+        },
+        {
+            "variableName": "ef_ocd",
+            "isAbout": "ef_ocd"
+        },
+        {
+            "variableName": "ef_panic",
+            "isAbout": "ef_panic"
+        },
+        {
+            "variableName": "ef_ptsd",
+            "isAbout": "ef_ptsd"
+        },
+        {
+            "variableName": "ef_schizophrenia",
+            "isAbout": "ef_schizophrenia"
+        },
+        {
+            "variableName": "ef_soc_anx_dis",
+            "isAbout": "ef_soc_anx_dis"
+        },
+        {
+            "variableName": "ef_other_psych",
+            "isAbout": "ef_other_psych"
+        },
+        {
+            "variableName": "ef_asthma",
+            "isAbout": "ef_asthma"
+        },
+        {
+            "variableName": "ef_airway_stenosis",
+            "isAbout": "ef_airway_stenosis"
+        },
+        {
+            "variableName": "ef_chronic_cough",
+            "isAbout": "ef_chronic_cough"
+        },
+        {
+            "variableName": "ef_copd",
+            "isAbout": "ef_copd"
+        },
+        {
+            "variableName": "ef_osa",
+            "isAbout": "ef_osa"
+        },
+        {
+            "variableName": "ef_autism",
+            "isAbout": "ef_autism"
+        },
+        {
+            "variableName": "ef_speech_delay",
+            "isAbout": "ef_speech_delay"
+        },
+        {
+            "variableName": "ef_read",
+            "isAbout": "ef_read"
+        },
+        {
+            "variableName": "ef_write",
+            "isAbout": "ef_write"
+        },
+        {
+            "variableName": "ef_smart_device",
+            "isAbout": "ef_smart_device"
+        },
+        {
+            "variableName": "ef_eligible_studies",
+            "isAbout": "ef_eligible_studies"
+        },
+        {
+            "variableName": "ef_first_name",
+            "isAbout": "ef_first_name"
+        },
+        {
+            "variableName": "ef_last_name",
+            "isAbout": "ef_last_name"
+        },
+        {
+            "variableName": "ef_phone_number",
+            "isAbout": "ef_phone_number"
+        },
+        {
+            "variableName": "ef_email",
+            "isAbout": "ef_email"
+        },
+        {
+            "variableName": "ef_contact_info_stored",
+            "isAbout": "ef_contact_info_stored"
+        },
+        {
+            "variableName": "ef_enrollment",
+            "isAbout": "ef_enrollment"
+        },
+        {
+            "variableName": "ef_reason_decline_enroll",
+            "isAbout": "ef_reason_decline_enroll"
+        },
+        {
+            "variableName": "ef_other_reason_decline",
+            "isAbout": "ef_other_reason_decline"
+        },
+        {
+            "variableName": "ef_enrollment_institution",
+            "isAbout": "ef_enrollment_institution"
+        },
+        {
+            "variableName": "ef_researcher_email",
+            "isAbout": "ef_researcher_email"
+        },
+        {
+            "variableName": "ef_started_at",
+            "isAbout": "ef_started_at"
+        },
+        {
+            "variableName": "ef_completed_at",
+            "isAbout": "ef_completed_at"
+        },
+        {
+            "variableName": "ef_duration",
+            "isAbout": "ef_duration"
+        }
+    ],
+    "ui": {
+        "order": [
+            "ef_select_language",
+            "ef_any_vision_related_req",
+            "ef_vision_a11y_options",
+            "ef_any_hearing_related_req",
+            "ef_hearing_a11y_options",
+            "ef_any_physical_challenges",
+            "ef_physical_a11y_options",
+            "ef_any_cognitive_challeges",
+            "ef_cognitive_a11y_options",
+            "ef_completed_by",
+            "ef_primary_language",
+            "ef_primary_language_other",
+            "ef_fluent_languages",
+            "ef_fluent_language_other",
+            "ef_dob",
+            "ef_laryng_cancer",
+            "ef_benign_cord_lesion",
+            "ef_rrp",
+            "ef_spas_dys",
+            "ef_voc_fold_paralysis",
+            "ef_alz_dementia_mci",
+            "ef_als",
+            "ef_parkinsons",
+            "ef_alcohol_subst_abuse",
+            "ef_gad",
+            "ef_add_adhd",
+            "ef_asd",
+            "ef_bipolar",
+            "ef_bpd",
+            "ef_depression",
+            "ef_ed",
+            "ef_insomnia",
+            "ef_ocd",
+            "ef_panic",
+            "ef_ptsd",
+            "ef_schizophrenia",
+            "ef_soc_anx_dis",
+            "ef_other_psych",
+            "ef_asthma",
+            "ef_airway_stenosis",
+            "ef_chronic_cough",
+            "ef_copd",
+            "ef_osa",
+            "ef_autism",
+            "ef_speech_delay",
+            "ef_read",
+            "ef_write",
+            "ef_smart_device",
+            "ef_eligible_studies",
+            "ef_first_name",
+            "ef_last_name",
+            "ef_phone_number",
+            "ef_email",
+            "ef_contact_info_stored",
+            "ef_enrollment",
+            "ef_reason_decline_enroll",
+            "ef_other_reason_decline",
+            "ef_enrollment_institution",
+            "ef_researcher_email",
+            "ef_started_at",
+            "ef_completed_at",
+            "ef_duration"
+        ],
+        "shuffle": false,
+        "visibility": [
+            {
+                "variableName": "ef_select_language",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_any_vision_related_req",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_vision_a11y_options",
+                "isVis": "ef_any_vision_related_req == '1'"
+            },
+            {
+                "variableName": "ef_any_hearing_related_req",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_hearing_a11y_options",
+                "isVis": "ef_any_hearing_related_req == '1'"
+            },
+            {
+                "variableName": "ef_any_physical_challenges",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_physical_a11y_options",
+                "isVis": "ef_any_physical_challenges == '1'"
+            },
+            {
+                "variableName": "ef_any_cognitive_challeges",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_cognitive_a11y_options",
+                "isVis": "ef_any_cognitive_challeges == '1'"
+            },
+            {
+                "variableName": "ef_completed_by",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_primary_language",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_primary_language_other",
+                "isVis": "ef_primary_language == '4'"
+            },
+            {
+                "variableName": "ef_fluent_languages",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_fluent_language_other",
+                "isVis": "ef_fluent_languages___5 == '1'"
+            },
+            {
+                "variableName": "ef_dob",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_laryng_cancer",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_benign_cord_lesion",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_rrp",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_spas_dys",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_voc_fold_paralysis",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_alz_dementia_mci",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_als",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_parkinsons",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_alcohol_subst_abuse",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_gad",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_add_adhd",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_asd",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_bipolar",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_bpd",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_depression",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_ed",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_insomnia",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_ocd",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_panic",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_ptsd",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_schizophrenia",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_soc_anx_dis",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_other_psych",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_asthma",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_airway_stenosis",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_chronic_cough",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_copd",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_osa",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_autism",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_speech_delay",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_read",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_write",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_smart_device",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_eligible_studies",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_first_name",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_last_name",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_phone_number",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_email",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_contact_info_stored",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_enrollment",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_reason_decline_enroll",
+                "isVis": "ef_enrollment==\"Decline\""
+            },
+            {
+                "variableName": "ef_other_reason_decline",
+                "isVis": "ef_reason_decline_enroll==\"5\""
+            },
+            {
+                "variableName": "ef_enrollment_institution",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_researcher_email",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_started_at",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_completed_at",
+                "isVis": true
+            },
+            {
+                "variableName": "ef_duration",
+                "isVis": true
+            }
+        ]
+    },
+    "matrixInfo": [
+        {
+            "variableName": "ef_laryng_cancer",
+            "matrixGroupName": "ef_voice_disorders",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ef_benign_cord_lesion",
+            "matrixGroupName": "ef_voice_disorders",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ef_rrp",
+            "matrixGroupName": "ef_voice_disorders",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ef_spas_dys",
+            "matrixGroupName": "ef_voice_disorders",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ef_voc_fold_paralysis",
+            "matrixGroupName": "ef_voice_disorders",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ef_alz_dementia_mci",
+            "matrixGroupName": "ef_neuro_neurodeg_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ef_als",
+            "matrixGroupName": "ef_neuro_neurodeg_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ef_parkinsons",
+            "matrixGroupName": "ef_neuro_neurodeg_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ef_alcohol_subst_abuse",
+            "matrixGroupName": "ef_mood_psych_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ef_gad",
+            "matrixGroupName": "ef_mood_psych_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ef_add_adhd",
+            "matrixGroupName": "ef_mood_psych_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ef_asd",
+            "matrixGroupName": "ef_mood_psych_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ef_bipolar",
+            "matrixGroupName": "ef_mood_psych_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ef_bpd",
+            "matrixGroupName": "ef_mood_psych_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ef_depression",
+            "matrixGroupName": "ef_mood_psych_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ef_ed",
+            "matrixGroupName": "ef_mood_psych_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ef_insomnia",
+            "matrixGroupName": "ef_mood_psych_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ef_ocd",
+            "matrixGroupName": "ef_mood_psych_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ef_panic",
+            "matrixGroupName": "ef_mood_psych_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ef_ptsd",
+            "matrixGroupName": "ef_mood_psych_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ef_schizophrenia",
+            "matrixGroupName": "ef_mood_psych_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ef_soc_anx_dis",
+            "matrixGroupName": "ef_mood_psych_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ef_other_psych",
+            "matrixGroupName": "ef_mood_psych_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ef_asthma",
+            "matrixGroupName": "ef_resp_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ef_airway_stenosis",
+            "matrixGroupName": "ef_resp_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ef_chronic_cough",
+            "matrixGroupName": "ef_resp_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ef_copd",
+            "matrixGroupName": "ef_resp_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ef_osa",
+            "matrixGroupName": "ef_resp_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ef_autism",
+            "matrixGroupName": "ef_peds_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ef_speech_delay",
+            "matrixGroupName": "ef_peds_dis",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ef_read",
+            "matrixGroupName": "ef_digital_literacy",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ef_write",
+            "matrixGroupName": "ef_digital_literacy",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ef_smart_device",
+            "matrixGroupName": "ef_digital_literacy",
+            "matrixRanking": ""
+        }
+    ]
+}

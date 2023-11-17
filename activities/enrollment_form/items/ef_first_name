@@ -1,0 +1,25 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "requiredValue": true
+    },
+    "preamble": {
+        "en": "Contact Information"
+    },
+    "question": {
+        "en": "First Name"
+    },
+    "identifiable": [
+        {
+            "legalStandard": "unknown",
+            "isIdentifier": true
+        }
+    ]
+}

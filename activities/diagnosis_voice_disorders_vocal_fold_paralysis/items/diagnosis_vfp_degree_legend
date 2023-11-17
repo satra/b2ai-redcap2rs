@@ -1,0 +1,12 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "static"
+    },
+    "question": {
+        "en": "    Legend: C- Sonsistent I = Intermittent                MI = Mildly Deviant                MO = Moderately Deviant                SE = Severely Deviant    "
+    }
+}

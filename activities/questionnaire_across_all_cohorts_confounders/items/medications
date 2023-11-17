@@ -1,0 +1,111 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "radio",
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": "Antibiotics ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "Anti-histamines (allergy medications) ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 3,
+                "schema:name": "Anti-Hypertensive Medications (Blood Pressure Medication) ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 4,
+                "schema:name": "Diuretics (ex: Lasix) ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 5,
+                "schema:name": "Decongestants ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 6,
+                "schema:name": "Muscle relaxants (ex: Baclofen) ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 7,
+                "schema:name": "Hormone use ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 8,
+                "schema:name": "Inhaled corticosteroids ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 9,
+                "schema:name": "Oral steroids ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 10,
+                "schema:name": "Anti-anxiety medications: (ex: Benzodiazepine) ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 11,
+                "schema:name": "Chronic Pain medication ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 12,
+                "schema:name": "Psychotropic/antipsychotic medications (ex: Clozapine) ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 13,
+                "schema:name": "Antidepressants (ex: amitryptiline) ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 14,
+                "schema:name": "Immune suppressors (ex: Methotrexate) ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 15,
+                "schema:name": "Reflux medications (ex: Pantoprazole",
+                "@type": "schema:option",
+                "schema:image": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/618x618/Nexium) .png"
+            },
+            {
+                "schema:value": 16,
+                "schema:name": "Anticholinergics (ex: Ventolin) ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 17,
+                "schema:name": "Anticoagulants (blood thinners) ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 18,
+                "schema:name": "Antiepileptic (ex: Phenytoin)",
+                "@type": "schema:option"
+            }
+        ]
+    },
+    "preamble": {
+        "en": "MEDICATIONS\n"
+    },
+    "question": {
+        "en": "Do you currently take or use any of these medications or substances? (Check all that apply)"
+    }
+}

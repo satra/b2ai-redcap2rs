@@ -1,0 +1,62 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "recording": "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/recording/items/",
+        "recording_id": {
+            "@id": "recording:recording_id",
+            "@type": "@id"
+        },
+        "recording_acoustic_task_id": {
+            "@id": "recording:recording_acoustic_task_id",
+            "@type": "@id"
+        },
+        "recording_session_id": {
+            "@id": "recording:recording_session_id",
+            "@type": "@id"
+        },
+        "recording_name": {
+            "@id": "recording:recording_name",
+            "@type": "@id"
+        },
+        "recording_filepath": {
+            "@id": "recording:recording_filepath",
+            "@type": "@id"
+        },
+        "recording_storage_account": {
+            "@id": "recording:recording_storage_account",
+            "@type": "@id"
+        },
+        "recording_file_share": {
+            "@id": "recording:recording_file_share",
+            "@type": "@id"
+        },
+        "recording_duration": {
+            "@id": "recording:recording_duration",
+            "@type": "@id"
+        },
+        "recording_size": {
+            "@id": "recording:recording_size",
+            "@type": "@id"
+        },
+        "recording_created_at": {
+            "@id": "recording:recording_created_at",
+            "@type": "@id"
+        },
+        "recording_profile_name": {
+            "@id": "recording:recording_profile_name",
+            "@type": "@id"
+        },
+        "recording_profile_version": {
+            "@id": "recording:recording_profile_version",
+            "@type": "@id"
+        },
+        "recording_input_gain": {
+            "@id": "recording:recording_input_gain",
+            "@type": "@id"
+        },
+        "recording_microphone": {
+            "@id": "recording:recording_microphone",
+            "@type": "@id"
+        }
+    }
+}

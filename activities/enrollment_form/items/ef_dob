@@ -1,0 +1,22 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:date",
+        "requiredValue": true
+    },
+    "question": {
+        "en": "What is your date of birth?"
+    },
+    "identifiable": [
+        {
+            "legalStandard": "unknown",
+            "isIdentifier": true
+        }
+    ]
+}

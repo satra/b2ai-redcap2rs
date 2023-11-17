@@ -1,0 +1,198 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/questionnaire_mood_disorders_panas/questionnaire_mood_disorders_panas_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "questionnaire_mood_disorders_panas_schema",
+    "skos:altLabel": "questionnaire_mood_disorders_panas_schema",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "variableMap": [
+        {
+            "variableName": "panas_session_id",
+            "isAbout": "panas_session_id"
+        },
+        {
+            "variableName": "panas_started_at",
+            "isAbout": "panas_started_at"
+        },
+        {
+            "variableName": "panas_completed_at",
+            "isAbout": "panas_completed_at"
+        },
+        {
+            "variableName": "panas_duration",
+            "isAbout": "panas_duration"
+        },
+        {
+            "variableName": "upset",
+            "isAbout": "upset"
+        },
+        {
+            "variableName": "hostile",
+            "isAbout": "hostile"
+        },
+        {
+            "variableName": "alert",
+            "isAbout": "alert"
+        },
+        {
+            "variableName": "ashamed",
+            "isAbout": "ashamed"
+        },
+        {
+            "variableName": "inspired",
+            "isAbout": "inspired"
+        },
+        {
+            "variableName": "nervous",
+            "isAbout": "nervous"
+        },
+        {
+            "variableName": "determined",
+            "isAbout": "determined"
+        },
+        {
+            "variableName": "attentive",
+            "isAbout": "attentive"
+        },
+        {
+            "variableName": "afraid",
+            "isAbout": "afraid"
+        },
+        {
+            "variableName": "active",
+            "isAbout": "active"
+        }
+    ],
+    "ui": {
+        "order": [
+            "panas_session_id",
+            "panas_started_at",
+            "panas_completed_at",
+            "panas_duration",
+            "upset",
+            "hostile",
+            "alert",
+            "ashamed",
+            "inspired",
+            "nervous",
+            "determined",
+            "attentive",
+            "afraid",
+            "active"
+        ],
+        "shuffle": false,
+        "visibility": [
+            {
+                "variableName": "panas_session_id",
+                "isVis": true
+            },
+            {
+                "variableName": "panas_started_at",
+                "isVis": true
+            },
+            {
+                "variableName": "panas_completed_at",
+                "isVis": true
+            },
+            {
+                "variableName": "panas_duration",
+                "isVis": true
+            },
+            {
+                "variableName": "upset",
+                "isVis": true
+            },
+            {
+                "variableName": "hostile",
+                "isVis": true
+            },
+            {
+                "variableName": "alert",
+                "isVis": true
+            },
+            {
+                "variableName": "ashamed",
+                "isVis": true
+            },
+            {
+                "variableName": "inspired",
+                "isVis": true
+            },
+            {
+                "variableName": "nervous",
+                "isVis": true
+            },
+            {
+                "variableName": "determined",
+                "isVis": true
+            },
+            {
+                "variableName": "attentive",
+                "isVis": true
+            },
+            {
+                "variableName": "afraid",
+                "isVis": true
+            },
+            {
+                "variableName": "active",
+                "isVis": true
+            }
+        ]
+    },
+    "matrixInfo": [
+        {
+            "variableName": "upset",
+            "matrixGroupName": "panas",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "hostile",
+            "matrixGroupName": "panas",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "alert",
+            "matrixGroupName": "panas",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ashamed",
+            "matrixGroupName": "panas",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "inspired",
+            "matrixGroupName": "panas",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "nervous",
+            "matrixGroupName": "panas",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "determined",
+            "matrixGroupName": "panas",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "attentive",
+            "matrixGroupName": "panas",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "afraid",
+            "matrixGroupName": "panas",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "active",
+            "matrixGroupName": "panas",
+            "matrixRanking": ""
+        }
+    ]
+}

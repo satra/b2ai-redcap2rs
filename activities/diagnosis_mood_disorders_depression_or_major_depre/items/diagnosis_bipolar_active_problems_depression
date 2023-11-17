@@ -1,0 +1,19 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "requiredValue": true
+    },
+    "preamble": {
+        "en": "2.\tMedical and Psychiatric comorbidities"
+    },
+    "question": {
+        "en": "Enter list of active problems"
+    }
+}

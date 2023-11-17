@@ -1,0 +1,46 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "How often do/did you smoke?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": null,
+                "schema:name": "Multiple times a day ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "About once a day ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "A few times a week ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "A few times a month ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "A few times a year ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "Prefer not to answer",
+                "@type": "schema:option"
+            }
+        ]
+    }
+}

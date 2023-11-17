@@ -1,0 +1,30 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "radio"
+    },
+    "preamble": {
+        "en": "Review and Enroll:"
+    },
+    "question": {
+        "en": "Please review your answers reading all the way through the bottom and select an option. If you have any questions, you can still proceed with enrollment and ask or make changes at a later time."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": null,
+                "schema:name": "Enroll ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "Decline",
+                "@type": "schema:option"
+            }
+        ],
+        "requiredValue": true
+    }
+}

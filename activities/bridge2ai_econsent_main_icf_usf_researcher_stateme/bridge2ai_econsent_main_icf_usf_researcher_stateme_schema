@@ -1,0 +1,56 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/bridge2ai_econsent_main_icf_usf_researcher_stateme/bridge2ai_econsent_main_icf_usf_researcher_stateme_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "bridge2ai_econsent_main_icf_usf_researcher_stateme_schema",
+    "skos:altLabel": "bridge2ai_econsent_main_icf_usf_researcher_stateme_schema",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "variableMap": [
+        {
+            "variableName": "researcher_statement2",
+            "isAbout": "researcher_statement2"
+        },
+        {
+            "variableName": "researcher_signature",
+            "isAbout": "researcher_signature"
+        },
+        {
+            "variableName": "researcher_name",
+            "isAbout": "researcher_name"
+        },
+        {
+            "variableName": "researcher_date",
+            "isAbout": "researcher_date"
+        }
+    ],
+    "ui": {
+        "order": [
+            "researcher_statement2",
+            "researcher_signature",
+            "researcher_name",
+            "researcher_date"
+        ],
+        "shuffle": false,
+        "visibility": [
+            {
+                "variableName": "researcher_statement2",
+                "isVis": true
+            },
+            {
+                "variableName": "researcher_signature",
+                "isVis": true
+            },
+            {
+                "variableName": "researcher_name",
+                "isVis": true
+            },
+            {
+                "variableName": "researcher_date",
+                "isVis": true
+            }
+        ]
+    }
+}

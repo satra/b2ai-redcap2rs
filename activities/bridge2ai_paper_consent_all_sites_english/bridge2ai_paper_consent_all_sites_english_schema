@@ -1,0 +1,56 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/bridge2ai_paper_consent_all_sites_english/bridge2ai_paper_consent_all_sites_english_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "bridge2ai_paper_consent_all_sites_english_schema",
+    "skos:altLabel": "bridge2ai_paper_consent_all_sites_english_schema",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "variableMap": [
+        {
+            "variableName": "paper_consent_notes",
+            "isAbout": "paper_consent_notes"
+        },
+        {
+            "variableName": "paper_consent_pdf_all_sites",
+            "isAbout": "paper_consent_pdf_all_sites"
+        },
+        {
+            "variableName": "paper_consent_enrollment_institution",
+            "isAbout": "paper_consent_enrollment_institution"
+        },
+        {
+            "variableName": "paper_consent_uploaded_by",
+            "isAbout": "paper_consent_uploaded_by"
+        }
+    ],
+    "ui": {
+        "order": [
+            "paper_consent_notes",
+            "paper_consent_pdf_all_sites",
+            "paper_consent_enrollment_institution",
+            "paper_consent_uploaded_by"
+        ],
+        "shuffle": false,
+        "visibility": [
+            {
+                "variableName": "paper_consent_notes",
+                "isVis": true
+            },
+            {
+                "variableName": "paper_consent_pdf_all_sites",
+                "isVis": true
+            },
+            {
+                "variableName": "paper_consent_enrollment_institution",
+                "isVis": true
+            },
+            {
+                "variableName": "paper_consent_uploaded_by",
+                "isVis": true
+            }
+        ]
+    }
+}

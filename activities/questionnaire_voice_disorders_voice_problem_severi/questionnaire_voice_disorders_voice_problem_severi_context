@@ -1,0 +1,26 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "questionnaire_voice_disorders_voice_problem_severi": "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/questionnaire_voice_disorders_voice_problem_severi/items/",
+        "voice_severity_session_id": {
+            "@id": "questionnaire_voice_disorders_voice_problem_severi:voice_severity_session_id",
+            "@type": "@id"
+        },
+        "voice_severity_started_at": {
+            "@id": "questionnaire_voice_disorders_voice_problem_severi:voice_severity_started_at",
+            "@type": "@id"
+        },
+        "voice_severity_completed_at": {
+            "@id": "questionnaire_voice_disorders_voice_problem_severi:voice_severity_completed_at",
+            "@type": "@id"
+        },
+        "voice_severity_duration": {
+            "@id": "questionnaire_voice_disorders_voice_problem_severi:voice_severity_duration",
+            "@type": "@id"
+        },
+        "describe_the_severity_of_a": {
+            "@id": "questionnaire_voice_disorders_voice_problem_severi:describe_the_severity_of_a",
+            "@type": "@id"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "Recording Profile Version"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": "v1.0.0",
+                "@type": "schema:option"
+            }
+        ],
+        "requiredValue": true
+    },
+    "schema:description": {
+        "en": " @READONLY"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "preamble": {
+        "en": "6.\tTreatment obtained"
+    },
+    "question": {
+        "en": "List any current medications/therapies"
+    }
+}

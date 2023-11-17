@@ -1,0 +1,15 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "yesno"
+    },
+    "question": {
+        "en": "Was a structured clinical interview done?"
+    },
+    "responseOptions": {
+        "requiredValue": true
+    }
+}

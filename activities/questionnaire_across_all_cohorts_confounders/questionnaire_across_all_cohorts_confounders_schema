@@ -1,0 +1,960 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/questionnaire_across_all_cohorts_confounders/questionnaire_across_all_cohorts_confounders_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "questionnaire_across_all_cohorts_confounders_schema",
+    "skos:altLabel": "questionnaire_across_all_cohorts_confounders_schema",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "variableMap": [
+        {
+            "variableName": "confounders_session_id",
+            "isAbout": "confounders_session_id"
+        },
+        {
+            "variableName": "confounders_started_at",
+            "isAbout": "confounders_started_at"
+        },
+        {
+            "variableName": "confounders_completed_at",
+            "isAbout": "confounders_completed_at"
+        },
+        {
+            "variableName": "confounders_duration",
+            "isAbout": "confounders_duration"
+        },
+        {
+            "variableName": "is_regular_smoker",
+            "isAbout": "is_regular_smoker"
+        },
+        {
+            "variableName": "smoking_hx",
+            "isAbout": "smoking_hx"
+        },
+        {
+            "variableName": "age_start_smoking",
+            "isAbout": "age_start_smoking"
+        },
+        {
+            "variableName": "age_stop_smoking",
+            "isAbout": "age_stop_smoking"
+        },
+        {
+            "variableName": "smoking_types",
+            "isAbout": "smoking_types"
+        },
+        {
+            "variableName": "other_smoking_specify",
+            "isAbout": "other_smoking_specify"
+        },
+        {
+            "variableName": "smoking_freq",
+            "isAbout": "smoking_freq"
+        },
+        {
+            "variableName": "alcohol_yn",
+            "isAbout": "alcohol_yn"
+        },
+        {
+            "variableName": "alcohol_freq",
+            "isAbout": "alcohol_freq"
+        },
+        {
+            "variableName": "alcohol_amt",
+            "isAbout": "alcohol_amt"
+        },
+        {
+            "variableName": "alcohol_drinks",
+            "isAbout": "alcohol_drinks"
+        },
+        {
+            "variableName": "alcohol_today",
+            "isAbout": "alcohol_today"
+        },
+        {
+            "variableName": "drinks_today_number",
+            "isAbout": "drinks_today_number"
+        },
+        {
+            "variableName": "alcohol_rehab",
+            "isAbout": "alcohol_rehab"
+        },
+        {
+            "variableName": "current_recovery_alcohol",
+            "isAbout": "current_recovery_alcohol"
+        },
+        {
+            "variableName": "recreational_drug_use",
+            "isAbout": "recreational_drug_use"
+        },
+        {
+            "variableName": "substance_use_recovery",
+            "isAbout": "substance_use_recovery"
+        },
+        {
+            "variableName": "painkillers",
+            "isAbout": "painkillers"
+        },
+        {
+            "variableName": "stimulants",
+            "isAbout": "stimulants"
+        },
+        {
+            "variableName": "sedatives",
+            "isAbout": "sedatives"
+        },
+        {
+            "variableName": "marijuana",
+            "isAbout": "marijuana"
+        },
+        {
+            "variableName": "cocaine",
+            "isAbout": "cocaine"
+        },
+        {
+            "variableName": "club_drugs",
+            "isAbout": "club_drugs"
+        },
+        {
+            "variableName": "hallucinogens",
+            "isAbout": "hallucinogens"
+        },
+        {
+            "variableName": "heroin",
+            "isAbout": "heroin"
+        },
+        {
+            "variableName": "inhalants",
+            "isAbout": "inhalants"
+        },
+        {
+            "variableName": "methamphetamine",
+            "isAbout": "methamphetamine"
+        },
+        {
+            "variableName": "caffeine_intake",
+            "isAbout": "caffeine_intake"
+        },
+        {
+            "variableName": "caffeine_intake_today",
+            "isAbout": "caffeine_intake_today"
+        },
+        {
+            "variableName": "hydration",
+            "isAbout": "hydration"
+        },
+        {
+            "variableName": "hydration_today",
+            "isAbout": "hydration_today"
+        },
+        {
+            "variableName": "dental_problems",
+            "isAbout": "dental_problems"
+        },
+        {
+            "variableName": "dental_tx",
+            "isAbout": "dental_tx"
+        },
+        {
+            "variableName": "seasonal_allergies",
+            "isAbout": "seasonal_allergies"
+        },
+        {
+            "variableName": "seasonal_allergies_options",
+            "isAbout": "seasonal_allergies_options"
+        },
+        {
+            "variableName": "tired_measure",
+            "isAbout": "tired_measure"
+        },
+        {
+            "variableName": "height",
+            "isAbout": "height"
+        },
+        {
+            "variableName": "weight",
+            "isAbout": "weight"
+        },
+        {
+            "variableName": "unit",
+            "isAbout": "unit"
+        },
+        {
+            "variableName": "symptoms",
+            "isAbout": "symptoms"
+        },
+        {
+            "variableName": "ear_med_history",
+            "isAbout": "ear_med_history"
+        },
+        {
+            "variableName": "nose_med_history",
+            "isAbout": "nose_med_history"
+        },
+        {
+            "variableName": "throat_med_history",
+            "isAbout": "throat_med_history"
+        },
+        {
+            "variableName": "head_med_history",
+            "isAbout": "head_med_history"
+        },
+        {
+            "variableName": "ear_surgical",
+            "isAbout": "ear_surgical"
+        },
+        {
+            "variableName": "nose_surgical",
+            "isAbout": "nose_surgical"
+        },
+        {
+            "variableName": "throat_surgical",
+            "isAbout": "throat_surgical"
+        },
+        {
+            "variableName": "head_surgical",
+            "isAbout": "head_surgical"
+        },
+        {
+            "variableName": "neurological_history",
+            "isAbout": "neurological_history"
+        },
+        {
+            "variableName": "current_neuro_dx",
+            "isAbout": "current_neuro_dx"
+        },
+        {
+            "variableName": "specify_current_neuro",
+            "isAbout": "specify_current_neuro"
+        },
+        {
+            "variableName": "respiratory_conditions",
+            "isAbout": "respiratory_conditions"
+        },
+        {
+            "variableName": "lung_or_metastatic",
+            "isAbout": "lung_or_metastatic"
+        },
+        {
+            "variableName": "covid",
+            "isAbout": "covid"
+        },
+        {
+            "variableName": "covid_past",
+            "isAbout": "covid_past"
+        },
+        {
+            "variableName": "cpap_conditions",
+            "isAbout": "cpap_conditions"
+        },
+        {
+            "variableName": "resp_medical_history",
+            "isAbout": "resp_medical_history"
+        },
+        {
+            "variableName": "exposed_environmental_pollution",
+            "isAbout": "exposed_environmental_pollution"
+        },
+        {
+            "variableName": "circulatory_conditions",
+            "isAbout": "circulatory_conditions"
+        },
+        {
+            "variableName": "cardiac_condition",
+            "isAbout": "cardiac_condition"
+        },
+        {
+            "variableName": "circulatory_med_history",
+            "isAbout": "circulatory_med_history"
+        },
+        {
+            "variableName": "infection_disease",
+            "isAbout": "infection_disease"
+        },
+        {
+            "variableName": "ph_standing",
+            "isAbout": "ph_standing"
+        },
+        {
+            "variableName": "ph_take_care",
+            "isAbout": "ph_take_care"
+        },
+        {
+            "variableName": "ph_learn_task",
+            "isAbout": "ph_learn_task"
+        },
+        {
+            "variableName": "ph_problem_join",
+            "isAbout": "ph_problem_join"
+        },
+        {
+            "variableName": "ph_health_problem",
+            "isAbout": "ph_health_problem"
+        },
+        {
+            "variableName": "ph_concentrating",
+            "isAbout": "ph_concentrating"
+        },
+        {
+            "variableName": "ph_walking",
+            "isAbout": "ph_walking"
+        },
+        {
+            "variableName": "ph_washing",
+            "isAbout": "ph_washing"
+        },
+        {
+            "variableName": "ph_get_dressed",
+            "isAbout": "ph_get_dressed"
+        },
+        {
+            "variableName": "ph_dealing_people",
+            "isAbout": "ph_dealing_people"
+        },
+        {
+            "variableName": "ph_friendship",
+            "isAbout": "ph_friendship"
+        },
+        {
+            "variableName": "ph_day_to_day_work",
+            "isAbout": "ph_day_to_day_work"
+        },
+        {
+            "variableName": "physical_health_freq",
+            "isAbout": "physical_health_freq"
+        },
+        {
+            "variableName": "phys_health_impact",
+            "isAbout": "phys_health_impact"
+        },
+        {
+            "variableName": "phys_health_limited",
+            "isAbout": "phys_health_limited"
+        },
+        {
+            "variableName": "medications",
+            "isAbout": "medications"
+        },
+        {
+            "variableName": "hormone_use",
+            "isAbout": "hormone_use"
+        },
+        {
+            "variableName": "pain_medication",
+            "isAbout": "pain_medication"
+        },
+        {
+            "variableName": "menstruate",
+            "isAbout": "menstruate"
+        },
+        {
+            "variableName": "menstruate_no",
+            "isAbout": "menstruate_no"
+        },
+        {
+            "variableName": "other_menstruate_specify",
+            "isAbout": "other_menstruate_specify"
+        },
+        {
+            "variableName": "menstrual_cycle_status",
+            "isAbout": "menstrual_cycle_status"
+        },
+        {
+            "variableName": "voice_activity",
+            "isAbout": "voice_activity"
+        },
+        {
+            "variableName": "other_voice_activity",
+            "isAbout": "other_voice_activity"
+        },
+        {
+            "variableName": "hours_voice_activity",
+            "isAbout": "hours_voice_activity"
+        },
+        {
+            "variableName": "reading_aloud",
+            "isAbout": "reading_aloud"
+        }
+    ],
+    "ui": {
+        "order": [
+            "confounders_session_id",
+            "confounders_started_at",
+            "confounders_completed_at",
+            "confounders_duration",
+            "is_regular_smoker",
+            "smoking_hx",
+            "age_start_smoking",
+            "age_stop_smoking",
+            "smoking_types",
+            "other_smoking_specify",
+            "smoking_freq",
+            "alcohol_yn",
+            "alcohol_freq",
+            "alcohol_amt",
+            "alcohol_drinks",
+            "alcohol_today",
+            "drinks_today_number",
+            "alcohol_rehab",
+            "current_recovery_alcohol",
+            "recreational_drug_use",
+            "substance_use_recovery",
+            "painkillers",
+            "stimulants",
+            "sedatives",
+            "marijuana",
+            "cocaine",
+            "club_drugs",
+            "hallucinogens",
+            "heroin",
+            "inhalants",
+            "methamphetamine",
+            "caffeine_intake",
+            "caffeine_intake_today",
+            "hydration",
+            "hydration_today",
+            "dental_problems",
+            "dental_tx",
+            "seasonal_allergies",
+            "seasonal_allergies_options",
+            "tired_measure",
+            "height",
+            "weight",
+            "unit",
+            "symptoms",
+            "ear_med_history",
+            "nose_med_history",
+            "throat_med_history",
+            "head_med_history",
+            "ear_surgical",
+            "nose_surgical",
+            "throat_surgical",
+            "head_surgical",
+            "neurological_history",
+            "current_neuro_dx",
+            "specify_current_neuro",
+            "respiratory_conditions",
+            "lung_or_metastatic",
+            "covid",
+            "covid_past",
+            "cpap_conditions",
+            "resp_medical_history",
+            "exposed_environmental_pollution",
+            "circulatory_conditions",
+            "cardiac_condition",
+            "circulatory_med_history",
+            "infection_disease",
+            "ph_standing",
+            "ph_take_care",
+            "ph_learn_task",
+            "ph_problem_join",
+            "ph_health_problem",
+            "ph_concentrating",
+            "ph_walking",
+            "ph_washing",
+            "ph_get_dressed",
+            "ph_dealing_people",
+            "ph_friendship",
+            "ph_day_to_day_work",
+            "physical_health_freq",
+            "phys_health_impact",
+            "phys_health_limited",
+            "medications",
+            "hormone_use",
+            "pain_medication",
+            "menstruate",
+            "menstruate_no",
+            "other_menstruate_specify",
+            "menstrual_cycle_status",
+            "voice_activity",
+            "other_voice_activity",
+            "hours_voice_activity",
+            "reading_aloud"
+        ],
+        "shuffle": false,
+        "visibility": [
+            {
+                "variableName": "confounders_session_id",
+                "isVis": true
+            },
+            {
+                "variableName": "confounders_started_at",
+                "isVis": true
+            },
+            {
+                "variableName": "confounders_completed_at",
+                "isVis": true
+            },
+            {
+                "variableName": "confounders_duration",
+                "isVis": true
+            },
+            {
+                "variableName": "is_regular_smoker",
+                "isVis": "alz_dementia_mci == \"1\""
+            },
+            {
+                "variableName": "smoking_hx",
+                "isVis": "alz_dementia_mci !== \"1\""
+            },
+            {
+                "variableName": "age_start_smoking",
+                "isVis": "smoking_hx==\"past\" || smoking_hx==\"currently\""
+            },
+            {
+                "variableName": "age_stop_smoking",
+                "isVis": "smoking_hx==\"past\""
+            },
+            {
+                "variableName": "smoking_types",
+                "isVis": "smoking_hx==\"past\" || smoking_hx== \"currently\""
+            },
+            {
+                "variableName": "other_smoking_specify",
+                "isVis": "smoking_types___7==\"1\""
+            },
+            {
+                "variableName": "smoking_freq",
+                "isVis": "smoking_hx==\"past\" || smoking_hx==\"currently\""
+            },
+            {
+                "variableName": "alcohol_yn",
+                "isVis": true
+            },
+            {
+                "variableName": "alcohol_freq",
+                "isVis": "alcohol_yn==\"yes\""
+            },
+            {
+                "variableName": "alcohol_amt",
+                "isVis": "alcohol_yn==\"yes\""
+            },
+            {
+                "variableName": "alcohol_drinks",
+                "isVis": "alcohol_yn==\"yes\""
+            },
+            {
+                "variableName": "alcohol_today",
+                "isVis": "alcohol_yn==\"yes\""
+            },
+            {
+                "variableName": "drinks_today_number",
+                "isVis": "alcohol_today==\"1\""
+            },
+            {
+                "variableName": "alcohol_rehab",
+                "isVis": "alcohol_yn==\"yes\" || alcohol_yn==\"noAnswer\""
+            },
+            {
+                "variableName": "current_recovery_alcohol",
+                "isVis": "alcohol_yn==\"yes\" || alcohol_yn==\"noAnswer\""
+            },
+            {
+                "variableName": "recreational_drug_use",
+                "isVis": true
+            },
+            {
+                "variableName": "substance_use_recovery",
+                "isVis": "recreational_drug_use==\"1\""
+            },
+            {
+                "variableName": "painkillers",
+                "isVis": "recreational_drug_use==\"1\""
+            },
+            {
+                "variableName": "stimulants",
+                "isVis": "recreational_drug_use==\"1\""
+            },
+            {
+                "variableName": "sedatives",
+                "isVis": "recreational_drug_use==\"1\""
+            },
+            {
+                "variableName": "marijuana",
+                "isVis": "recreational_drug_use==\"1\""
+            },
+            {
+                "variableName": "cocaine",
+                "isVis": "recreational_drug_use==\"1\""
+            },
+            {
+                "variableName": "club_drugs",
+                "isVis": "recreational_drug_use==\"1\""
+            },
+            {
+                "variableName": "hallucinogens",
+                "isVis": "recreational_drug_use==\"1\""
+            },
+            {
+                "variableName": "heroin",
+                "isVis": "recreational_drug_use==\"1\""
+            },
+            {
+                "variableName": "inhalants",
+                "isVis": "recreational_drug_use==\"1\""
+            },
+            {
+                "variableName": "methamphetamine",
+                "isVis": "recreational_drug_use==\"1\""
+            },
+            {
+                "variableName": "caffeine_intake",
+                "isVis": true
+            },
+            {
+                "variableName": "caffeine_intake_today",
+                "isVis": true
+            },
+            {
+                "variableName": "hydration",
+                "isVis": true
+            },
+            {
+                "variableName": "hydration_today",
+                "isVis": true
+            },
+            {
+                "variableName": "dental_problems",
+                "isVis": true
+            },
+            {
+                "variableName": "dental_tx",
+                "isVis": "dental_problems=='1'"
+            },
+            {
+                "variableName": "seasonal_allergies",
+                "isVis": true
+            },
+            {
+                "variableName": "seasonal_allergies_options",
+                "isVis": "seasonal_allergies==\"1\""
+            },
+            {
+                "variableName": "tired_measure",
+                "isVis": true
+            },
+            {
+                "variableName": "height",
+                "isVis": true
+            },
+            {
+                "variableName": "weight",
+                "isVis": true
+            },
+            {
+                "variableName": "unit",
+                "isVis": true
+            },
+            {
+                "variableName": "symptoms",
+                "isVis": true
+            },
+            {
+                "variableName": "ear_med_history",
+                "isVis": true
+            },
+            {
+                "variableName": "nose_med_history",
+                "isVis": true
+            },
+            {
+                "variableName": "throat_med_history",
+                "isVis": true
+            },
+            {
+                "variableName": "head_med_history",
+                "isVis": true
+            },
+            {
+                "variableName": "ear_surgical",
+                "isVis": true
+            },
+            {
+                "variableName": "nose_surgical",
+                "isVis": true
+            },
+            {
+                "variableName": "throat_surgical",
+                "isVis": true
+            },
+            {
+                "variableName": "head_surgical",
+                "isVis": true
+            },
+            {
+                "variableName": "neurological_history",
+                "isVis": true
+            },
+            {
+                "variableName": "current_neuro_dx",
+                "isVis": "neurological_history___1 == \"1\" or\nneurological_history___2 == \"1\" or\nneurological_history___3 == \"1\" or\nneurological_history___4 == \"1\" or\nneurological_history___5 == \"1\" or\nneurological_history___6 == \"1\""
+            },
+            {
+                "variableName": "specify_current_neuro",
+                "isVis": "current_neuro_dx==2"
+            },
+            {
+                "variableName": "respiratory_conditions",
+                "isVis": true
+            },
+            {
+                "variableName": "lung_or_metastatic",
+                "isVis": "respiratory_conditions___2==\"1\""
+            },
+            {
+                "variableName": "covid",
+                "isVis": true
+            },
+            {
+                "variableName": "covid_past",
+                "isVis": "covid(past_year)==\"1\""
+            },
+            {
+                "variableName": "cpap_conditions",
+                "isVis": true
+            },
+            {
+                "variableName": "resp_medical_history",
+                "isVis": true
+            },
+            {
+                "variableName": "exposed_environmental_pollution",
+                "isVis": true
+            },
+            {
+                "variableName": "circulatory_conditions",
+                "isVis": true
+            },
+            {
+                "variableName": "cardiac_condition",
+                "isVis": "circulatory_conditions___2==\"1\""
+            },
+            {
+                "variableName": "circulatory_med_history",
+                "isVis": true
+            },
+            {
+                "variableName": "infection_disease",
+                "isVis": "circulatory_med_history___3==\"1\""
+            },
+            {
+                "variableName": "ph_standing",
+                "isVis": true
+            },
+            {
+                "variableName": "ph_take_care",
+                "isVis": true
+            },
+            {
+                "variableName": "ph_learn_task",
+                "isVis": true
+            },
+            {
+                "variableName": "ph_problem_join",
+                "isVis": true
+            },
+            {
+                "variableName": "ph_health_problem",
+                "isVis": true
+            },
+            {
+                "variableName": "ph_concentrating",
+                "isVis": true
+            },
+            {
+                "variableName": "ph_walking",
+                "isVis": true
+            },
+            {
+                "variableName": "ph_washing",
+                "isVis": true
+            },
+            {
+                "variableName": "ph_get_dressed",
+                "isVis": true
+            },
+            {
+                "variableName": "ph_dealing_people",
+                "isVis": true
+            },
+            {
+                "variableName": "ph_friendship",
+                "isVis": true
+            },
+            {
+                "variableName": "ph_day_to_day_work",
+                "isVis": true
+            },
+            {
+                "variableName": "physical_health_freq",
+                "isVis": true
+            },
+            {
+                "variableName": "phys_health_impact",
+                "isVis": true
+            },
+            {
+                "variableName": "phys_health_limited",
+                "isVis": true
+            },
+            {
+                "variableName": "medications",
+                "isVis": true
+            },
+            {
+                "variableName": "hormone_use",
+                "isVis": "medications___7==\"1\""
+            },
+            {
+                "variableName": "pain_medication",
+                "isVis": "medications___11==\"1\""
+            },
+            {
+                "variableName": "menstruate",
+                "isVis": true
+            },
+            {
+                "variableName": "menstruate_no",
+                "isVis": "menstruate==\"no\""
+            },
+            {
+                "variableName": "other_menstruate_specify",
+                "isVis": "menstruate_no == \"other\""
+            },
+            {
+                "variableName": "menstrual_cycle_status",
+                "isVis": "menstruate=='yes'"
+            },
+            {
+                "variableName": "voice_activity",
+                "isVis": true
+            },
+            {
+                "variableName": "other_voice_activity",
+                "isVis": "voice_activity___7 == \"1\""
+            },
+            {
+                "variableName": "hours_voice_activity",
+                "isVis": "voice_activity___1 == \"1\" or\nvoice_activity___2 == \"1\" or\nvoice_activity___3 == \"1\" or\nvoice_activity___4 == \"1\" or\nvoice_activity___5 == \"1\" or\nvoice_activity___6 == \"1\" or\nvoice_activity___7 == \"1\""
+            },
+            {
+                "variableName": "reading_aloud",
+                "isVis": true
+            }
+        ]
+    },
+    "matrixInfo": [
+        {
+            "variableName": "painkillers",
+            "matrixGroupName": "substance_use_options",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "stimulants",
+            "matrixGroupName": "substance_use_options",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "sedatives",
+            "matrixGroupName": "substance_use_options",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "marijuana",
+            "matrixGroupName": "substance_use_options",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "cocaine",
+            "matrixGroupName": "substance_use_options",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "club_drugs",
+            "matrixGroupName": "substance_use_options",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "hallucinogens",
+            "matrixGroupName": "substance_use_options",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "heroin",
+            "matrixGroupName": "substance_use_options",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "inhalants",
+            "matrixGroupName": "substance_use_options",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "methamphetamine",
+            "matrixGroupName": "substance_use_options",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ph_standing",
+            "matrixGroupName": "physcial_health_group",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ph_take_care",
+            "matrixGroupName": "physcial_health_group",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ph_learn_task",
+            "matrixGroupName": "physcial_health_group",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ph_problem_join",
+            "matrixGroupName": "physcial_health_group",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ph_health_problem",
+            "matrixGroupName": "physcial_health_group",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ph_concentrating",
+            "matrixGroupName": "physcial_health_group",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ph_walking",
+            "matrixGroupName": "physcial_health_group",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ph_washing",
+            "matrixGroupName": "physcial_health_group",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ph_get_dressed",
+            "matrixGroupName": "physcial_health_group",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ph_dealing_people",
+            "matrixGroupName": "physcial_health_group",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ph_friendship",
+            "matrixGroupName": "physcial_health_group",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "ph_day_to_day_work",
+            "matrixGroupName": "physcial_health_group",
+            "matrixRanking": ""
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "radio"
+    },
+    "preamble": {
+        "en": "1. Gold Standard Diagnosis"
+    },
+    "question": {
+        "en": "Diagnosis"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": null,
+                "schema:name": "Clinical depression (major depressive disorder) ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "Persistent depressive disorder (PDD) ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "Disruptive mood dysregulation disorder (DMDD) ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "Premenstrual dysphoric disorder (PMDD) ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": null,
+                "schema:name": "Depressive disorder due to another medical condition",
+                "@type": "schema:option"
+            }
+        ],
+        "requiredValue": true
+    }
+}

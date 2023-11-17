@@ -1,0 +1,56 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/bridge2ai_econsent_addendum_wcm_researcher_stateme/bridge2ai_econsent_addendum_wcm_researcher_stateme_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "bridge2ai_econsent_addendum_wcm_researcher_stateme_schema",
+    "skos:altLabel": "bridge2ai_econsent_addendum_wcm_researcher_stateme_schema",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "variableMap": [
+        {
+            "variableName": "consent_wcm_p6",
+            "isAbout": "consent_wcm_p6"
+        },
+        {
+            "variableName": "consent_wcm_rs_signature",
+            "isAbout": "consent_wcm_rs_signature"
+        },
+        {
+            "variableName": "consent_wcm_rs_name",
+            "isAbout": "consent_wcm_rs_name"
+        },
+        {
+            "variableName": "consent_wcm_rs_date",
+            "isAbout": "consent_wcm_rs_date"
+        }
+    ],
+    "ui": {
+        "order": [
+            "consent_wcm_p6",
+            "consent_wcm_rs_signature",
+            "consent_wcm_rs_name",
+            "consent_wcm_rs_date"
+        ],
+        "shuffle": false,
+        "visibility": [
+            {
+                "variableName": "consent_wcm_p6",
+                "isVis": true
+            },
+            {
+                "variableName": "consent_wcm_rs_signature",
+                "isVis": true
+            },
+            {
+                "variableName": "consent_wcm_rs_name",
+                "isVis": true
+            },
+            {
+                "variableName": "consent_wcm_rs_date",
+                "isVis": true
+            }
+        ]
+    }
+}

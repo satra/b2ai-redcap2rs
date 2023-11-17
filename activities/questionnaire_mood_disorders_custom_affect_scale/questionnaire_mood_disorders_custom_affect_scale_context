@@ -1,0 +1,74 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "questionnaire_mood_disorders_custom_affect_scale": "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/questionnaire_mood_disorders_custom_affect_scale/items/",
+        "custom_affect_scale_session_id": {
+            "@id": "questionnaire_mood_disorders_custom_affect_scale:custom_affect_scale_session_id",
+            "@type": "@id"
+        },
+        "custom_affect_scale_started_at": {
+            "@id": "questionnaire_mood_disorders_custom_affect_scale:custom_affect_scale_started_at",
+            "@type": "@id"
+        },
+        "custom_affect_scale_completed_at": {
+            "@id": "questionnaire_mood_disorders_custom_affect_scale:custom_affect_scale_completed_at",
+            "@type": "@id"
+        },
+        "custom_affect_scale_duration": {
+            "@id": "questionnaire_mood_disorders_custom_affect_scale:custom_affect_scale_duration",
+            "@type": "@id"
+        },
+        "sad_or_down": {
+            "@id": "questionnaire_mood_disorders_custom_affect_scale:sad_or_down",
+            "@type": "@id"
+        },
+        "joyful": {
+            "@id": "questionnaire_mood_disorders_custom_affect_scale:joyful",
+            "@type": "@id"
+        },
+        "motivated": {
+            "@id": "questionnaire_mood_disorders_custom_affect_scale:motivated",
+            "@type": "@id"
+        },
+        "lack_of_pleasure": {
+            "@id": "questionnaire_mood_disorders_custom_affect_scale:lack_of_pleasure",
+            "@type": "@id"
+        },
+        "tired": {
+            "@id": "questionnaire_mood_disorders_custom_affect_scale:tired",
+            "@type": "@id"
+        },
+        "energetic": {
+            "@id": "questionnaire_mood_disorders_custom_affect_scale:energetic",
+            "@type": "@id"
+        },
+        "agitated": {
+            "@id": "questionnaire_mood_disorders_custom_affect_scale:agitated",
+            "@type": "@id"
+        },
+        "irritated": {
+            "@id": "questionnaire_mood_disorders_custom_affect_scale:irritated",
+            "@type": "@id"
+        },
+        "lonely": {
+            "@id": "questionnaire_mood_disorders_custom_affect_scale:lonely",
+            "@type": "@id"
+        },
+        "concentrated": {
+            "@id": "questionnaire_mood_disorders_custom_affect_scale:concentrated",
+            "@type": "@id"
+        },
+        "relaxed": {
+            "@id": "questionnaire_mood_disorders_custom_affect_scale:relaxed",
+            "@type": "@id"
+        },
+        "worried": {
+            "@id": "questionnaire_mood_disorders_custom_affect_scale:worried",
+            "@type": "@id"
+        },
+        "desire_to_escape": {
+            "@id": "questionnaire_mood_disorders_custom_affect_scale:desire_to_escape",
+            "@type": "@id"
+        }
+    }
+}

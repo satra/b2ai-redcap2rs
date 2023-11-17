@@ -1,0 +1,30 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "session": "https://raw.githubusercontent.com/sanuann/reproschema/master/activities/session/items/",
+        "session_id": {
+            "@id": "session:session_id",
+            "@type": "@id"
+        },
+        "session_status": {
+            "@id": "session:session_status",
+            "@type": "@id"
+        },
+        "session_started_at": {
+            "@id": "session:session_started_at",
+            "@type": "@id"
+        },
+        "session_completed_at": {
+            "@id": "session:session_completed_at",
+            "@type": "@id"
+        },
+        "session_duration": {
+            "@id": "session:session_duration",
+            "@type": "@id"
+        },
+        "session_site": {
+            "@id": "session:session_site",
+            "@type": "@id"
+        }
+    }
+}

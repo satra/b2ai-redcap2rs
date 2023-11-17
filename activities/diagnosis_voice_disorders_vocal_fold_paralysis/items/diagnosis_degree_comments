@@ -1,0 +1,28 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "radio",
+        "customAlignment": "RH"
+    },
+    "question": {
+        "en": "Comments about resonance"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": "Normal ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "Other",
+                "@type": "schema:option"
+            }
+        ],
+        "requiredValue": true
+    }
+}

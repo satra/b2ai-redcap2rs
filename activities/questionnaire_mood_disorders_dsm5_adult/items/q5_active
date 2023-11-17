@@ -1,0 +1,41 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "Question 5"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 0,
+                "schema:name": "I have not been more active (either socially",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 1,
+                "schema:name": "I have occasionally been more active than usual. ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "I have often been more active than usual. ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 3,
+                "schema:name": "I have frequently been more active than usual. ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 4,
+                "schema:name": "I am constantly more active or on the go all the time.",
+                "@type": "schema:option"
+            }
+        ]
+    }
+}
